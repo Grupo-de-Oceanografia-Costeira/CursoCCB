@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A beginner&#39;s guide to bioinformatics - part I</title>
+
+  <link rel="canonical" href="http://homolog.us/blogs/blog/2011/07/22/a-beginners-guide-to-bioinformatics-part-i/">
+  <link rel="alternate" type="application/rss+xml" title="Homolog.us" href="http://homolog.us/blogs/feed.xml">
+
+  <meta name="description" content="What topics should I study to learn bioinformatics? - I often get asked this
+question by biology students and sometimes even biology professors. The answer
+depends on what you want to do, but how would someone, who is new to using
+computers for biology, know what can be done? To add to our difficulties,
+technology is changing so rapidly that even experts do not know what software
+tools will remain useful next year.">
+  <link type="text/plain" rel="author" href="http://homolog.us/blogs/humans.txt">
+  
+  
+  
+  
+
+  <link rel="icon" sizes="32x32" href="http://homolog.us/assets/img/favicon-32x32.png" />
+
+  <style type="text/css">
+  
+  html, body {
+    font: 20px/1.6 Georgia, "Times New Roman", serif;
+    color: #333;
+    background: #fefefe;
+    margin: 0;
+    padding: 0;
+  }
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ main,
+ menu,
+ nav,
+ section,
+ summary {
+  display: block;
+}
+
+.wrapper {
+  max-width: 33em;
+  margin: 5em auto 0;
+  padding: 1em 1em 8em;
+}
+
+a {
+  color: #D80351;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  border-bottom: 3px solid #D80351;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 1px;
+  border: 0;
+  background-color: #ddd;
+}
+.big-teaser { margin: 0 0 2em 0; font-size: 1.2em;}
+figure { margin: 0 0 2em 0;}
+figcaption { text-align: right; color: #aaa !important;}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0;}
+h1 { font-size: 2.074em }
+h2 { font-size: 1.728em; padding: 1.5em 0 0 0;}
+h3 { font-size: 1.44em  }
+h4,
+h5,
+h6 { font-size: 1.2em }
+small { font-size: 0.833em }
+.no-bullet { list-style: none; margin: 0;padding:0 0 1em 0; }
+.no-bullet li { border-bottom: 1px solid #ddd; padding: .5em 0;}
+.no-bullet li:first-child { border-top: 1px solid #ddd; padding: .5em 0;}
+
+
+.st { font-size: 2.488em }
+
+.sh { margin: 0; color: #aaa; text-transform: uppercase; font-weight: normal; letter-spacing: 1px; }
+.title { }
+a .teaser { color: #333; font-weight: normal;}
+article p:first.teaser { }
+article .main-content > p:first-child { font-size: 1.2em; }
+
+
+.tem1 { margin-top: 1em }
+.tem1-5 { margin-top: 1.5em }
+.tem2 { margin-top: 2em }
+.sans { font-family: 'Helvetica Neue', Verdana, sans-serif; }
+.bem1 { margin-bottom: 1em }
+.bem1-5 { margin-top: 1.5em }
+.bem2 { margin-bottom: 2em }
+
+dt { font-weight: bold;}
+pre { overflow: scroll; }
+pre,code,  kbd { background: #ddd;padding: .2em; border-radius: 3px;}
+abbr[title] { border-bottom: 1px dotted; }
+
+blockquote {
+  background: #92A2B2;
+  border-left: 10px solid #bbb;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote p {
+  display: inline;
+}
+
+
+img {
+  border: 0;
+  max-width: 100%;
+  border-radius: 3px;
+}
+img.right { float: right; margin: .25em 0 .5em 1em;}
+img.left { float: left; margin: .25em 1em .5em 0;}
+
+.flex-video {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 67.5%;
+  margin-bottom: 1em;
+}
+.flex-video iframe, .flex-video object, .flex-video embed, .flex-video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+
+
+
+
+  
+
+/* TNAV */
+#tnav {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  white-space: nowrap;
+  /*border-bottom: 1px solid #ddd;*/
+  background: #fff;
+  opacity: .9;
+}
+.tnav-list,
+.tnav-item {
+  position: relative;
+  height: 3em;
+}
+.tnav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tnav-item {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+#tnav li {
+  line-height: 2;
+}
+#tnav a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: .5em 2em .5em 2em;
+  border: 0;
+
+}
+#tnav a:hover {
+  border: 0;
+  background: #ddd;
+}
+.tnav-list {
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+}
+/* Initial menus should be inline-block so that they are horizontal */
+.tnav-horizontal .tnav-item,
+.tnav-horizontal .tnav-heading,
+.tnav-horizontal .tnav-separator {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+/* Submenus should still be display: block; */
+.tnav-item .tnav-item {
+  display: block;
+}
+.tnav-children {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+  background: #eee;
+}
+.tnav-horizontal .tnav-children {
+  left: 0;
+  top: auto;
+  width: inherit;
+}
+
+.tnav-allow-hover:hover > .tnav-children,
+.tnav-active > .tnav-children {
+  display: block;
+  position: absolute;
+}
+
+/* Vertical Menus - show the dropdown arrow */
+.tnav-has-children > .tnav-link:after {
+  padding-left: 0.5em;
+  content: "\25B8";
+  font-size: small;
+}
+
+/* Horizontal Menus - show the dropdown arrow */
+.tnav-horizontal .tnav-has-children > a:after {
+  content: " \25BE";
+}
+
+/* TNAV Images – Kleiner machen */
+#tnav-logo a {
+  line-height: 1.25;
+  padding: .5em 1em .5em 1em;
+}
+#tnav-logo ul li.tnav-item a {
+  line-height: 2;
+}
+
+#tnav-logo > a:after {
+  content: "";
+}
+
+#tnav-logo svg  {
+  fill: #ccc;
+  width: 1.75em;
+  height: 1.75em;
+}
+#tnav-logo svg:hover {
+  fill: #D80351;
+}
+.tnav-right {
+  float: right;
+}
+
+#tnav-menu > a {
+  color: #ddd;
+}
+#tnav-menu a:hover {
+  color: #D80351;
+}
+#tnav-search a {
+  display: block;
+  line-height: 1.25;
+  padding: .65em 1em .5em 1em;
+}
+#tnav-search svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: #ddd;
+}
+
+
+
+
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+time {
+  color: #ADADAD;
+  display: block;
+}
+
+
+.article-tag {
+  color: #cb283e;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  text-decoration: none;
+}
+.article-tag a {
+  color: #cb283e;
+  font-size: 0.6em;
+  text-decoration: none;
+}
+.article-entry {
+  border-bottom: 1px dotted;
+  border-color: lightgrey;
+  padding: 1.5em;
+}
+.article-entry .article-tag {
+  margin-bottom: 0;
+}
+.article-entry h2.title {
+  padding: 0 0 0 0;
+  margin: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.article-entry h2.title a {
+  font-size: 0.8em;
+  color: #101010;
+  text-decoration: none;
+}
+.article-entry h2.title a:hover {
+  color: #cb283e;
+}
+
+
+  @media screen and (max-width: 1000px) {
+  .tnav-hide {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  .wrapper {
+    margin: 4em auto 0;
+  }
+}
+
+  </style>
+
+</head>
+<body id="top-of-page" class="">
+
+
+
+
+<nav id="tnav" class="tnav-horizontal">
+  <ul class="tnav-list">
+    <li id="tnav-logo" class="tnav-item tnav-has-children tnav-allow-hover"><a href="#"><svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1333 566q18 20 7 44l-540 1157q-13 25-42 25-4 0-14-2-17-5-25.5-19t-4.5-30l197-808-406 101q-4 1-12 1-18 0-31-11-18-15-13-39l201-825q4-14 16-23t28-9h328q19 0 32 12.5t13 29.5q0 8-5 18l-171 463 396-98q8-2 12-2 19 0 34 15z"/></svg></a>
+
+      <ul class="tnav-children">
+        <li class="tnav-item"><a href="http://homolog.us/blogs/">Home</a></li>
+	<li class="tnav-item"><a href="https://twitter.com/homolog_us/">Homolog.us @ Twitter</a></li>
+	<li class="tnav-item"><a href="http://homolog.us/Tutorials">Tutorials</a></li>
+      </ul>
+
+    </li>
+    <li class="tnav-item tnav-right tnav-has-children tnav-allow-hover"><a href="#">Navigation</a>
+
+      <ul class="tnav-children">
+        <li class="tnav-item"><a href="http://homolog.us/blogs/">Home</a></li>
+        <li class="tnav-item"><a href="http://homolog.us/blogs/sponsored/">Sponsored</a></li>
+        <li class="tnav-item"><a href="http://homolog.us/blogs/bioinformatics/">Bioinformatics</a></li>
+        <li class="tnav-item"><a href="http://homolog.us/blogs/rnaseq/">RNAseq</a></li>
+        <li class="tnav-item"><a href="http://homolog.us/blogs/ncrna/">ncRNA,Evolution</a></li>
+        <li class="tnav-item"><a href="http://homolog.us/blogs/chem/">CRISPR/cas9</a></li>
+      </ul>
+
+    </li>
+  </ul>
+</nav>
+
+<div class="wrapper">
+
+
+<main role="main" id="content">
+    <article itemscope itemtype="http://schema.org/Article">
+      <meta content="en" itemprop="inLanguage" />
+      <header>
+
+        
+        
+
+
+        
+
+
+
+        
+
+
+        
+
+
+        <h1 itemprop="name headline">A beginner's guide to bioinformatics - part I</h1>
+      </header>
+
+
+      <div itemprop="articleSection">
+        
+        
+        <p>What topics should I study to learn bioinformatics? - I often get asked this
+question by biology students and sometimes even biology professors. The answer
+depends on what you want to do, but how would someone, who is new to using
+computers for biology, know what can be done? To add to our difficulties,
+technology is changing so rapidly that even experts do not know what software
+tools will remain useful next year.
+<!--more--></p>
+
+<p>Keeping the above complications in mind, I created a general framework to
+describe one’s abilities in bioinformatics that should be valid even with
+changing technologies. Another reason for creating this framework is to fit
+our new posts into one or other category for easy description.</p>
+
+<p>From a top level, I prefer to divide the levels of expertise in bioinformatics
+into five layers with 5 being the most difficult.</p>
+
+<p>Layer 1 - Using web to analyze biological data</p>
+
+<p>Layer 2 - Ability to install and run new programs</p>
+
+<p>Layer 3 - Writing own scripts for analysis in PERL, python or R</p>
+
+<p>Layer 4 - High level coding in C/C++/Java for implementing existing algorithms
+or modifying existing codes for new functionality</p>
+
+<p>Layer 5 - Thinking mathematically, developing own algorithms and implementing
+in C/C++/Java</p>
+
+<p><strong>Layer 1 - Using web to analyze biological data</strong></p>
+
+<p>By now, almost all biologists are familiar with using the web to run BLAST on
+a new sequence at NCBI, or to fold a short sequence online and check whether
+it is a miRNA, or to book hotel rooms for a conference. Ok, the third example
+is not bioinformatics. I was only checking whether you can tell the
+difference, and if you did, you already got an A+ in Layer 1 :)</p>
+
+<p>I was initially reluctant to split this into a different category, because
+using the web to find information seems so easy !! However, the main purpose
+of separating this is to show respect to the programmers, who develop online
+interfaces. Ease of using the web tends to make biologists think that the web
+interfaces are easy to develop. So, they allocate $50 on a $1 million grant
+for presenting their data, and then get surprised, when their website crashes
+within few weeks of publication. In reality, developing high quality
+interfaces is very skill intensive, but also has good return in terms of
+visibility of one’s work. As a rule of thumb, easier an website is to use,
+more difficult it is to develop. Skilled web programmers prefer to work for
+Facebook or Zynga for $$$ rather than wasting time with researchers, who show
+no respect.</p>
+
+<p><strong>Layer 2 - Ability to install and run new programs</strong></p>
+
+<p>Usually, most cutting edge programs (Bowtie, Velvet, Trinity, Stampy, etc.) do
+not come with an web interface, because the developers neither have time nor
+computing resources to provide web services for everyone. Moreover, even the
+traditional programs like BLAST or Interpro-scan cannot be run for thousands
+of genes through web interfaces, because data-intensive web services cost
+mucho dinero. It is like using someone else’s kitchen for free to run a full-
+service restaurant - never gonna happen. Therefore, sooner or later, each user
+will need to learn downloading and running programs to stay on the cutting
+edge of biology.</p>
+
+<p>What skills and technologies are required for layer 2? Firstly, you need your
+own computer, and what kind of computer to get is a major decision. “Should it
+run Windows, Mac or Linux?” “How much RAM should it have?” “How much hard
+drive should it have?” “Should we buy one machine or a cluster?” “Should we
+just use high-performance computing facility at the university or Amazon
+cloud?” Those are all important questions that need to be asked, if one wants
+to fully utilize capabilities of next-gen sequencing machines. Let us address
+the issue about computers in a later post and restrict ourselves only to
+computational skills.</p>
+
+<p>The good news is that most programs these days can be easily installed in
+Windows, Mac or Linux. I remember that in earlier day a program developed for
+one type of Unix had to be almost rewritten for another Unix variety.</p>
+
+<p>Regarding computational skills for this layer, one needs to learn how to
+install and run programs from the command line. These days, people see
+computers as pictures, singers or dancing beauties, and not someone speaking
+strange short words such as ‘ls’, ‘mv’, ‘cp’, ‘rm’ that, if misspelled, can
+erase your last five years’ work in 5 seconds. However, every computer can
+still speak those sweet words, if treated nicely. The challenge of layer 2 is
+to learn that language of computers.</p>
+
+<p>The best way to master layer 2 is to first get familiar with UNIX or Windows
+command line, and then ask for an expert’s help in installing and running
+various programs. Carefully watch and write down every word he is typing, and
+ask for what they mean in details. You will get a hang of it after few rounds
+of trial. Apart from learning how to use UNIX, there is no course to take to
+master layer 2, because every program is different installation and running.
+Just like golf, practice, practice and practice. For help, online forums for
+specific programs are very useful resources.</p>
+
+<p><strong>Layer 3 - Writing own scripts for analysis in PERL, python and R, and being able to use SQL (suggested by ‘Molecular Modelling Blog’)</strong></p>
+
+<p>Let us start with an example. A biologist has large volume of expression data
+and wants to find expression levels of 300 transcription factors that he
+likes. If he had only three genes, he could have cut and pasted the lines.
+Cutting and pasting for 300 genes become a bit laborious and time consuming.
+As another example, let us say a biologist wants to extract coordinates
+7000-8500 from scaffold_1 of a 300M base genome. This task is also technically
+possible by loading the genome into a word processor, but it is not the most
+desirable method. Asking a highly skilled programmer to do the above task
+becomes sub-optimal use of resources, because the skilled programmers tend to
+prefer layers 4 or 5 (explained below) for glory.</p>
+
+<p>Learning a bit of PERL or python can do wonders for small tasks described
+above and should be part of every biologist’s toolbox. R is a statistical
+software that plays similar role for statistical analysis of data, when Excel
+is no longer feasible. SQL [suggested by ‘Molecular Modelling Blog’ in
+comments] is helpful for storing volumes of data in mySQL or sqlite database
+and efficiently querying them. .</p>
+
+<p>The reason I placed this above layer 2 is because layer 3 needs some
+conceptual or mathematical thinking in designing the programs and therefore is
+not always straightforward. PERL, python and R can do wonders, when applied by
+very skilled programmers. For example, the entire gbrowse genome browser is
+written in PERL. On the other hand, for scripting languages can also be
+applied by beginners to save time on manual tasks.</p>
+
+<p>In not too distant future, Layers 1-3 will be needed by almost every
+biologist, whereas layers 4 and 5 will remain the domains of experts.
+Therefore, I will cover those two layers in a new post.</p>
+
+<hr />
+
+<p><a href="https://coding4medicine.com/Members/pages/home/">Our new membership site</a> is possibly the best place to start for a new bioinformatician.</p>
+
+
+      </div><!-- /.content -->
+
+
+      
+
+
+      
+      <footer>
+        <p>
+          Written by M. // 
+          
+          <time datetime="2011-07-22" itemprop="datePublished">2011-07-22</time>
+        </p>
+      </footer>
+      
+
+
+      <div id="pagination">
+  
+    <a class="prev" href="http://homolog.us/blogs/blog/2010/02/15/the-mathematics-behind-color-space-sequencing/" title="The Mathematics of Color Space Sequencing"><span class="skip"></span><span>»The Mathematics of Color Space Sequencing«</span></a>
+  
+  
+    <a class="next" href="http://homolog.us/blogs/blog/2011/07/22/a-beginners-guide-to-bioinformatics-part-ii/" title="A beginner's guide to bioinformatics - part II"><span>»A beginner's guide to bioinformatics - part II«</span><span class="skip"></span></a>
+  
+</div><!-- /#pagination -->
+
+    </article>
+</main><!-- /.row -->
+
+<br><br><section id="isso-thread"></section>
+<script data-isso="/isso" src="/isso/js/embed.min.js"></script>
+
+<footer id="footer">
+</footer>
+
+
+
+
+<a title="Web Statistics" href="http://clicky.com/100881450"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(100881450); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100881450ns.gif" /></p></noscript>
+
+
+</div><!-- /.wrapper  -->
+</body>
+</html>
