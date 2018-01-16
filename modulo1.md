@@ -13,7 +13,7 @@
 **Módulo 1:**
 
 [1.1 - Command-line interface (CLI): bash e o Terminal](### 1.1 Linha de comando: bash e o Terminal)	
-1.2 - Editor de texto e IDE: NotePad/Text Edit e introduzir o Atom	
+[1.2 - Editor de texto e IDE](### 1.2 Editor de texto e IDE: nossa bancada de laboratório digital)	
 1.3 - Python: Multipropósito, blast, estatística, fácil, etc
 
 **Módulo 2:**
@@ -220,19 +220,19 @@ Linkar referências do texto aos links do início da seção
 
 -
 
-### 1.2 Editor de texto: o Atom
-
+### 1.2 Editor de texto e IDE: nossa bancada de laboratório digital
 Referências
 
 * [[1] Flight Manual](https://flight-manual.atom.io/)
 * [[2] Learn About Text Editors in Five Minutes or Less](https://learntocodewith.me/programming/basics/text-editors/)
+* [[3] Setting up a Python Development Environment in Atom](https://www.youtube.com/watch?v=DjEuROpsvp4)
 
 
 ![M1 - I4](https://flight-manual.atom.io/assets/images/book/cover.png)
  
 **Quando você começar a codar, vai perceber que vai passar muito tempo no editor de texto. Então fique confortável com ele.**
 
-Um editor de texto é, simplesmente, um programa que visualiza e edita *plain text files*, ou seja, arquivos que sejam apenas texto. Alguns exemplos são .txt, .csv, .html, e muitos outros. Como dissemos na Introdução do curso, diferente de um *processador de palavras*, como o Word, um editor de texto *não se preocupa com formatação*, e visualiza o conteúdo dos arquivos diretamente como está gravada, sem formatação.
+O bom e velho NotePad: um editor de texto é, simplesmente, um programa que visualiza e edita *plain text files*, ou seja, arquivos que são apenas texto. Alguns exemplos são .txt, .csv, .html, e muitos outros. Como dissemos na Introdução do curso, diferente de um *processador de palavras*, como o Word, um editor de texto *não se preocupa com formatação*, e visualiza o conteúdo dos arquivos diretamente como está gravada, sem formatação.
 
 O nosso principal uso do editor de texto será o de escrita e registro dos nossos *scripts*, ou código. Além disso, será usado para visualizar outros scripts, arquivos de texto, arquivos *tab-delimited* contendo tabelas, etcetera.  
 
@@ -256,5 +256,78 @@ No final, você pode usar o editor de texto que quiser, e existem algumas altern
 
 Essas funções são as mais imprescindíveis para ter um bom domínio sobre nossos arquivos. A desvantagem de editores bem completos como os listados acima, quando comparados com os mais básicos como o Bloco de Notas, o TextEdit ou o **nano**, é que podem ser meio lentos.
 
-![M1 - S9](./screens/M1 - S9.png)
+![M1 - S9](./screens/M1 - S9.png) 
 
+<!--- Porque essa imagem? -->
+
+### IDE: Integrated Development Environment
+
+O Atom não vai servir apenas como editor de texto. O fato dele ser altamente customizável significa que existem diversos plugins, entre eles o `platformio-ide-terminal`.
+
+Vamos usar esse plugin para **integrar** o Terminal, nossa ferramenta de linha de comando, ao Atom, nosso editor de texto. Isso vai nos fornecer um **IDE**, abreviação para *Integrated Development Environment*. Nosso IDE será bem rudimentar, mas já serve bem ao nosso propósito.
+
+**Mas afinal, o que é e para que serve um IDE?**
+
+O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve para escrever código (programar), bem como executar esse código, testa-lo, organizar os arquivos do projeto, entre outras funções.
+
+Um bom exemplo de IDE é o [RStudio.](https://www.rstudio.com/) [Quem aqui já ouviu falar?]
+
+![Screenshot do RStudio](https://i.imgur.com/OzFifDm.png)
+
+Enquanto o programa 'R' é apenas uma *linha de comando* dessa linguagem, o RStudio é um IDE para programação em R. Na imagem acima, podemos ver como o painel na parte de baixo a esquerda é igual ao que vemos quando abrimos o programa 'R' (uma linha de comando da linguagem). Apesar de que no 'R' também conseguimos escrever um script, o RStudio facilita essa tarefa (olhe o script sendo escrito no painel acima e a esquerda), e providencia outras ferramentas para otimizar o processo de programação (como oferecer acesso aos arquivos do projeto, abaixo a direita na imagem).
+
+Como o RStudio serve quase que exclusivamente para programação em R, vamos improvisar nosso IDE customizado usando o Atom e o Terminal. Isso mesmo, já estamos hackeando programas! Olha só.
+
+A instalação do plugin que queremos é simples: no menu de Settings do Atom, vamos em Install, procuramos por 'terminal' e no `platformio-ide-terminal` clicamos em instalar.
+
+![M1 - S11](./screens/M1 - S11.png)
+
+Para abrir uma instância do Terminal, clicamos na cruz no canto inferior da tela.
+
+Repare bem na imagem abaixo. A esquerda, temos um fácil acesso aos nossos arquivos do projeto. No centro temos uma janela de editor de texto com um pouco de código, e na porção de baixo, temos uma janela com o Terminal, nossa linha de comando.
+
+![Screenshot da IDE Frankensten Atom + Terminal](https://i.imgur.com/u6bEz50.png)
+
+**Além disso, é colorido e bonitinho.** 
+
+Uma coisa que chama a atenção de pessoas leigas em programação são as telas com código colorido. Isso se chama *syntax highlighting*, e é uma propriedade muito útil da IDE. Vamos supôr que estamos trabalhando em um script em Python ou R. Esses scripts terminam com extensões .py e .r, respectivamente. Como nosso editor oferece suporte a essas linguagens, ele reconhece o que cada pedaço do código significa, por isso as diferentes cores. Veremos mais sobre isso na seção de introdução ao Python.
+
+O que vamos fazer aqui é enviar os comandos da porção do editor de texto para a janela do Terminal, otimizando nosso processo de programação, assim como acontece no RStudio. O código é escrito **no editor de texto** para que seja registrado, e apertando <kbd>CTRL</kbd> + <kbd>Enter</kbd>, a linha de código é executada no Terminal. Seria muito inconveniente ter que ficar copiando e colando cada comando entre dois aplicativos diferentes.
+
+**Outra vantagem é, podemos usar esse formato para diversas linguagens, e não só para o R**, e também temos acesso ao Terminal. É importante destacar que apesar do padrão para o Terminal ser o *bash*, podemos rodar outras linguagens nele.
+
+![M1 - S12](./screens/M1 - S12.png)
+![M1 - S13](./screens/M1 - S13.png)		
+Abrindo instâncias de Python e R no Terminal. Repare na barra no topo da janela.
+
+### 1.3 Python: simples e poderosa
+
+Referências:
+
+[[1] Ekmekci et al, 2016. An Introduction to Programming for Bioscientists: A Python-Based Primer](papers/Ekmekci 2016 Introduction to programming for bioscientists.pdf)
+
+[Na introdução](./introdução.md#Vivemos na era digital e da informação), comentamos o fato de que cientistas precisam lidar com análise de dados, e isso já implica a necessidade de aprender o básico de programação. Uma linguagem muito boa para esse propósito é o R, e por conta disso que, pelo menos no Brasil, ela costuma ser a que os biólogos tem o primeiro contato. Outros exemplos são o [MATLAB](https://www.mathworks.com/products/matlab.html) ou programas como Primer e Statistica. No entanto, estes exemplos (incluindo o R) são voltados para manipulação, visualização e análise de dados, e podem ser um pouco restritos para outros usos.
+
+A linguagem Python foi originalmente criada para ["propósitos diversos"](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o_para_prop%C3%B3sitos_diversos), e costumava ser utilizada principalmente para desenvolvimento web, [em sites como YouTube e Spotify.](https://www.shuup.com/blog/25-of-the-most-popular-python-and-django-websites/) No entanto, a criação de bibliotecas como [NumPy](http://www.numpy.org/), [Pandas](https://pandas.pydata.org/) e [Matplotlib](https://matplotlib.org/) tornaram essa linguagem tão útil para análise de dados quanto as citadas anteriormente. Atualmente, [é a quarta linguagem mais popular do mundo](https://www.tiobe.com/tiobe-index/).
+
+Porém, o que torna o Python ideal para nós, além de sua versatilidade e popularidade, é o fato de que **é uma linguagem muito amigável para iniciantes**, prezando pela simplicidade e legibilidade do código. [Em um paper da PLoS Computational Biology](papers/Ekmekci 2016 Introduction to programming for bioscientists.pdf), Ekmekci e colaboradores argumentam que é a melhor linguagem para biocientistas por conta de três motivos:
+
+- semântica direta e sintaxe simples a tornam uma primeira linguagem prontamente acessível;
+- é uma linguagem de alto nível e orientada a objetos;
+- a diversidade de bibliotecas e pacotes extende sua funcionalidade à virtualmente todos os campos das ciências biológicas.
+
+![M1 - S14](screens/M1 - S14.png)	
+O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) descreve a filosofia da linguagem: simplicidade e praticidade.
+
+-
+Linguagens de programação são como idiomas: para tornar-se fluente, leva tempo, prática e imersão. No entanto, em uma tarde é possível aprender algumas frases básicas só "sobreviver". A medida que compreendemos o funcionamento da sintaxe, o aprendizado vai se tornando mais fácil.
+
+Em um post no fórum [Reddit](https://www.reddit.com/), o usuário [u/twopi](https://www.reddit.com/user/twopi) faz um [comentário](https://www.reddit.com/r/learnprogramming/comments/75xrpj/im_in_a_code_school_im_beginning_to_suspect_that/do9w710/) bem perspicaz.
+Se não puder ler na íntegra, o que ele explica é o seguinte (adaptado):
+
+Basicamente, o começo do aprendizado em programação se resume em dois componentes:
+	
+- O que é que estou tentando realizar?	
+- Como que faço isto?
+
+A primeira parte é MUITO mais difícil do que a segunda, e nenhum Google vai ajudar. Para isso é necessário pensar em algoritmos, ou seja, pegar o problema que você quer resolver e transforma-lo em uma lista de passos bem definidos, preciso e discretos. Para isso, não importa que linguagem você vai utilizar, você pode até escrever em português. Você sabe que terminou essa etapa quando você sabe que cada passo que você escreveu pode ser convertido em código. Você NÃO precisa saber COMO converter! Você 
