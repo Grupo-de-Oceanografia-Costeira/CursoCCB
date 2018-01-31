@@ -43,42 +43,20 @@ To-do:
 
 -->
 
-### 3.3 Como aprender a programar? Recomendações de quem acabou de começar
+### 3.3 Como aprender a programar?
 
+Linguagens de programação são como idiomas: para tornar-se fluente, leva tempo, prática e imersão. No entanto, em uma tarde é possível aprender algumas frases básicas só "sobreviver". A medida que compreendemos o funcionamento da sintaxe, o aprendizado vai se tornando mais fácil.
 
-"I've taught programming for a long time.
+Em um post no fórum [Reddit](https://www.reddit.com/), o usuário [u/twopi](https://www.reddit.com/user/twopi) faz um [comentário](https://www.reddit.com/r/learnprogramming/comments/75xrpj/im_in_a_code_school_im_beginning_to_suspect_that/do9w710/) bem perspicaz.
+Se não puder ler na íntegra, o que ele explica é o seguinte (adaptado):
 
-Learning to program is about learning two very distinct skill sets (at least two to begin with, there are more as you get more experienced)
+"Basicamente, o começo do aprendizado em programação se resume em dois componentes:
+	
+- O que é que estou tentando realizar?	
+- Como que faço isto?
 
-* What is it that I'm trying to accomplish?
-* How do I do it?
+A primeira parte é MUITO mais difícil do que a segunda, e nenhum Google vai ajudar. Para isso é necessário pensar em algoritmos, ou seja, pegar o problema que você quer resolver e transforma-lo em uma lista de passos bem definidos, preciso e discretos. Para isso, não importa que linguagem você vai utilizar, você pode até escrever em português. Você sabe que terminou essa etapa quando você sabe que cada passo que você escreveu pode ser convertido em código. Você NÃO precisa saber COMO converter! Você precisa entender os conceitos de programação para saber quão a fundo você precisa ir.
 
-The first part is MUCH harder than the second part, and no amount of Google will help. (...)"
-
-[u/twopi](https://www.reddit.com/user/twopi)
-
-<!---
-The main job of a programming teacher is to teach you how to think in algorithms. That is, how do you take a vague description of a problem you're trying to solve and break that problem down into a list of very discrete, very precise, and well-defined steps. You can do this in English (or any other human language) as long as you learn how to be precise and understand the underlying limits of computers and languages. It doesn't even matter which programming language you're using at this stage.
-
-You know you're done with this step when you can take every line of the algorithm and know it can be converted to code in the language you're using. You DON'T need to know HOW to convert it! You need to understand the granularity of programming concepts so you can see how deep you need to go.
-
-Once you know exactly what you're trying to do, you can go through each step of the algorithm and figure out how to do that thing with the language you're using. This part is easy, and it's where you can use Google and StackOverflow.
-
-Almost every single time a student tells me "I know what I'm trying to do, I just don't know how to do it in {C++ | Java | Python | whatever}" it turns out they are fooling themselves. They usually have far too broad an idea what the algorithm is, and haven't narrowed down the algorithm, and are trying to google a solution that does not exist at the modular level of code.
-If you really know what you're trying to do (loop through each item in an array, for example) then you can easily google how to do it. (Integer for loop in C++, iterator loop in python, whatever...)
-
-Most times that googling fails is because people assume they're in the "how do I do it" stage while they're still in the "what am I doing" stage.  
-It's way too tempting to begin writing code before you really understand the algorithm, which is why I took the computers out of my lab and installed whiteboards. If you can't describe the algorithm, you aren't ready to write the code.
-
-I can anticipate the angry responses from experienced programmers right here. "There's another ivory tower CS teacher with unrealistic knowledge of the real world" Well, I'm an experienced programmer too, and to be honest I don't write down every algorithm before I write code. But that's because I'm not always a beginner (sometimes I still am, when I'm trying something really new.) When I'm in a language I know well, or solving an algorithm I've done a hundred times, I don't need the separate algorithm step, because I can already think directly in code.
-
-This is the problem with expecting experienced programmers to be programming teachers. It's possible your teacher doesn't even remember what it's like having to think through an algorithm before writing code. You don't need a GPS or a map if you drive the same route every single day, but when you're a beginner, every place is new territory.
-
-TL;DR: The teacher shouldn't teach you anything that you can (and should) Google. But most of the important stuff in programming can't be Googled, and a good teacher will focus on that stuff."
--->
-
-
-
-Aqui o [comentário original na íntegra]((https://www.reddit.com/r/learnprogramming/comments/75xrpj/im_in_a_code_school_im_beginning_to_suspect_that/do9w710/)) no subreddit [r/LearnProgramming](https://www.reddit.com/r/learnprogramming/).
+Uma vez que você sabe exatamente o que você está tentando fazer, você passa por cada linha de algoritmo e descobre como fazer aquilo na linguagem que você está utilizando. **Essa parte é fácil, e é aonde você pode usar o Google o StackOverflow.** (...)"
 
 

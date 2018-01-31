@@ -14,19 +14,19 @@
 
 [1.1 - Command-line interface (CLI): bash e o Terminal](### 1.1 Linha de comando: bash e o Terminal)	
 [1.2 - Editor de texto e IDE](### 1.2 Editor de texto e IDE: nossa bancada de laboratório digital)	
-1.3 - Python: Multipropósito, blast, estatística, fácil, etc
+1.3 - Python: 
 
 **Módulo 2:**
 
-2.1 - Conda: Ambientes virtuais		
-2.2 - Dependências: como baixar e instalar módulos e bibliotecas	
-2.3 - Git: Controle de versão e documentação (boas práticas)
+2.1 - Conda: Ambientes virtuais e instalação de dependências  
+2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.  
+2.3 - Usar o ambiente criado e repositório clonado para análise de dados
 
 **Módulo 3:**
 
-3.1 Usar o ambiente criado e repositório clonado para análise de dados  
-3.2 Organização e boas práticas em computação científica	
-3.3 Os desafios de aprender programação e como lidar com erros
+3.1 - Controle de versão: Git e GitHub  
+3.2 - Documentação e boas práticas em computação científica  
+3.3 - Os desafios de aprender programação e como lidar com erros  
 
 -
 
@@ -123,7 +123,7 @@ Nosso segundo comando. Anota aí no papelzinho: `cd`
 Os dois programas estão fazendo a mesma coisa, navegando diretórios e visualizando seu conteúdo.
 
 Do Terminal, queremos ir para a pasta 'Awesome-Bioinformatics'.
-Executamos: `cd Awesome-Bioinformatic`
+Executamos: `cd Awesome-Bioinformatics`
 
 ![M1 - S7](https://i.imgur.com/MoUf3bz.png)
 
@@ -300,7 +300,7 @@ O que vamos fazer aqui é enviar os comandos da porção do editor de texto para
 ![M1 - S13](./screens/M1 - S13.png)		
 Abrindo instâncias de Python e R no Terminal. Repare na barra no topo da janela.
 
-### 1.3 Python: simples e poderosa
+### 1.3 Python: simples, poderosa e popular
 
 Referências:
 
@@ -319,15 +319,36 @@ Porém, o que torna o Python ideal para nós, além de sua versatilidade e popul
 ![M1 - S14](screens/M1 - S14.png)	
 O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) descreve a filosofia da linguagem: simplicidade e praticidade.
 
+Na nossa IDE, você pode abrir uma instância de Python digitando `python` no console. No arquivo intro_python.ipynb temos alguns exemplos de primeiros comandos e a sua saída.
+
+### Aprendendo Python na internet
+
+Como o foco do nosso curso não aprender Python, e sim boas práticas de programação, é importante apontar que existe uma abundância de recursos para aprender a linguagem gratuitamente na internet. Os materiais em português são mais restritos, disponíveis principalmente como livros. Além do paper de Ekmekci et al. citado acima, aqui estão alguns outros recursos:
+
+* [Codecademy Learn Python](https://www.codecademy.com/learn/learn-python) - site que oferece cursos gratuitos de uma variedade de linguagens de programação.
+* [DataCamp Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) - uma introdução voltada à análise de dados. Muito útil para cientistas aprendendo a primeira linguagem.
+* [Introduction to Programming with Python](http://opentechschool.github.io/python-beginners/en/index.html) - site com curso introdutório gratuito na forma de eBook.
+* [A Byte of Python](https://www.gitbook.com/book/swaroopch/byte-of-python/details) - eBook gratuito com uma introdução bem completa.
+* [Python for Biologists](https://pythonforbiologists.com/introduction/) - esse site oferece um tutorial básico direcionado para biólogos que é gratuito, e também uma variedade de cursos mais avançados.
+* [Learn Python the Hard Way](https://learnpythonthehardway.org/book/) - um eBook bem completo cuja introdução é gratuita.
+* [Rosalind](http://rosalind.info/problems/locations/) - Rosalind é um projeto de educação de bioinformática que contém uma seção voltada para exercícios em Python.
+
+Recursos em português:
+
+* [Automatize tarefas maçantes com Python - Al Sweigart](https://www.livrariacultura.com.br/p/livros/informatica-e-tecnologia/programacao/automatize-tarefas-macantes-com-python-15076373) - Livro que introduz a linguagem com o propósito de resolver tarefas digitais do dia-a-dia.
+* [Introdução à programação com Python - Nilo Ney Coutinho Menezes](https://www.livrariacultura.com.br/p/livros/informatica-e-tecnologia/programacao/introducao-a-programacao-com-python-42273748) - Excelente livro que ensina príncipios de lógica de programação utilizando Python como primeira linguagem.
+
+Além destes, existe mais uma infinidade de sites, blogs, canais do YouTube que oferecem conteúdo de qualidade. Recomendamos que o leitor escolha um recurso com o qual se sinta confortável e busque aprender o básico da linguagem. 
+
 -
-Linguagens de programação são como idiomas: para tornar-se fluente, leva tempo, prática e imersão. No entanto, em uma tarde é possível aprender algumas frases básicas só "sobreviver". A medida que compreendemos o funcionamento da sintaxe, o aprendizado vai se tornando mais fácil.
 
-Em um post no fórum [Reddit](https://www.reddit.com/), o usuário [u/twopi](https://www.reddit.com/user/twopi) faz um [comentário](https://www.reddit.com/r/learnprogramming/comments/75xrpj/im_in_a_code_school_im_beginning_to_suspect_that/do9w710/) bem perspicaz.
-Se não puder ler na íntegra, o que ele explica é o seguinte (adaptado):
+### Conclusão do Módulo 1
 
-Basicamente, o começo do aprendizado em programação se resume em dois componentes:
-	
-- O que é que estou tentando realizar?	
-- Como que faço isto?
+Muito bem, já progredimos um bocado no nosso curso e cobrimos três ferramentas essenciais para o biólogo programador:  
+1. A **linha de comando**. Aprendemos como usar o **Terminal** e o que é a linguagem *bash*.  
+2.  O **editor de texto**. Integramos o **Atom** ao nosso **Terminal** e improvisamos uma **IDE**: nossa bancada de laboratório no computador.  
+3. Uma **linguagem de programação**: Vimos as vantagens de aprender a linguagem **Python** e uma variedade de recursos para aprende-la na internet. Também vimos alguns comandos básicos no arquivo intro_python.
 
-A primeira parte é MUITO mais difícil do que a segunda, e nenhum Google vai ajudar. Para isso é necessário pensar em algoritmos, ou seja, pegar o problema que você quer resolver e transforma-lo em uma lista de passos bem definidos, preciso e discretos. Para isso, não importa que linguagem você vai utilizar, você pode até escrever em português. Você sabe que terminou essa etapa quando você sabe que cada passo que você escreveu pode ser convertido em código. Você NÃO precisa saber COMO converter! Você 
+
+-
+<!--- botar essa seção em outro lugar?? MODULO 3? -->
