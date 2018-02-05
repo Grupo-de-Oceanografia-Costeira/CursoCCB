@@ -244,6 +244,7 @@ O Atom foi nossa escolha por diversos motivos:
 * Multi-plataforma
 * Foi criado por desenvolvedores para desenvolvedores
 * Tem suporte total do [GitHub](https://github.com/)
+* Você também pode contribuir futuramente com seu *plugin*
 
 No final, você pode usar o editor de texto que quiser, e existem algumas alternativas, nem todas grátis, como o [SublimeText](https://www.sublimetext.com/) ou o [Microsoft Visual Studio Code](https://code.visualstudio.com/). Cada um vai ver o que prefere, eu particularmente acabei escolhendo o Atom, mas na sua jornada de informática você vai descobrir se prefere outro. As *features* essenciais que qualquer editor de texto deve ter são [2]:
 
@@ -268,7 +269,7 @@ Vamos usar esse plugin para **integrar** o Terminal, nossa ferramenta de linha d
 
 **Mas afinal, o que é e para que serve um IDE?**
 
-O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve para escrever código (programar), bem como executar esse código, testa-lo, organizar os arquivos do projeto, entre outras funções.
+O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve para escrever código (programar), bem como executar esse código, testá-lo, organizar os arquivos do projeto, entre outras funções.
 
 Um bom exemplo de IDE é o [RStudio.](https://www.rstudio.com/) [Quem aqui já ouviu falar?]
 
@@ -314,7 +315,7 @@ Porém, o que torna o Python ideal para nós, além de sua versatilidade e popul
 
 - semântica direta e sintaxe simples a tornam uma primeira linguagem prontamente acessível;
 - é uma linguagem de alto nível e orientada a objetos;
-- a diversidade de bibliotecas e pacotes extende sua funcionalidade à virtualmente todos os campos das ciências biológicas.
+- a diversidade de bibliotecas e pacotes extende sua funcionalidade a virtualmente todos os campos das ciências biológicas.
 
 ![M1 - S14](screens/M1 - S14.png)	
 O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) descreve a filosofia da linguagem: simplicidade e praticidade.
