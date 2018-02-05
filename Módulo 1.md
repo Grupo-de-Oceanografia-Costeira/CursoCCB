@@ -65,7 +65,7 @@ Repare que no título da janela vemos o nome do usuário e o programa que o Term
 
 ### É necessário aprender a linha de comando?
 
-SIM. Se você quer aprender computação científica, você precisa entender os básicos de como é uma linha de comando. Ênfase no **básicos**. É incrível a resistência para aprender a linha de comando por causa do seu aspecto de interface do 'Matrix'. Quando se vê um monte de letrinhas verdes em um fundo preto, já achamos que o sujeito está hackeando alguma coisa.
+SIM. Se você quer aprender computação científica, você precisa entender os básicos de como é uma linha de comando. Ênfase no **básico**. É incrível a resistência para aprender a linha de comando por causa do seu aspecto de interface do 'Matrix'. Quando se vê um monte de letrinhas verdes em um fundo preto, já achamos que o sujeito está hackeando alguma coisa.
 
 ![M1 - I1: Aspecto do Terminal para quem não aprendeu como ele funciona](http://rs987.pbsrc.com/albums/ae354/spartts/Matrix.gif?w=280&h=210&fit=crop)
 
