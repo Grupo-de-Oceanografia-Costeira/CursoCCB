@@ -55,7 +55,7 @@ Se não puder ler na íntegra, o que ele explica é o seguinte (adaptado):
 - O que é que estou tentando realizar?	
 - Como que faço isto?
 
-A primeira parte é MUITO mais difícil do que a segunda, e nenhum Google vai ajudar. Para isso é necessário pensar em algoritmos, ou seja, pegar o problema que você quer resolver e transforma-lo em uma lista de passos bem definidos, preciso e discretos. Para isso, não importa que linguagem você vai utilizar, você pode até escrever em português. Você sabe que terminou essa etapa quando você sabe que cada passo que você escreveu pode ser convertido em código. Você NÃO precisa saber COMO converter! Você precisa entender os conceitos de programação para saber quão a fundo você precisa ir.
+A primeira parte é MUITO mais difícil do que a segunda, e nenhum Google vai ajudar. Para isso é necessário pensar em algoritmos, ou seja, pegar o problema que você quer resolver e transformá-lo em uma lista de passos bem definidos, precisos e discretos. Para isso, não importa que linguagem você vai utilizar, você pode até escrever em português. Você sabe que terminou essa etapa quando você sabe que cada passo que você escreveu pode ser convertido em código. Você NÃO precisa saber COMO converter! Você precisa entender os conceitos de programação para saber quão a fundo você precisa ir.
 
 Uma vez que você sabe exatamente o que você está tentando fazer, você passa por cada linha de algoritmo e descobre como fazer aquilo na linguagem que você está utilizando. **Essa parte é fácil, e é aonde você pode usar o Google o StackOverflow.** (...)"
 
