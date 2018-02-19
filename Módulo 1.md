@@ -43,7 +43,7 @@ Referências
 
 * [Software Carpentry: Shell Novice](http://swcarpentry.github.io/shell-novice/)
 * [Learn Enough Command-Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
-* BioStar páginas 59-62
+* [BioStar Handbook páginas 59-62](https://www.biostarhandbook.com/)
 
 --
 
@@ -315,7 +315,7 @@ Porém, o que torna o Python ideal para nós, além de sua versatilidade e popul
 ![M1 - S14](screens/M1 - S14.png)	
 O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) descreve a filosofia da linguagem: simplicidade e praticidade.
 
-Na nossa IDE, você pode abrir uma instância de Python digitando `python` no console. No arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html) temos alguns exemplos de primeiros comandos e a sua saída.
+Na nossa IDE, você pode abrir uma instância de Python digitando `python` no console. No arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html) temos alguns exemplos bem básicos. Experimente abrir o console e testar comandos similares.
 
 ### Aprendendo Python na internet
 
@@ -337,6 +337,22 @@ Recursos em português:
 
 Além destes, existe mais uma infinidade de sites, blogs, canais do YouTube que oferecem conteúdo de qualidade. Recomendamos que o leitor escolha um recurso com o qual se sinta confortável e busque aprender o básico da linguagem. 
 
+Linguagens de programação são como idiomas: para tornar-se fluente, leva tempo, prática e imersão. No entanto, em uma tarde é possível aprender algumas frases básicas só "sobreviver". A medida que compreendemos o funcionamento da sintaxe, o aprendizado vai se tornando mais fácil.
+
+Em um post no fórum [Reddit](https://www.reddit.com/), o usuário [u/twopi](https://www.reddit.com/user/twopi) faz um [comentário](https://www.reddit.com/r/learnprogramming/comments/75xrpj/im_in_a_code_school_im_beginning_to_suspect_that/do9w710/) bem perspicaz.
+Se não puder ler na íntegra, o que ele explica é o seguinte (adaptado):
+
+"Basicamente, o começo do aprendizado em programação se resume em dois componentes:
+	
+- O que é que estou tentando realizar?	
+- Como que faço isto?
+
+A primeira parte é MUITO mais difícil do que a segunda, e nenhum Google vai ajudar. Para isso é necessário pensar em algoritmos, ou seja, pegar o problema que você quer resolver e transformá-lo em uma lista de passos bem definidos, precisos e discretos. Para isso, não importa que linguagem você vai utilizar, você pode até escrever em português. Você sabe que terminou essa etapa quando você sabe que cada passo que você escreveu pode ser convertido em código. Você NÃO precisa saber COMO converter! Você precisa entender os conceitos de programação para saber quão a fundo você precisa ir.
+
+Uma vez que você sabe exatamente o que você está tentando fazer, você passa por cada linha de algoritmo e descobre como fazer aquilo na linguagem que você está utilizando. **Essa parte é fácil, e é aonde você pode usar o Google o StackOverflow.**  (...)"
+
+Vamos retomar isso no Módulo 3, mas a lição aqui é de que se sabemos **o que queremos realizar**, **como** faze-lo é mais fácil.
+
 -
 
 ### Conclusão do Módulo 1
@@ -344,7 +360,7 @@ Além destes, existe mais uma infinidade de sites, blogs, canais do YouTube que 
 Muito bem, já progredimos um bocado no nosso curso e cobrimos três ferramentas essenciais para o biólogo programador:  
 1. A **linha de comando**. Aprendemos como usar o **Terminal** e o que é a linguagem *bash*.  
 2.  O **editor de texto**. Integramos o **Atom** ao nosso **Terminal** e improvisamos uma **IDE**: nossa bancada de laboratório no computador.  
-3. Uma **linguagem de programação**: Vimos as vantagens de aprender a linguagem **Python** e uma variedade de recursos para aprende-la na internet. Também vimos alguns comandos básicos no arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html)
+3. Uma **linguagem de programação**: Vimos as vantagens de aprender a linguagem **Python** e uma variedade de recursos para aprende-la na internet. Também vimos alguns comandos básicos no arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html).
 
 
 -
