@@ -105,7 +105,12 @@ Vamos criar um novo repositório para fazer uma análise de dados mais simples. 
 
 Selecionamos Python 3, bem como as bibliotecas [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/), [Jupyter](http://jupyter.org/) e suas dependências.
 
+Ativando o ambiente:
+
 `source activate tutorial`
+
+É importante aprender os diferentes comandos do `conda`. Outros gerenciadores de pacote como o `pip` também funcionam com comandos como `pip install <nome do pacote>`. Você pode utilizar o `pip` para instalar pacotes em ambientes criados pelo `conda`. Para ver os pacotes que estão no ambiente atual, use o comando `conda list`. Um sumários dos comandos do `conda` pode ser acessado [nessa *cheat sheet*.](./conda-cheatsheet.pdf)
+
 
 ### 2.2 Bibliotecas essenciais: Pandas, Matplotlib e Jupyter.
 

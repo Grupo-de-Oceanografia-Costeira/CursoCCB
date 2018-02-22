@@ -23,8 +23,9 @@
 
 **Módulo 3: colaboração e boas práticas**
 
-3.1 - 
-
+[3.1 - Boas práticas em computação científica: Jupyter como lab book](./Módulo 3.md)  
+3.2 - Documentação e controle de versão: git e GitHub  
+3.3 - Colaborando e aprendendo: aproveitando o GitHub, Stack Overflow e outros recursos
 
 
 -
@@ -46,11 +47,20 @@ To-do:
 
 ### 3.1 - Boas práticas em computação científica
 
+Referências:
+
+[[1] Wilson et al, 2017. Good enough practices in scientific computing](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf)
+[[2] Loman & Watson, 2013. So you want to be a computational biologist?](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf)  
+[[3] Welch et al, 2014. Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies](./papers/Welch 2014 Bioinformatics curriculum.pdf)
+
+
+
+
 Nos Módulos 1 e 2 já fomos introduzidos à uma variedade de ferramentas que nos possibilitaram realizar uma análise de dados no conjunto "Iris". Aprendemos a importância destes conhecimentos para a pesquisa em ciências. Neste Módulo 3, vamos nos concentrar em melhorar as **boas práticas de computação científica.**
 
+Recapitulando o que foi discutido na [Introdução](./introdução.md) do curso, a proficiência no uso do computador e o domínio de fundamentos básicos de programação estão se tornando cada vez mais indispensáveis para qualquer cientista. Através de susas experiências com os workshops da *Software Carpentry*, Greg Wilson e colegas [[1]](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf) destacaram esse problema e elaboraram um sumário de regras gerais que cientistas podem e devem considerar adotar. O título do paper, "Práticas boas o suficiente em computação científica" (adaptado) já faz alusão ao fato de que o exercício dessas boas práticas não deve ser algo cansativo e perfeccionista, mas sim princípios básicos no qual devemos nos apoiar na hora de trabalhar no computador, **da mesma forma que fazemos na bancada**. Isso significa que *workflows* computacionais devem seguir as mesmas práticas que outros projetos de laboratório, incluindo dados organizados, passos documentos e uma estruturação do projeto voltada à *reproducibilidade*.
 
-
-
+Apesar destas necessidades relacionadas ao treinamento em informática de pesquisadores já serem evidentes há certo tempo, só em anos recentes que essa discussão se tornou bem presente na literatura. Comentários na revista Nature [[2]](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) e essa carta [[3]](./papers/Welch 2014 Bioinformatics curriculum.pdf) da ISCB (International Society for Computational Biology) descrevem habilidades-chave para biólogos que querem tirar proveito das ferramentas computacionais. 
 
 
 
