@@ -1,30 +1,32 @@
-## Curso de boas práticas computacionais para biólogos: Sobrevivendo na era digital
+## Computação científica para biólogos
 
 ### Sumário
 
-**Introdução:**
+[**Introdução: o porquê deste curso**](./Introdução.html/)
 
-[I.1 Apresentação](./introdução.md/### I.1 - Introdução)  
-[I.2 Informática cada vez mais necessária](./introdução.md/### I.2 Quem não aprender isso, provavelmente vai ficar para trás...)     
-[I.3 Boas práticas computacionais e reprodutibilidade](./introdução.md/### I.3 Macaco vê, macaco faz)  
-[I.4 As ferramentas](./introdução.md/### I.4 Ferramentas básicas da computação científica)
+I.1 Apresentação  
+I.2 Informática cada vez mais necessária  
+I.3 As ferramentas
 
-**Módulo 1:**
+[**Módulo 1: Ferramentas básicas**](./Módulo\ 1.html)
 
-[1.1 - Linha de comando: Terminal](./Módulo\ 1.md/### 1.1 Linha de comando: bash e o Terminal)  
-[1.2 - Editor de texto e IDE: Atom](./Módulo\ 1.md### 1.2 Editor de texto e IDE: nossa bancada de laboratório digital)	
-[1.3 - Linguagem de Programação: Python](./Módulo\ 1.md)
+1.1 - Linha de comando: Terminal  
+1.2 - Editor de texto e IDE: Atom	
+1.3 - Linguagem de Programação: Python
 
-**Módulo 2:**
+[**Módulo 2: Bibliotecas e ambientes virtuais**](./Módulo 2.html)
 
-[2.1 - Conda: Ambientes virtuais e instalação de dependências](./Módulo\ 2.md)  
-[2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.](./Módulo\ 2.md)  
-[2.3 - Plotando dados no Jupyter Notebook](./Módulo\ 2.md)  
+2.1 - Conda: Ambientes virtuais e instalação de dependências  
+2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.  
+2.3 - Analisando o conjunto Iris no Jupyter Notebook  
 
-**Módulo 3:**
+[**Módulo 3: Colaboração e boas práticas**](./Módulo 3.html)
 
-3.1 - Aprendendo a programar como biólogo -
+3.1 - Boas práticas em computação científica  
+3.2 - Documentação e controle de versão: Git e GitHub  
+3.3 - Como aprender programação: dicas para biólogos
 
+-
 ## Módulo 1:
 
 <!---
@@ -54,7 +56,7 @@ O Terminal será meramente nosso **aplicativo** para operar a nossa linha de com
 Quando aberto, o Terminal roda o programa **bash**, que é um tipo de *shell* (**Born Again SHell**). Vamos ver direitinho o que isso significa:  
 **shell**, esse nome chama a atenção, certo? Shell é concha. Sim, exatamente. Quando operamos a linha de comando, estamos mandando instruções para o computador. Mas o computador não fala a mesma língua que a gente. **shell** é um programa que interpreta as informações digitadas e enviadas para o computador, que retorna o resultado; o processo complexo que acontece entre os dois passos é "escondido" dentro da "concha", por isso shell. O **bash** é o tipo mais comum de shell, empregado no Terminal.
 
-![M1 - S1: Essa é a carinha do Terminal](https://i.imgur.com/FU50luJ.png)
+![](../screens/terminal1.png)
 
 Repare que no título da janela vemos o nome do usuário e o programa que o Terminal está rodando.
 
@@ -62,7 +64,7 @@ Repare que no título da janela vemos o nome do usuário e o programa que o Term
 
 SIM. Se você quer aprender computação científica, você precisa entender os básicos de como é uma linha de comando. Ênfase no **básico**. É incrível a resistência para aprender a linha de comando por causa do seu aspecto de interface do 'Matrix'. Quando se vê um monte de letrinhas verdes em um fundo preto, já achamos que o sujeito está hackeando alguma coisa.
 
-![M1 - I1: Aspecto do Terminal para quem não aprendeu como ele funciona](http://rs987.pbsrc.com/albums/ae354/spartts/Matrix.gif?w=280&h=210&fit=crop)
+![Aspecto do Terminal para quem não aprendeu como ele funciona](../screens/Matrix.gif)
 
 Para quem trabalha com *bioinformática*, algumas análises até podem ser realizadas sem o uso de uma CLI, mas o usuário será imensamente beneficiado ao utilizá-la. Não só isso, mas *compreender* Unix desenvolve um meio de pensar muito útil para resolver problemas bioinformáticos. [BioStar]
 
@@ -74,10 +76,12 @@ A pesquisa de Ana é com expressão de proteínas. Os arquivos de sequência sã
 
 Para Ana acessar esses arquivos, ela pode conectar-se ao servidor usando seu notebook, só que o sistema operacional não tem interface gráfica. É tudo pela linha de comando. Não é como se tivesse uma "tela" do usuário (uma GUI):
 
-![M1 - I2](https://i.imgur.com/qbSYF9O.jpg)
+![](../screens/windows.jpg)
 O servidor de Ana não parece com isso.
 
 Mas Ana não se importa. Ela acessa e lê os arquivos, usa os programas que estão instalados, tudo usando a memória RAM do servidor. Seu notebook está rodando apenas o Terminal e suportando a conexão de rede até o servidor. Todo o resto acontece lá dentro da **shell** do servidor. **Ela nem precisou de um mouse.**
+
+![](../screens/hacker.jpg)
 
 -
 
@@ -89,21 +93,21 @@ Abrimos o programa e nos encontramos na "Home" folder, ou seja, a pasta-mãe do 
 
 **Nota: O mais "correto" seria chamar as pastas de *diretórios*. Mas por questão de praticidade, qualquer um dos termos serve.**
 
-![M1 - S2: Home folder do meu MacBook](https://i.imgur.com/ZH6OfkT.png)
+![Home folder do meu MacBook](../screens/home.png)
 
 No Terminal, acontece o mesmo. O padrão é abrir na "home folder".
 
-![M1 - S3](https://i.imgur.com/DH854FQ.png)
+![](../screens/home_terminal.png)
 Repare o título da janela, tem até a casinha.
 Ok, mas onde está o conteúdo da pasta? Diferente da interface gráfica do Finder (explorer no Windows, nautilus no Gnome, etc.), preciso dizer para o Terminal, me mostre o conteúdo!
 
-#### Agora quero que todo mundo pegue um papelzinho. Vamos anotar nossos comandos. Não é para botar no bloco de notas ou no computador, e sim em um PAPEL.
+#### Agora quero que todo mundo pegue um papelzinho. Vamos anotar nossos comandos.
 
 Alguns comandos do bash são ESSENCIAIS. É que nem quando você ensina a sua avó: olha vó, clica no ícone do Internet Explorer, aí clica na barrinha, etc. É o básico, e é muito fácil!
 
 Nosso primeiro comando vai ser o `ls`, que significa "list", liste o conteúdo.
 
-![M1 - S4](https://i.imgur.com/c7dnW8M.png)
+![](../screens/ls.png)
 Estamos na Home folder, e com o `ls` visualizamos o conteúdo da pasta. Mas o arquivo que queremos não está aqui.
 
 Enquanto no Finder teríamos que ir procurando e clicando nossa pasta de destino, no Terminal vamos digitar para onde vamos. Parece menos prático, certo? Não. Na verdade isso se torna bem mais rápido, especialmente em pastas com muuuitos arquivos.
@@ -112,15 +116,15 @@ Nosso segundo comando. Anota aí no papelzinho: `cd`
 
 `cd` significa "Change directory". Ou seja, navegue para a pasta tal, assim como quando clicamos no nome da pasta no Finder. Logo, especificamos para qual pasta queremos ir. Vamos executar `cd Bio` para mudar para a pasta Bio e `ls` para ver o que temos lá. Não esquece que 'Bio' é com B maiúsculo, isso faz toda a diferença nos terminais.
 
-![M1 - S5](https://i.imgur.com/OYKaHzb.png)
-![M1 - S6](https://i.imgur.com/uyxkHeG.png)
+![](../screens/cd_bio_cli.png)
+![](../screens/cd_bio_gui.png)
 
 Os dois programas estão fazendo a mesma coisa, navegando diretórios e visualizando seu conteúdo.
 
 Do Terminal, queremos ir para a pasta 'Awesome-Bioinformatics'.
-Executamos: `cd Awesome-Bioinformatics`
+Executamos: `cd Awesome-Bioinformatic`
 
-![M1 - S7](https://i.imgur.com/MoUf3bz.png)
+![](../screens/error1.png)
 
 O bash retorna um erro de que essa pasta não existe. Claro, digitamos errado, faltou um 's' no final. A pasta Bio tinha um nome bem fácil de escrever, né? Essa já foi mais demorada. Agora imagina se quero digitar o nome de um arquivo chamado "resultados\_saidadecampo\_2703\_sem\_tabelas.txt", daria bastante trabalho, né? Eu podia até copiar e colar o nome do arquivo, mas isso também é chatinho.
 
@@ -142,10 +146,15 @@ Nosso terceiro comando será `pwd` = print working directory.
 Ele vai nos dizer 'aonde', ou em qual pasta estamos.
 
 Agora, vamos voltar para nossa Home. Quando usamos `cd` antes, especificamos nossa pasta de destino. Mas se digitarmos apenas `cd` e mais nada, automaticamente voltamos para Home.
-![M1 - S7](https://i.imgur.com/AA4vxt8.png)
+
+![](../screens/cd.png)
+
 Vemos que nosso diretório está contido dentro de /Users/. E se quisermos navegar para lá?
-`cd Users` não funciona, pois Users não está dentro do diretório atual. Vamos tentar uma coisa: `ls -a`´
-![M1 - S8](https://i.imgur.com/fF80RiD.png)
+`cd Users` não funciona, pois Users não está dentro do diretório atual. Vamos tentar uma coisa: `ls -a`
+
+
+![](../screens/ls-a.png)
+
 `-a` é uma **opção** do comando `ls`. Significa "all", ou seja, listar todos os arquivos. Além do conteúdo que vemos normalmente, a interface exibe os arquivos ocultos, ou do sistema, que começam com .
 
 Repare que temos um arquivo `.` Isso! ponto mesmo. E outro chamado `..`
@@ -170,7 +179,8 @@ Para sairmos, apertamos <kbd>q</kbd> (quit).
 
 Outras situações podem nos deixar "presos" em uma operação do Terminal. Digite `cat` (vamos ver o que esse comando faz em outro momento). O *prompt* sumiu, certo? Para interromper essa ação, podemos usar o <kbd>CTRL</kbd> + <kbd>C</kbd>. Sempre que estivermos travados, o <kbd>CTRL</kbd> + <kbd>C</kbd> interrompe a operação e retorna ao *prompt*.
 
-![M1 - I3](https://i.imgur.com/5aCHON0.png)
+![M1 - I3](../screens/cat_in_box.png)
+
 Esse gato ficou preso, ele podia só apertar <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
 
@@ -192,7 +202,9 @@ Vamos exemplificar:
 `mv leite cereal` Pessoal, sempre coloquem o leite no cereal e nunca o contrário.
 `rm cereal` retorna um erro.
 Precisamos digitar:  
-`rm -r cereal` o -r é para "recursivo", ou seja, o comando deleta cada coisa dentro da pasta e depois a pasta em si.
+`rm -r cereal` o -r é para "**recursivo**", ou seja, o comando deleta cada coisa dentro da pasta e depois a pasta em si.
+
+![](../screens/pooh.jpg)
 
 Com esses comandos, já conseguimos navegar, criar, copiar, mover e deletar pastas. Também vimos o que são opções, o que são argumentos e o que é o *prompt* de uma CLI. Aprendemos a usar a autocompleção com <kbd>TAB</kbd> e como acessar os comandos anteriores.
 
@@ -202,6 +214,8 @@ Digamos que eu quero achar **TODOS** os .mp3 no meu computador e botá-los em um
 `find / -name "*.mp3" -exec cp {} /Volumes/MeusMP3s \;`
 
 É um comando um pouco mais avançado mas ainda assim são alguns segundos digitando vs. horas procurando pelos MP3s e clicando. Observe bem o comando: ele busca (`find`) na raíz (todo o computador) (`/`) arquivos de nome `"*.mp3"` e executa um `cp` para a pasta desejada. Repare no asterisco. Isso é o que chamamos de *wildcard*, ou coringa. Dizer "*.mp3" é o mesmo que dizer "qualquer combinação de caracteres que acabem com .mp3". Se eu executo um `cp * pastadedestino`, vou copiar todos os itens do diretório atual para a pastadedestino. Se eu executo `cp *.txt pastadedestino`, vou copiar todos os itens que tenham extensão .txt para a pastadedestino, e assim em diante.
+
+![](../screens/hackerman.png)
 
 Por mais que no começo tudo isso pareça um monte de informação, a medida que vamos usando no nosso dia-a-dia, vai se tornando algo cada vez mais fácil e rápido. Para motivos práticos, só é preciso saber um basicão de **bash** para poder fazer várias coisas bem importantes. Agora que vimos um pouco dessa ferramenta, vamos para a próxima ferramenta: o **editor de texto**.
 
@@ -216,14 +230,15 @@ Linkar referências do texto aos links do início da seção
 -
 
 ### 1.2 Editor de texto e IDE: nossa bancada de laboratório digital
-Referências
 
-* [[1] Flight Manual](https://flight-manual.atom.io/)
-* [[2] Learn About Text Editors in Five Minutes or Less](https://learntocodewith.me/programming/basics/text-editors/)
-* [[3] Setting up a Python Development Environment in Atom](https://www.youtube.com/watch?v=DjEuROpsvp4)
+Links úteis
+
+* [Flight Manual](https://flight-manual.atom.io/)
+* [Learn About Text Editors in Five Minutes or Less](https://learntocodewith.me/programming/basics/text-editors/)
+* [Setting up a Python Development Environment in Atom](https://www.youtube.com/watch?v=DjEuROpsvp4)
 
 
-![M1 - I4](https://flight-manual.atom.io/assets/images/book/cover.png)
+![](../screens/flight_manual.png)
  
 **Quando você começar a codar, vai perceber que vai passar muito tempo no editor de texto. Então fique confortável com ele.**
 
@@ -252,9 +267,6 @@ No final, você pode usar o editor de texto que quiser, e existem algumas altern
 
 Essas funções são as mais imprescindíveis para ter um bom domínio sobre nossos arquivos. A desvantagem de editores bem completos como os listados acima, quando comparados com os mais básicos como o Bloco de Notas, o TextEdit ou o **nano**, é que podem ser meio lentos.
 
-![M1 - S9](./screens/M1 - S9.png) 
-
-<!--- Porque essa imagem? -->
 
 ### IDE: Integrated Development Environment
 
@@ -268,7 +280,7 @@ O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve p
 
 Um bom exemplo de IDE é o [RStudio.](https://www.rstudio.com/) [Quem aqui já ouviu falar?]
 
-![Screenshot do RStudio](https://i.imgur.com/OzFifDm.png)
+![Screenshot do RStudio](../screens/rstudio.png)
 
 Enquanto o programa 'R' é apenas uma *linha de comando* dessa linguagem, o RStudio é um IDE para programação em R. Na imagem acima, podemos ver como o painel na parte de baixo a esquerda é igual ao que vemos quando abrimos o programa 'R' (uma linha de comando da linguagem). Apesar de que no 'R' também conseguimos escrever um script, o RStudio facilita essa tarefa (olhe o script sendo escrito no painel acima e a esquerda), e providencia outras ferramentas para otimizar o processo de programação (como oferecer acesso aos arquivos do projeto, abaixo a direita na imagem).
 
@@ -276,13 +288,13 @@ Como o RStudio serve quase que exclusivamente para programação em R, vamos imp
 
 A instalação do plugin que queremos é simples: no menu de Settings do Atom, vamos em Install, procuramos por 'terminal' e no `platformio-ide-terminal` clicamos em instalar.
 
-![M1 - S11](./screens/M1 - S11.png)
+![](../screens/packages.png)
 
 Para abrir uma instância do Terminal, clicamos na cruz no canto inferior da tela.
 
 Repare bem na imagem abaixo. A esquerda, temos um fácil acesso aos nossos arquivos do projeto. No centro temos uma janela de editor de texto com um pouco de código, e na porção de baixo, temos uma janela com o Terminal, nossa linha de comando.
 
-![Screenshot da IDE Frankensten Atom + Terminal](https://i.imgur.com/u6bEz50.png)
+![Screenshot da IDE Frankensten Atom + Terminal](../screens/atom_ide.png)
 
 **Além disso, é colorido e bonitinho.** 
 
@@ -292,27 +304,29 @@ O que vamos fazer aqui é enviar os comandos da porção do editor de texto para
 
 **Outra vantagem é, podemos usar esse formato para diversas linguagens, e não só para o R**, e também temos acesso ao Terminal. É importante destacar que apesar do padrão para o Terminal ser o *bash*, podemos rodar outras linguagens nele.
 
-![M1 - S12](./screens/M1 - S12.png)
-![M1 - S13](./screens/M1 - S13.png)		
+![](../screens/python_console.png)
+![](../screens/r_console.png)		
+
 Abrindo instâncias de Python e R no Terminal. Repare na barra no topo da janela.
 
 ### 1.3 Python: simples, poderosa e popular
 
 Referências:
 
-[[1] Ekmekci et al, 2016. An Introduction to Programming for Bioscientists: A Python-Based Primer](papers/Ekmekci 2016 Introduction to programming for bioscientists.pdf)
+[[1]](papers/Ekmekci 2016 Introduction to programming for bioscientists.pdf) **Ekmekci et al, 2016.** An Introduction to Programming for Bioscientists: A Python-Based Primer.
 
 [Na introdução](./introdução.md#Vivemos na era digital e da informação), comentamos o fato de que cientistas precisam lidar com análise de dados, e isso já implica a necessidade de aprender o básico de programação. Uma linguagem muito boa para esse propósito é o R, e por conta disso que, pelo menos no Brasil, ela costuma ser a que os biólogos tem o primeiro contato. Outros exemplos são o [MATLAB](https://www.mathworks.com/products/matlab.html) ou programas como Primer e Statistica. No entanto, estes exemplos (incluindo o R) são voltados para manipulação, visualização e análise de dados, e podem ser um pouco restritos para outros usos.
 
 A linguagem Python foi originalmente criada para ["propósitos diversos"](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o_para_prop%C3%B3sitos_diversos), e costumava ser utilizada principalmente para desenvolvimento web, [em sites como YouTube e Spotify.](https://www.shuup.com/blog/25-of-the-most-popular-python-and-django-websites/) No entanto, a criação de bibliotecas como [NumPy](http://www.numpy.org/), [Pandas](https://pandas.pydata.org/) e [Matplotlib](https://matplotlib.org/) tornaram essa linguagem tão útil para análise de dados quanto as citadas anteriormente. Atualmente, [é a quarta linguagem mais popular do mundo](https://www.tiobe.com/tiobe-index/).
 
-Porém, o que torna o Python ideal para nós, além de sua versatilidade e popularidade, é o fato de que **é uma linguagem muito amigável para iniciantes**, prezando pela simplicidade e legibilidade do código. [Em um paper da PLoS Computational Biology](papers/Ekmekci 2016 Introduction to programming for bioscientists.pdf), Ekmekci e colaboradores argumentam que é a melhor linguagem para biocientistas por conta de três motivos:
+Porém, o que torna o Python ideal para nós, além de sua versatilidade e popularidade, é o fato de que **é uma linguagem muito amigável para iniciantes**, prezando pela simplicidade e legibilidade do código. Em um paper da PLoS Computational Biology [[1]](papers/Ekmekci 2016 Introduction to programming for bioscientists.pdf), Ekmekci e colaboradores argumentam que é a melhor linguagem para biocientistas por conta de três motivos:
 
 - semântica direta e sintaxe simples a tornam uma primeira linguagem prontamente acessível;
 - é uma linguagem de alto nível e orientada a objetos;
 - a diversidade de bibliotecas e pacotes extende sua funcionalidade a virtualmente todos os campos das ciências biológicas.
 
-![M1 - S14](screens/M1 - S14.png)	
+![M1 - S14](../screens/zen.png)	
+
 O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) descreve a filosofia da linguagem: simplicidade e praticidade.
 
 Na nossa IDE, você pode abrir uma instância de Python digitando `python` no console. No arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html) temos alguns exemplos bem básicos. Experimente abrir o console e testar comandos similares.
@@ -361,7 +375,3 @@ Muito bem, já progredimos um bocado no nosso curso e cobrimos três ferramentas
 1. A **linha de comando**. Aprendemos como usar o **Terminal** e o que é a linguagem *bash*.  
 2.  O **editor de texto**. Integramos o **Atom** ao nosso **Terminal** e improvisamos uma **IDE**: nossa bancada de laboratório no computador.  
 3. Uma **linguagem de programação**: Vimos as vantagens de aprender a linguagem **Python** e uma variedade de recursos para aprende-la na internet. Também vimos alguns comandos básicos no arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html).
-
-
--
-<!--- botar essa seção em outro lugar?? MODULO 3? -->

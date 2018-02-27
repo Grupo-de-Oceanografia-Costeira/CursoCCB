@@ -1,33 +1,32 @@
-## Curso de boas práticas computacionais para biólogos: Sobrevivendo na era digital
+## Computação científica para biólogos
 
 ### Sumário
 
-**Introdução:**
+[**Introdução: o porquê deste curso**](./Introdução.html/)
 
-[I.1 Apresentação](./introdução.md/### I.1 - Introdução)  
-[I.2 Informática cada vez mais necessária](./introdução.md/### I.2 Quem não aprender isso, provavelmente vai ficar para trás...)     
-[I.3 Boas práticas computacionais e reprodutibilidade](./introdução.md/### I.3 Macaco vê, macaco faz)  
-[I.4 As ferramentas](./introdução.md/### I.4 Ferramentas básicas da computação científica)
+I.1 Apresentação  
+I.2 Informática cada vez mais necessária  
+I.3 As ferramentas
 
-**Módulo 1:**
+[**Módulo 1: Ferramentas básicas**](./Módulo\ 1.html)
 
-[1.1 - Linha de comando: Terminal](./Módulo\ 1.md/### 1.1 Linha de comando: bash e o Terminal)  
-[1.2 - Editor de texto e IDE: Atom](./Módulo\ 1.md### 1.2 Editor de texto e IDE: nossa bancada de laboratório digital)	
-[1.3 - Linguagem de Programação: Python](./Módulo\ 1.md)
+1.1 - Linha de comando: Terminal  
+1.2 - Editor de texto e IDE: Atom	
+1.3 - Linguagem de Programação: Python
 
-**Módulo 2:**
+[**Módulo 2: Bibliotecas e ambientes virtuais**](./Módulo 2.html)
 
-[2.1 - Conda: Ambientes virtuais e instalação de dependências](./Módulo\ 2.md)  
-[2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.](./Módulo\ 2.md)  
-[2.3 - Plotando dados no Jupyter Notebook](./Módulo\ 2.md)  
+2.1 - Conda: Ambientes virtuais e instalação de dependências  
+2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.  
+2.3 - Analisando o conjunto Iris no Jupyter Notebook  
 
-**Módulo 3:**
+[**Módulo 3: Colaboração e boas práticas**](./Módulo 3.html)
 
-3.1 - Aprendendo a programar como biólogo   
-
+3.1 - Boas práticas em computação científica  
+3.2 - Documentação e controle de versão: Git e GitHub  
+3.3 - Como aprender programação: dicas para biólogos
 
 -
-
 ## Módulo 2:
 
 ### 2.1 Conda: ambientes virtuais e dependências
@@ -70,7 +69,7 @@ A solução é **criar um ambiente virtual** com Python 2.7 instalado, e nesse a
 
 Embora a instalação do Anaconda nos propicia o Anaconda Navigator, uma interface gráfica, vamos utilizar o `conda` pelo Terminal.
 
-[Nesse documento](conda-cheatsheet.pdf) temos uma referência rápida dos comandos básicos do `conda`.
+[Nesse documento](papers/conda-cheatsheet.pdf) temos uma referência rápida dos comandos básicos do `conda`.
 
 Para criar um novo ambiente, usamos o comando `conda create` junto do nome do ambiente e a versão de Python que desejamos.
 

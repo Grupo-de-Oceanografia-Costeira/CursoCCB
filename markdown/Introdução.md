@@ -1,50 +1,39 @@
-## Curso de boas práticas computacionais para biólogos: Sobrevivendo na era digital
+## Computação científica para biólogos
 
 ### Sumário
 
-**Introdução:**
+[**Introdução: o porquê deste curso**](./Introdução.html)
 
-[I.1 Apresentação](./introdução.md/### I.1 - Introdução)  
-[I.2 Informática cada vez mais necessária](./introdução.md/### I.2 Quem não aprender isso, provavelmente vai ficar para trás...)     
-[I.3 Boas práticas computacionais e reprodutibilidade](./introdução.md/### I.3 Macaco vê, macaco faz)  
-[I.4 As ferramentas](./introdução.md/### I.4 Ferramentas básicas da computação científica)
+I.1 Apresentação  
+I.2 Informática cada vez mais necessária  
+I.3 As ferramentas
 
-**Módulo 1:**
+[**Módulo 1: Ferramentas básicas**](./Módulo 1.html)
 
-[1.1 - Linha de comando: Terminal](./Módulo\ 1.md/### 1.1 Linha de comando: bash e o Terminal)  
-[1.2 - Editor de texto e IDE: Atom](./Módulo\ 1.md### 1.2 Editor de texto e IDE: nossa bancada de laboratório digital)	
-[1.3 - Linguagem de Programação: Python](./Módulo\ 1.md)
+1.1 - Linha de comando: Terminal  
+1.2 - Editor de texto e IDE: Atom	
+1.3 - Linguagem de Programação: Python
 
-**Módulo 2:**
+[**Módulo 2: Bibliotecas e ambientes virtuais**](./Módulo 2.html)
 
-[2.1 - Conda: Ambientes virtuais e instalação de dependências](./Módulo\ 2.md)  
-[2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.](./Módulo\ 2.md)  
-[2.3 - Plotando dados no Jupyter Notebook](./Módulo\ 2.md)  
+2.1 - Conda: Ambientes virtuais e instalação de dependências  
+2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.  
+2.3 - Analisando o conjunto Iris no Jupyter Notebook  
 
-**Módulo 3:**
+[**Módulo 3: Colaboração e boas práticas**](./Módulo 3.html)
 
-3.1 - Aprendendo a programar como biólogo 
+3.1 - Boas práticas em computação científica  
+3.2 - Documentação e controle de versão: Git e GitHub  
+3.3 - Como aprender programação: dicas para biólogos
 
 -
 ## Introdução
 
 ### I.1 - Apresentação
 
-<!--- 
-To-do:
-
-- quem sou eu?
-- proposta de participação (espaço horizontal)
-- conteúdo programático  
-
--->
-
-<!--- abertura, perguntar para todos: -->
 Por que você está aqui?
 
 O que te levou a querer fazer esse curso?
-
-Aprender programação, etc etc etc
 
 Quem aqui já programou antes?
 
@@ -70,19 +59,15 @@ Se você veio ler esse tutorial, são grandes as chances que você esteja usando
 
 Vini Salazar, graduando em biologia na UFSC. Comecei a estudar informática em 2015, então, assim como vocês, sou iniciante em tudo isso aqui. O que vou apresentar para vocês é o que eu gostaria que tivessem me mostrado quando comecei minha jornada 'nerd'.
 
-<!--- revisar esse parágrafo-->
 Essa jornada começou em um projeto de pesquisa no qual eu participava como um voluntário. Esse projeto utilizava métodos bioinformáticos para obtenção e análise de dados. Só que o programa que fazia isso não era tão fácil assim de mexer... Era operado pela **linha de comando**, exigia a instalação de diversas **dependências**, e um conhecimento de informática mais aprofundado do que o que eu tinha na época. A medida que fui superando as mensagens de erro e entendendo como aquilo funcionava, percebi que muitos outros biólogos também já passaram por isso. Se alguém tivesse me dado algumas dicas simples, tudo seria mais fácil!
 
 Depois que consegui fazer o que precisava para o meu projeto, percebi o quanto eu gostava de mexer com essas coisas. Compreender o funcionamento e tirar melhor proveito dos softwares que eu utilizava facilitava muito a prática de pesquisa. Era mais fácil do que parecia!
 
 Tudo que vou mostrar aqui para vocês é do ponto de vista de alguém que também é iniciante. Não tenho um *background* em TI, computação, nem nada, aliás em ciências no geral só estou começando minha trajetória, sabendo que é uma longa estrada. No entanto, sei que o pouquinho que já sei de informática não só vai me ajudar muuuito no resto da minha carreira, mas que esses conhecimentos são essenciais para qualquer pesquisador/cientista.
 
-![Programação vai ser bem útil para sua carreira, pode apostar.](https://i.imgur.com/xvPxsdy.jpg)
+![Programação vai ser bem útil para sua carreira, pode apostar.](../screens/xkcd.jpg)
 
-Por conta disso, já quero dizer agora no início que esse é um espaço totalmente horizontal. Não venho oferecer esse curso como um "professor" ou mentor, mas sim como alguém que quer compartilhar e discutir esses conhecimentos para que possamos aprender juntos. Então fiquem a vontade para me interromper, me questionar, perguntar, contribuir, sugerir ou criticar. Se você sabe um jeito melhor ou mais fácil, se você não concorda, manifeste-se! Tenho certeza que só tem a contribuir. A participação e curiosidade é essencial para o aproveitamento do curso.
-
-#### Conteúdo programático
-(sumário)
+Por conta disso, já quero dizer agora no início que esse é um espaço totalmente horizontal. Não venho oferecer esse curso como um "professor" ou mentor, mas sim como alguém que quer compartilhar e discutir esses conhecimentos para que possamos aprender juntos. Então fiquem a vontade para me interromper, me questionar, perguntar, contribuir, sugerir ou criticar. Se você sabe um jeito melhor ou mais fácil, se você não concorda, manifeste-se! Tenho certeza que só tem a contribuir. A participação e curiosidade é essencial para o aproveitamento do curso. 
 
 ### I.2 Quem não aprender isso, provavelmente vai ficar para trás...
 
@@ -146,23 +131,13 @@ Este também não é um curso de LINGUAGEM DE PROGRAMAÇÃO, embora vamos ver um
 
 Este curso visa ensinar FERRAMENTAS COMPUTACIONAIS que irão facilitar o uso e o aprendizado da informática para resolver nossos problemas de pesquisador. Por mais que não sejamos desenvolvedores, e sim pesquisadores, precisamos de NOÇÕES DE PROGRAMAÇÃO para fazer [AQUI DAR EXEMPLOS GRÁFICOS DE CADA ÁREA DA BIOLOGIA] análises estatísticas [índice de diversidade], análises bioinformáticas [dendograma, similaridade], gerar figuras [área de estudo] E, MUITO IMPORTANTE, garantir a reprodutibilidade dos nossos dados.
 
-### I.3 Macaco vê, macaco faz
+No Módulo 1, vamos ser introduzidos as ferramentas computacionais e ao Python.
 
-Sim, reprodutibilidade. Você já deve ter ouvido essa palavra. Afinal, o método científico exige reprodutibilidade. Se usamos métodos computacionais para manipular nossos dados, eles precisam ser descritos na literatura. A regra geral é sempre citar os softwares que foram utilizados, especialmente se há um paper descrevendo a ferramenta. No entanto, assim como um protocolo de laboratório, o processamento de dados pode variar dependendo de como a ferramenta computacional é utilizada. Imagine um ensaio enzimático: a concentração de determinado reagente pode influenciar o resultado final, certo? O mesmo acontece com ferramentas de informática: A configuração de determinados parâmetros em um software pode alterar a saída de dados, e consequentemente a informação a ser interpretada. Portanto, não basta citar apenas o método utilizado, e também *como* foi utilizado.
+No Módulo 2, o foco será como instalar, organizar e utilizar bibliotecas da nossa linguagem de escolha.
 
-Em uma [publicação recente na *PLoS Computational Biology*](https://arxiv.org/pdf/1609.00037.pdf), Wilson et al. problematizaram essa questão, descrevendo um conjunto *mínimo* de técnicas e ferramentas computacionais que acreditam que todo pesquisador pode e deve adotar. As recomendações seguem os seguintes tópicos:
+No Módulo 3, discutiremos o que são boas práticas de computação científica e como adotá-las.
 
-* Gestão de dados
-* *Software*
-* Colaboração
-* Organização de projeto
-* Monitoramento de mudanças
-* Manuscritos
-
-O paper de Wilson et al., fornece um guia detalhado, porém simples, de como essas práticas proporcionam um "controle de qualidade" no processo de pesquisa, visando facilitar a execução do mesmo e também garantindo sua reprodutibilidade para terceiros. Hoje em dia, é muito fácil se perder na montanha de dados e análises de qualquer projeto, por mais singelo que seja, logo fica a dica da leitura para qualquer pesquisador no século XXI.
-
-
-### I.4 Ferramentas básicas da computação científica
+### I.3 Ferramentas básicas da computação científica
 
 Para fazer uso de boas práticas computacionais, precisamos saber um pouco de algumas ferramentas que são empregadas na maioria das análises computacionais. Elas são:
 
@@ -175,13 +150,13 @@ excel open tabela.xlsx
 
 **AI MAS POR QUE USAR UMA LINHA DE COMANDO?? É BEM MAIS DIFÍCIL NÃO TEM FIGURINHA PRA CLICAR**
 
-![https://i.imgur.com/xAwma3T.jpg](https://i.imgur.com/xAwma3T.jpg)
+![](../screens/bobesponja.jpg)
 
 Na verdade existem vários motivos para usar uma linha de comando. É mais fácil de salvar um 'roteiro' das ações que foram realizadas, pois elas não são um clique em um botão, e sim uma linha de texto que pode ser salva em algo tão simples quanto um arquivo .txt. Basta dar um ctrl+c ctrl+v na nossa linha de comando que todas nossas ações são executadas, ao invés de ter que ficar clicando incessantemente.
 
 A linha de comando que tomaremos como exemplo é o **bash**, que será operado pelo console do **Terminal**. Ela é bem característica de sistemas UNIX-like, tais como o Linux e o MAC OS X. Quem usa algum desses sistemas provavelmente já teve contato com **bash**. No Windows, o equivalente seria o MS-DOS, apesar de que bash é mais difundida que o DOS. * Veremos um pouco mais na seção 1.1.
 
-![Essa é a carinha do Terminal](https://i.imgur.com/FU50luJ.png)
+![Essa é a carinha do Terminal](../screens/terminal1.png)
 
 
 #### 2. Editor de texto: o Atom
@@ -189,7 +164,7 @@ A linha de comando que tomaremos como exemplo é o **bash**, que será operado p
 O bom uso de um editor de texto é essencial para programação e para manipulação de dados. Um exemplo bem simples de editor de texto é o TextEdit no Mac ou o NotePad (Bloco de notas) no Windows. Por mais simplório que seja, o editor de texto armazena nossos comandos. Repare a diferença de um editor de texto, como o Bloco de Notas, e um processador de palavras, como o Word. O primeiro só edita e visualiza texto, enquanto o último tem ferramentas mais extensas para 'escrita' propriamente dita.  
 Para nosso tutorial, vamos utilizar [o Atom](https://atom.io/), que já pedi para vocês instalarem. Este é um editor de texto customizável e multi-plataforma, podendo ser usado tanto no Linux, Windows ou MAC OS X. Além disso, é de código aberto!
 
-![Olha que BONITINHO](https://i.imgur.com/MAaNfvv.png)
+![Olha que BONITINHO](../screens/atom.png)
 
 O Atom também tem uma característica muito boa que é uma grande quantidade de plugins disponíveis. Vamos fazer grande uso de um plugin destes, que é o `platformio-ide-terminal`.
 
@@ -205,13 +180,13 @@ O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve p
 
 Um bom exemplo de IDE é o [RStudio.](https://www.rstudio.com/) [Quem aqui já ouviu falar?]
 
-![Screenshot do RStudio](https://i.imgur.com/OzFifDm.png)
+![Screenshot do RStudio](../screens/rstudio.png)
 
 Enquanto o programa 'R' é apenas uma *linha de comando* dessa linguagem, o RStudio é um IDE para programação em R. Na imagem acima, podemos ver como o painel na parte de baixo a esquerda é igual ao que vemos quando abrimos o programa 'R' (uma linha de comando da linguagem). Apesar de que no 'R' também conseguimos escrever um script, o RStudio facilita essa tarefa (olhe o script sendo escrito no painel acima e a esquerda), e providencia outras ferramentas para otimizar o processo de programação (como oferecer acesso aos arquivos do projeto, abaixo a direita na imagem).
 
 Como o RStudio serve quase que exclusivamente para programação em R, vamos improvisar nosso IDE customizado usando o Atom e o Terminal. Isso mesmo, já estamos hackeando programas! Olha só. 
 
-![Screenshot da IDE Frankensten Atom + Terminal](https://i.imgur.com/u6bEz50.png)
+![Screenshot da IDE Frankensten Atom + Terminal](../screens/atom_ide.png)
 
 Repare bem nessa imagem. A esquerda, temos um fácil acesso aos nossos arquivos do projeto. No centro temos uma janela de editor de texto com um pouco de código, e na porção de baixo, temos uma janela com o Terminal, nossa linha de comando.
 
@@ -221,10 +196,8 @@ O que vamos fazer aqui é enviar os comandos da porção do editor de texto para
 
 #### 4. Python: simples e poderosa
 
-<!---
-- https://pt.wikibooks.org/wiki/Python_para_ocean%C3%B3grafos/Pref%C3%A1cio -->
+Nossos exemplos serão na linguagem Python.
 
-A maioria dos nossos exemplos serão na linguagem Python. 
 ##### Porque Python?
 - Fácil e amigável para iniciantes
 - Poderosa e versátil
@@ -233,12 +206,14 @@ A maioria dos nossos exemplos serão na linguagem Python.
 - Alto nível, orientada a objetos
 - Comunidade inclusiva
 
-### I.5 Referências e links úteis para acompanhar o curso
+### Referências e links úteis para acompanhar o curso
 
 <!--- trabalhar nisso -->
 
+* [GitHub](https://github.com/)
+* [Stack Overflow](https://stackoverflow.com/)
 * [BioStar Handbook](https://www.biostarhandbook.com/)  
 * [Software Carpentry lessons](https://software-carpentry.org/lessons/)
-* [GitHub](https://github.com/)
+* [Python para Oceanógrafos](https://pt.wikibooks.org/wiki/Python_para_ocean%C3%B3grafos/Pref%C3%A1cio)
 
 -
