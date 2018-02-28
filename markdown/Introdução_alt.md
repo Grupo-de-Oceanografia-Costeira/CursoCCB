@@ -1,4 +1,4 @@
-## Computação científica para biólogos
+## Computação científica para biólogos e pesquisadores
 
 ### Sumário
 
@@ -38,23 +38,13 @@ I.3 As ferramentas
 
 ![](./screens/loman watson.png)
 
-Por que você está aqui?
+Por que você veio fazer esse curso?
 
-O que te levou a querer fazer esse curso?
+Talvez você não queira ser um biólogo computacional, porém é fato de que computadores são ferramentas imprescindíveis para a realização da pesquisa em biologia, e cada vez mais existe a necessidade de cientistas adotarem novas habilidades em informática [[1]](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf), seja para programar ou para instalar e fazer uso de pacotes, bibliotecas e linguagens de programação.
 
-Quem aqui já programou antes?
+No curso de biologia, aprende-se técnicas e ferramentas de pesquisa em diversas áreas. Em biologia celular, como montar uma lâmina e operar o microscópio. Em ecologia de comunidades, amostrar vegetação no campo com transectos. Em biologia molecular, como fazer uma extração de DNA e 'correr' um gel de eletroforese. No entanto, ainda é comum que as ferramentas computacionais sejam ignoradas em nosso treinamento.
 
-Diferença entre programar x desenvolver
-
-'Tudo' em nosso computador é um programa!
-
-Entrada (*input*) > Ação (*processamento*) > Saída (*output*) 
-
-Computadores são ferramentas essenciais para quase todos os profissionais, mas especialmente para cientistas/pesquisadores, e precisamos aprender a usa-los com proficiência, seja para 'programar' ou somente para instalar e fazer uso de programas. 
-
-No meu curso, aprendi muito de diversas áreas da bio. Aprendemos como empregar diversas técnicas e ferramentas que são essenciais para um biólogo. Em biologia celular, como montar uma lâmina e operar o microscópio. Em ecologia de comunidades, amostrar vegetação no campo com transectos. Em biologia molecular, como fazer uma extração de DNA e 'correr' um gel de eletroforese. Porém, não nos aprofundamos na ferramenta mais comum e talvez a mais utilizada por todos os cientistas: o computador.
-
-Essa ferramenta será uma das mais fundamentais e que mais usaremos em nossa carreira. Para muitos cientistas, a maior parte das horas de trabalho se passa em frente à uma tela de computador, no entanto não temos, em nossa formação, oportunidades para tirar melhor proveito dessa ferramenta.
+Isso é crítico pois atualmente tais ferramentas . Para muitos cientistas, a maior parte das horas de trabalho se passa em frente à uma tela de computador, no entanto não temos, em nossa formação, oportunidades para tirar melhor proveito dessa ferramenta.
 
 No geral, as linguagens de programação e ferramentas de informática se tornam bichos-de-sete-cabeças que são vistos de forma superficial na graduação e quando surge a necessidade do seu uso, geralmente na pesquisa que é feita na pós-graduação, os acadêmicos acabam sofrendo e perdendo muito tempo pois não foram ensinados alguns princípios básicos que **desmistificam** a prática computacional. Por conta disso, vemos uma certa resistência ('preconceito') com esses aprendizados.
 
@@ -62,7 +52,7 @@ Se você veio ler esse tutorial, são grandes as chances que você esteja usando
 
 É inevitável, em algum ponto ou outro da graduação nos depararmos com esses desafios da informática. E é normal que eles causem frustração. Não conseguir rodar um pacote, não conseguir fazer funcionar um script necessário para o processamento dos nossos dados, não conseguir instalar aquele programa obscuro baixado do site de algum laboratório que parece que não foi atualizado desde a época do DOS, ter problemas com driver de algum equipamento de laboratório, a lista se alonga.
 
-#### Eu
+#### About
 
 Vini Salazar, graduando em biologia na UFSC. Comecei a estudar informática em 2015, então, assim como vocês, sou iniciante em tudo isso aqui. O que vou apresentar para vocês é o que eu gostaria que tivessem me mostrado quando comecei minha jornada 'nerd'.
 
@@ -114,6 +104,8 @@ Nas ciências sociais e no jornalismo, pode ser usada para vasculhar a internet 
 [Aqui falar de Rosie, data mining. De novo falar do gráfico em barra, que sociólogo não precisa ficar só em entrevista e fazendo gráfico em barra. Jornalistas são investigadores que podem fazer ciência se tiverem rigor estatístico. Perguntar como relaciona com a biologia? Bancos de dados biológicos. Puxar o gancho para próxima sessão]
 
 ###[Nota sobre a bioinformática]
+
+<!-- referencias 3, 4 e 5 aqui -->
 
 Na biologia temos um cenário diferente, mas relacionado com todos os exemplos acima. O campo da **bionformática** tornou-se uma área distinta por conta da natureza dos dados biológicos. A manipulação desses dados é particular no sentido que possue uma 'mistura' do aspecto quantitativo e qualitativo. As 'ômicas, a filogenia e pode-se dizer que a biologia molecular como um todo fazem emprego de ferramentas BIO-INFORMÁTICAS para análise de dados biológicos, principalmente sequências das mais variadas formas e tamanhos: genes, genomas, transcriptomas, RNAs, proteínas, SNPs, etc. Usando dados de sequência podemos responder questões em diversas áreas, como bioquímica, ecologia, taxonomia e evolução; no entanto, podemos notar a diferença dos dados de sequência para outros dados 'em tabela' notados nessas mesmas áreas, como por exemplo:
 
@@ -226,7 +218,8 @@ Nossos exemplos serão na linguagem Python.
 [[1]](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) **Loman & Watson, 2013.** So you want to be a computational biologist?  
 [[2]](./papers/Welch 2014 Bioinformatics curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies  
 [[3]](./papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program]  
-[[4]](./papers/Markowetz 2017 All Biology is Computational Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.
+[[4]](./papers/Markowetz 2017 All Biology is Computational Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.  
+[[5]](./papers/A beginner's guide to bioinformatics - part I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I.
 
 
 -
