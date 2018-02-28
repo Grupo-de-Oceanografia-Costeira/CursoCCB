@@ -35,13 +35,13 @@ I.3 As ferramentas
 
 Assim como o R, a capacidade do Python é enormemente expandida por conta da grande quantidade de pacotes e bibliotecas disponíveis. Alguns são essenciais para quem quer realizar análise de dados.
 
-![Existem muitas bibliotecas de Python voltadas à análise de dados biológicos](screens/M1 - S16.png).
+![Existem muitas bibliotecas de Python voltadas à análise de dados biológicos](../screens/biopython.png).
 
 [Nesse tópico no site BioStars](https://www.biostars.org/p/50749/#50758), esse usuário apontou algumas ferramentas em Python que são úteis para biólogos.
 
 Logo, é imprescindível aprender a baixar, instalar e rodar esses pacotes. Essa instalação é simples, mas é diferente de usar um "Install Wizard": geralmente é feita pela linha de comando.
 
-![Install wizard do RStudio](screens/rstudio.jpg)
+![Install wizard do RStudio](../screens/rstudio.jpg)
 
 Você pode até se safar instalando o RStudio usando um Install Wizard, mas para instalação de pacotes Python vai ter que recorrer ao Terminal.
 
@@ -84,11 +84,11 @@ Ativamos o novo ambiente com o comando:
 
 Diferente do `pip`, o `conda` não baixa programas do [PyPI](https://pypi.python.org/pypi), e sim de outra base de dados, a [Anaconda Cloud.](https://anaconda.org/)
 
-[![https://anaconda.org/](screens/anaconda.png)](https://anaconda.org/)
+[![https://anaconda.org/](../screens/anaconda.png)](https://anaconda.org/)
 
 Esse repositório é muito útil pois fornece os pacotes disponíveis e os comandos para instalação.
 
-[![https://anaconda.org/bioconda/qiime](screens/qiimeinstall.png)](https://anaconda.org/bioconda/qiime)
+[![https://anaconda.org/bioconda/qiime](../screens/qiimeinstall.png)](https://anaconda.org/bioconda/qiime)
 
 Copiamos o comando e uma mensagem irá confirmar a instalação do QIIME e todas as dependências necessárias.
 
@@ -117,15 +117,15 @@ Ativando o ambiente:
 
 Para tirar o máximo proveito de um conhecimento básico de Python, vamos alavancar a funcionalidade da linguagem por meio dessas três bibliotecas. Sua combinação vai nos possibilitar um ambiente simples mas efetivo para análise de dados. Se o nosso objetivo fosse outro, como por exemplo, desenvolvimento web, faríamos uso de outros *frameworks*, como [Flask](http://flask.pocoo.org/) ou [Django.](https://www.djangoproject.com/)
 
-[![https://pandas.pydata.org/](screens/pandas.png)](https://pandas.pydata.org/)
+[![https://pandas.pydata.org/](../screens/pandas.png)](https://pandas.pydata.org/)
 
 [Pandas](https://pandas.pydata.org/) é uma biblioteca de análise contendo ferramentas de análise de dados de fácil uso e alta performance. Vamos utilizar **métodos** dessa biblioteca para importar e manipular nossos dados.
 
-[![https://matplotlib.org/](screens/matplotlib.png)](https://matplotlib.org/)
+[![https://matplotlib.org/](../screens/matplotlib.png)](https://matplotlib.org/)
 
 [Matplotlib](https://matplotlib.org/) é uma biblioteca de plotagem inspirada no MATLAB, com a diferença de ser de graça e *open source*. Oferece uma variedade de ferramentas para plotar os dados que criamos com Pandas.
 
-[![http://jupyter.org/](screens/jupyter.png)](http://jupyter.org/)
+[![http://jupyter.org/](../screens/jupyter.png)](http://jupyter.org/)
 
 [Jupyter](http://jupyter.org/) é uma biblioteca muito interessante que nos fornece o [Jupyter Notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks), uma ferramenta muito útil para organizar um projeto de análise de dados.
 
