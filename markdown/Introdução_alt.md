@@ -31,22 +31,20 @@ I.3 As ferramentas
 
 [[1]](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) **Loman & Watson, 2013.** So you want to be a computational biologist?  
 [[2]](./papers/Welch 2014 Bioinformatics curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies  
-[[3]](./papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program]
+[[3]](./papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program
 
 
 ### I.1 - Apresentação
 
-![](./screens/loman watson.png)
+![](../screens/loman watson.png)
 
 Por que você veio fazer esse curso?
 
 Talvez você não queira ser um biólogo computacional, porém é fato de que computadores são ferramentas imprescindíveis para a realização da pesquisa em biologia, e cada vez mais existe a necessidade de cientistas adotarem novas habilidades em informática [[1]](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf), seja para programar ou para instalar e fazer uso de pacotes, bibliotecas e linguagens de programação.
 
-No curso de biologia, aprende-se técnicas e ferramentas de pesquisa em diversas áreas. Em biologia celular, como montar uma lâmina e operar o microscópio. Em ecologia de comunidades, amostrar vegetação no campo com transectos. Em biologia molecular, como fazer uma extração de DNA e 'correr' um gel de eletroforese. No entanto, ainda é comum que as ferramentas computacionais sejam ignoradas em nosso treinamento.
+No curso de biologia, aprende-se técnicas e ferramentas de pesquisa em diversas áreas. Em biologia celular, como montar uma lâmina e operar o microscópio. Em ecologia de comunidades, amostrar vegetação no campo com transectos. Em biologia molecular, como fazer uma extração de DNA e 'correr' um gel de eletroforese. No entanto, ainda é comum que as ferramentas computacionais sejam ignoradas em nosso treinamento; isso é crítico, pois para muitos cientistas, a maior parte das horas de trabalho se passa em frente à uma tela de computador. Ter um bom domínio de certas ferramentas computacionais torna o trabalho de um pesquisador **muito** mais fácil e eficiente.
 
-Isso é crítico pois atualmente tais ferramentas . Para muitos cientistas, a maior parte das horas de trabalho se passa em frente à uma tela de computador, no entanto não temos, em nossa formação, oportunidades para tirar melhor proveito dessa ferramenta.
-
-No geral, as linguagens de programação e ferramentas de informática se tornam bichos-de-sete-cabeças que são vistos de forma superficial na graduação e quando surge a necessidade do seu uso, geralmente na pesquisa que é feita na pós-graduação, os acadêmicos acabam sofrendo e perdendo muito tempo pois não foram ensinados alguns princípios básicos que **desmistificam** a prática computacional. Por conta disso, vemos uma certa resistência ('preconceito') com esses aprendizados.
+Algo que acontece com as linguagens de programação e ferramentas de informática é que acabam se tornando bichos-de-sete-cabeças que são vistos de forma superficial na graduação e quando surge a necessidade do seu uso, geralmente na pesquisa que é feita na pós-graduação, os acadêmicos acabam sofrendo e perdendo muito tempo pois não foram ensinados alguns princípios básicos que **desmistificam** a prática computacional.
 
 Se você veio ler esse tutorial, são grandes as chances que você esteja usando alguma ferramenta informática que seja um pouco mais "avançada" do que o Excel. "Avançada" entre aspas por que na verdade muitas vezes essas ferramentas são super simples de se utilizar, porém requerem alguns conhecimentos prévios para sua instalação, implementação e execução. Talvez você esteja tendo que utilizar o pacote de métodos de alguma linguagem para aplicar uma análise estatística, ou tenha que formatar o script de algum doutorado que foi realizado no seu laboratório há anos atrás. Por mais que você pesquise e consiga resolver coisas bem específicas ao seu problema, existe a sensação de que você está deixando algo óbvio escapar, e que tornaria sua vida tão mais fácil.
 
@@ -66,7 +64,7 @@ Tudo que vou mostrar aqui para vocês é do ponto de vista de alguém que també
 
 Por conta disso, já quero dizer agora no início que esse é um espaço totalmente horizontal. Não venho oferecer esse curso como um "professor" ou mentor, mas sim como alguém que quer compartilhar e discutir esses conhecimentos para que possamos aprender juntos. Então fiquem a vontade para me interromper, me questionar, perguntar, contribuir, sugerir ou criticar. Se você sabe um jeito melhor ou mais fácil, se você não concorda, manifeste-se! Tenho certeza que só tem a contribuir. A participação e curiosidade é essencial para o aproveitamento do curso. 
 
-### I.2 Quem não aprender isso, provavelmente vai ficar para trás...
+### I.2 Informática cada vez mais necessária
 
 <!---   
 To-do:
@@ -81,27 +79,27 @@ To-do:
 
 ### Por que?
 
-#### Vivemos na era digital e da informação
+#### Realizar pesquisa requer análise de dados
 
 Todos os dias, quantidades massivas de dados são geradas em todos os cantos do mundo. Os pesquisadores nunca tiveram acesso a tanta informação com tanta facilidade. 
 
-A maioria de nós vê um pouco de 'R' na faculdade por um motivo, que é o fato de ser uma poderosa ferramenta de estatística. Quem nunca fez aquele gráfico em barra no Excel? Sabe-se que o 'R' é o passo a frente para fazer estatística de maior qualidade. Algumas alternativas são o 'Statistica', 'MATLAB', 'Primer', e o basicão que todos conhecem é o Excel que também obtém medidas simples de estatística (média, desvio padrão, teste T, etc).
+A maioria de nós vê um pouco de R na faculdade por um motivo, que é o fato de ser uma poderosa ferramenta de estatística. Quem nunca fez aquele gráfico em barra no Excel? Sabe-se que o R é o passo a frente para fazer estatística de maior qualidade. Algumas alternativas são o [Statistica](http://www.statsoft.com/Products/STATISTICA-Features), [MATLAB](https://www.mathworks.com/products/matlab.html), [Primer](http://www.primer-e.com/), e o basicão que todos conhecem é o Excel que também obtém medidas simples de estatística (média, desvio padrão, teste T, etc).
 
-Como quase todo cientista obtém dados **quantitativos** que são analisados e tratados com técnicas **estatísticas**, é bom saber um pouco mais de informática para dominar melhor essas ferramentas. Ao contrário do Excel, o 'R' e o MATLAB são linguagens de programação, e saber alguns **macetes** vai facilitar nossa vida quando formos usar essas ferramentas.
+Como quase todo cientista obtém dados **quantitativos** que são analisados e tratados com técnicas **estatísticas**, é bom saber um pouco mais de informática para dominar melhor essas ferramentas. Ao contrário do Excel, o R e o MATLAB são linguagens de programação, e saber alguns macetes vai facilitar nossa vida quando formos usar essas ferramentas.
 
 Cada ciência tem sua particularidade quando se trata de informática, mas **compartilham o eixo comum da análise de dados.** 
 
 Na geologia e geografia, por exemplo, a computação, junto com a cartografia, é necessária para o geoprocessamento e sensoriamento remoto.
-[Relacionado na biologia: figuras de área de estudo.]
 
-Na oceanografia, é usada para obtenção de dados físicos e séries temporais.
-[Relacionado: gráficos, gráficos, gráficos. Brincadeira que gráficos de oceanografia são bonitos, e não só gráfico em barra / heatmap. Também, modelos matemáticos de oceanografia física, ecologia, etc]
+Na oceanografia, um dos seus usos é para obtenção e processamento de dados físicos e séries temporais.
 
-Na química, usamos computadores para simulações de moléculas e forças intermoleculares.
-[Conformação de proteínas, bioquímica]
+Na química, a informática é usada para simulações de moléculas e forças intermoleculares.
 
 Nas ciências sociais e no jornalismo, pode ser usada para vasculhar a internet por dados públicos, como mídias sociais ou Portal Transparência.
+
+<!--
 [Aqui falar de Rosie, data mining. De novo falar do gráfico em barra, que sociólogo não precisa ficar só em entrevista e fazendo gráfico em barra. Jornalistas são investigadores que podem fazer ciência se tiverem rigor estatístico. Perguntar como relaciona com a biologia? Bancos de dados biológicos. Puxar o gancho para próxima sessão]
+-->
 
 ###[Nota sobre a bioinformática]
 
@@ -116,13 +114,17 @@ Na biologia temos um cenário diferente, mas relacionado com todos os exemplos a
 - Atividade enzimática e nutrientes: [concentração, absorbância] [bioquímica]
 
 Enquanto os dados acima são mais quantitativos,  
-**NÚMERO -> INFORMAÇÃO**,   
+**NÚMERO > INFORMAÇÃO**,   
 os dados de sequência da bioinformática seguem o padrão.  
-**LETRAS -> NÚMERO -> INFORMAÇÃO**.
+**SEQUÊNCIA > NÚMERO > INFORMAÇÃO**.
 
-Logo, em adição aos modelos matemáticos e estatístico comuns às outras ciências, que são utilizados para gerar informação em diversas áreas da biologia, a bioinformática é uma área que possue suas próprias particularidades em como se lidar com os dados. Isso envolve coisas como o **alinhamento** de sequências (BLAST), que pode levar a **anotação** e **montagem** de 'omas. Podemos dizer que o 'BIO' em bioinformática não se refere à 'BIOlogia' *geral*, mas sim à biologia **molecular**, e assim se torna útil para resolver problemas em outras áreas.
+Logo, em adição aos modelos matemáticos e estatístico comuns às outras ciências, que são utilizados para gerar informação em diversas áreas da biologia, a bioinformática é uma área que possue suas próprias particularidades em como se lidar com os dados. Isso envolve coisas como o **alinhamento** de sequências (BLAST), que pode levar a **anotação** e **montagem** de 'omas.
 
-Portanto, este não é um curso de BIOINFORMÁTICA.
+Apesar
+
+### Disclaimer
+
+Este não é um curso de BIOINFORMÁTICA.
 
 Este também não é um curso de LINGUAGEM DE PROGRAMAÇÃO, embora vamos ver exemplos na linguagem Python.
 

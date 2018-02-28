@@ -41,7 +41,7 @@ Layout no formato Ferramenta: program
 *"in the beginning, there was the command line."*  
 Neal Stepherson
 
-Referências
+Links úteis
 
 * [Software Carpentry: Shell Novice](http://swcarpentry.github.io/shell-novice/)
 * [Learn Enough Command-Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
