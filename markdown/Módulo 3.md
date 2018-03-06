@@ -8,7 +8,7 @@ I.1 Apresentação
 I.2 Informática cada vez mais necessária  
 I.3 As ferramentas
 
-[**Módulo 1: Ferramentas básicas**](./Módulo\ 1.html)
+[**Módulo 1: Ferramentas básicas**](./Módulo 1.html)
 
 1.1 - Linha de comando: Terminal  
 1.2 - Editor de texto e IDE: Atom	
@@ -30,32 +30,8 @@ I.3 As ferramentas
 
 ## Módulo 3:
 
-<!---
-To-do:
-
-- importância da colaboração
-- ten simple rules for biologists learning to program
-- boas praticas:
-	- documentação com jupyter notebook
-	- controle de versão com git
-	- colaboração com github
-
-
--->
-
 ### 3.1 - Boas práticas em computação científica
-
-**Referências:**
  
-   
-[[1]](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf) **Wilson et al, 2017.** Good enough practices in scientific computing
-
-
-<!-- TRANSFERIR ESSA SEÇÃO PARA INTRODUÇÃO
-
-Recapitulando o que foi discutido na [Introdução](./introdução.md) do curso, a proficiência no uso do computador e o domínio de fundamentos básicos de programação estão se tornando cada vez mais indispensáveis para qualquer cientista. Apesar das necessidades relacionadas ao treinamento dos pesquisadores neste tópico já serem evidentes há certo tempo, só em anos recentes que essa discussão se tornou bem presente na literatura. Comentários na revista Nature [[1]](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) e essa carta [[2]](./papers/Welch 2014 Bioinformatics curriculum.pdf) da ISCB (International Society for Computational Biology) descrevem habilidades-chave para biólogos que querem tirar proveito das ferramentas computacionais. Cientistas blogueiros também já escreveram sobre isso em meios menos formais do periódicos acadêmicos. Em 2009, o geneticista [Daniel MacArthur](https://www.wired.com/author/daniel-macarthur/) escreveu para revista Wired [[3]](./papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html), falando sobre informática:  **"não consigo pensar em quase nenhuma outra área na qual investir tempo e esforço cedo em sua carreira pode trazer um retorno tão dramático em termos de produtividade científica e oportunidades de carreira."** (adaptado)
-
---> 
 Nos Módulos 1 e 2 já fomos introduzidos à uma variedade de ferramentas que serão essenciais no nosso caminho da informática. Conseguimos fazer análise e visualização do conjunto de dados "Iris" usando comandos Python, no nosso Jupyter Notebook ou na nossa interface Atom + Terminal. Vimos diversos recursos para aprender a linguagem, como baixar e instalar bibliotecas e como organiza-las em ambientes virtuais; para integrar todos esses conhecimentos, temos que nos concentrar em adotar **boas práticas de computação científica**.
 
 Através de suas experiências com os workshops da *Software Carpentry*, Greg Wilson e colegas [[1]](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf) destacaram a carência dessas práticas e elaboraram um sumário de regras gerais que cientistas podem e devem considerar adotar. O título do paper, "Práticas boas o suficiente em computação científica" (adaptado) já faz alusão ao fato de que o exercício de tais práticas não deve ser algo cansativo e perfeccionista, mas sim princípios básicos no qual devemos nos apoiar na hora de trabalhar no computador, **da mesma forma que fazemos na bancada**. 
@@ -103,10 +79,43 @@ No quarto passo, salvar novamente, que controle de versão irá nos auxiliar. Po
 
 Dessa forma, gerenciamos as versões do nosso projeto, como se tirassemos pequenos retratos (*snapshots*) de cada versão do projeto.
 
-Para ter uma ideia melhor de como o Git funciona, [siga o tutorial no site (em inglês)](https://try.github.io/levels/1/challenges/1)
+Para ter uma ideia melhor de como o Git funciona, [siga o tutorial no site (em inglês).](https://try.github.io/levels/1/challenges/1)
 
 Apesar de vermos como funciona no site, é interessante fazer uma demonstração local na nossa máquina. Primeiro, [certifique-se que você tem o Git instalado.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) Vamos criar um diretório, inicializar o Git nesse diretório, criar um arquivo de texto, adiciona-lo ao nosso arquivo Git, e realizar um *commit*, ou seja, registrar a mudança que realizamos no nosso projeto.
 
 <!-- Módulo 3 - git.ipynb -->
 
-Se fosse o caso de 
+![](img/github.png)
+
+A vantagem do Git é o fato de ser totalmente integrado com o [**GitHub**](https://github.com/). Esse site é uma plataforma extremamente popular de **compartilhamento de código**, aonde usuários e organizações mantém **repositórios**, pastas contendo projetos que podem ser *clonados*, *forkeados*, e no geral compartilhados entre usuários. Assim como esse tutorial que você está lendo é mantido no GitHub, você pode (e deve) fazer upload dos seus projetos para lá. Diferente de outras plataformas em nuvem, como Dropbox ou Google Drive, o GitHub é voltado especificamente para projetos de código, sejam programas, aplicativos, bibliotecas, *scripts*, e muito mais. Existe uma infinidade de recursos para aprender como o GitHub funciona, como o [guia Hello World!](https://guides.github.com/activities/hello-world/) do próprio site, ou, em português, [esse vídeo](https://www.youtube.com/watch?v=UMhskLXJuq4) e este [post de blog.](http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/) Dê uma olhada para entender a integração entre o VCS que é o Git e a plataforma que é o GitHub.
+
+### 3.3 Como aprender programação: dicas para biólogos
+
+Nosso curso já nos muniu de ferramentas essenciais para trilharmos o caminho da informática. Para encerrar, vamos ver algumas dicas importantes que vão além de programas ou plataformas. Recente, os pesquisadores Maureen Carey e Jason Papin publicaram um guia curto intitulado "Dez regras simples para biólogos aprendendo a programar" [[2]](papers/Carey & Papin 2018 Ten Simple Rules.pdf), aonde relatam algumas recomendações bem bacanas, entre elas: **"Imersão é a melhor ferramenta."**
+
+
+
+
+
+#### Assim como na bancada, faça uso de boas práticas
+roteiro de boas práticas (salvar dados raw, processamento, controle de versão, reprodutibilidade, documente suas análises)
+
+#### Não tenha medo de errar
+como lidar com mensagens de erro, como fazer perguntas, usar o stack overflow
+
+#### Aprenda inglês
+aproveite os recursos da internet
+
+#### Tenha paciência
+leia o código como se fosse um livro, não desanime, *rubber duck debugging*
+
+
+
+
+
+
+**Referências:**
+ 
+   
+[[1]](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf) **Wilson et al, 2017.** Good enough practices in scientific computing.  
+[[2]](papers/Carey & Papin 2018 Ten Simple Rules.pdf) **Carey & Papin, 2018.** Ten simple rules for biologists learning to program.
