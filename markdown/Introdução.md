@@ -107,7 +107,7 @@ Logo, em adição aos modelos matemáticos e estatístico comuns às outras ciê
 
 ![](img/allbiology.png)
 
-Nesse brilhante paper, Florian Markowetz [[3]](./papers/Markowetz 2017 All Biology is Computational Biology.pdf) explica que apesar de nem todo dado biológico ser um dado de bioinformático, hoje em dia **"toda biologia é biologia computacional"**. É fato de que a biologia moderna necessita da tecnologia da informação para que possa ser compreendida, analisada e discutida. Apesar do *skillset* do **biólogo computacional/bioinformata** ser bem especializado [[4]](./papers/Welch 2014 Bioinformatics curriculum.pdf), é fundamental que qualquer biólogo - ou qualquer cientista/pesquisador - aprenda fundamentos básicos de computação.
+Nesse brilhante comentário, Florian Markowetz [[3]](./papers/Markowetz 2017 All Biology is Computational Biology.pdf) explica que apesar de nem todo dado biológico ser um dado de bioinformático, hoje em dia **"toda biologia é biologia computacional"**. É fato de que a biologia moderna necessita da tecnologia da informação para que possa ser compreendida, analisada e discutida. Apesar do *skillset* do **biólogo computacional/bioinformata** ser bem especializado [[4]](./papers/Welch 2014 Bioinformatics curriculum.pdf), é fundamental que qualquer biólogo - ou qualquer cientista/pesquisador - aprenda fundamentos básicos de computação.
 
 ### Disclaimer
 
