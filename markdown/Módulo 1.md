@@ -56,7 +56,7 @@ O Terminal será meramente nosso **aplicativo** para operar a nossa linha de com
 Quando aberto, o Terminal roda o programa **bash**, que é um tipo de *shell* (**Born Again SHell**). Vamos ver direitinho o que isso significa:  
 **shell**, esse nome chama a atenção, certo? Shell é concha. Sim, exatamente. Quando operamos a linha de comando, estamos mandando instruções para o computador. Mas o computador não fala a mesma língua que a gente. **shell** é um programa que interpreta as informações digitadas e enviadas para o computador, que retorna o resultado; o processo complexo que acontece entre os dois passos é "escondido" dentro da "concha", por isso shell. O **bash** é o tipo mais comum de shell, empregado no Terminal.
 
-![](screens/terminal1.png)
+![](img/terminal1.png)
 
 Repare que no título da janela vemos o nome do usuário e o programa que o Terminal está rodando.
 
@@ -64,7 +64,7 @@ Repare que no título da janela vemos o nome do usuário e o programa que o Term
 
 SIM. Se você quer aprender computação científica, você precisa entender os básicos de como é uma linha de comando. Ênfase no **básico**. É incrível a resistência para aprender a linha de comando por causa do seu aspecto de interface do 'Matrix'. Quando se vê um monte de letrinhas verdes em um fundo preto, já achamos que o sujeito está hackeando alguma coisa.
 
-![Aspecto do Terminal para quem não aprendeu como ele funciona](screens/Matrix.gif)
+![Aspecto do Terminal para quem não aprendeu como ele funciona](img/Matrix.gif)
 
 Para quem trabalha com *bioinformática*, algumas análises até podem ser realizadas sem o uso de uma CLI, mas o usuário será imensamente beneficiado ao utilizá-la. Não só isso, mas *compreender* Unix desenvolve um meio de pensar muito útil para resolver problemas bioinformáticos. [BioStar]
 
@@ -76,12 +76,12 @@ A pesquisa de Ana é com expressão de proteínas. Os arquivos de sequência sã
 
 Para Ana acessar esses arquivos, ela pode conectar-se ao servidor usando seu notebook, só que o sistema operacional não tem interface gráfica. É tudo pela linha de comando. Não é como se tivesse uma "tela" do usuário (uma GUI):
 
-![](screens/windows.jpg)
+![](img/windows.jpg)
 O servidor de Ana não parece com isso.
 
 Mas Ana não se importa. Ela acessa e lê os arquivos, usa os programas que estão instalados, tudo usando a memória RAM do servidor. Seu notebook está rodando apenas o Terminal e suportando a conexão de rede até o servidor. Todo o resto acontece lá dentro da **shell** do servidor. **Ela nem precisou de um mouse.**
 
-![](screens/hacker.jpg)
+![](img/hacker.jpg)
 
 -
 
@@ -93,11 +93,11 @@ Abrimos o programa e nos encontramos na "Home" folder, ou seja, a pasta-mãe do 
 
 **Nota: O mais "correto" seria chamar as pastas de *diretórios*. Mas por questão de praticidade, qualquer um dos termos serve.**
 
-![Home folder do meu MacBook](screens/home.png)
+![Home folder do meu MacBook](img/home.png)
 
 No Terminal, acontece o mesmo. O padrão é abrir na "home folder".
 
-![](screens/home_terminal.png)
+![](img/home_terminal.png)
 Repare o título da janela, tem até a casinha.
 Ok, mas onde está o conteúdo da pasta? Diferente da interface gráfica do Finder (explorer no Windows, nautilus no Gnome, etc.), preciso dizer para o Terminal, me mostre o conteúdo!
 
@@ -107,7 +107,7 @@ Alguns comandos do bash são ESSENCIAIS. É que nem quando você ensina a sua av
 
 Nosso primeiro comando vai ser o `ls`, que significa "list", liste o conteúdo.
 
-![](screens/ls.png)
+![](img/ls.png)
 Estamos na Home folder, e com o `ls` visualizamos o conteúdo da pasta. Mas o arquivo que queremos não está aqui.
 
 Enquanto no Finder teríamos que ir procurando e clicando nossa pasta de destino, no Terminal vamos digitar para onde vamos. Parece menos prático, certo? Não. Na verdade isso se torna bem mais rápido, especialmente em pastas com muuuitos arquivos.
@@ -116,15 +116,15 @@ Nosso segundo comando. Anota aí no papelzinho: `cd`
 
 `cd` significa "Change directory". Ou seja, navegue para a pasta tal, assim como quando clicamos no nome da pasta no Finder. Logo, especificamos para qual pasta queremos ir. Vamos executar `cd Bio` para mudar para a pasta Bio e `ls` para ver o que temos lá. Não esquece que 'Bio' é com B maiúsculo, isso faz toda a diferença nos terminais.
 
-![](screens/cd_bio_cli.png)
-![](screens/cd_bio_gui.png)
+![](img/cd_bio_cli.png)
+![](img/cd_bio_gui.png)
 
 Os dois programas estão fazendo a mesma coisa, navegando diretórios e visualizando seu conteúdo.
 
 Do Terminal, queremos ir para a pasta 'Awesome-Bioinformatics'.
 Executamos: `cd Awesome-Bioinformatic`
 
-![](screens/error1.png)
+![](img/error1.png)
 
 O bash retorna um erro de que essa pasta não existe. Claro, digitamos errado, faltou um 's' no final. A pasta Bio tinha um nome bem fácil de escrever, né? Essa já foi mais demorada. Agora imagina se quero digitar o nome de um arquivo chamado "resultados\_saidadecampo\_2703\_sem\_tabelas.txt", daria bastante trabalho, né? Eu podia até copiar e colar o nome do arquivo, mas isso também é chatinho.
 
@@ -147,13 +147,13 @@ Ele vai nos dizer 'aonde', ou em qual pasta estamos.
 
 Agora, vamos voltar para nossa Home. Quando usamos `cd` antes, especificamos nossa pasta de destino. Mas se digitarmos apenas `cd` e mais nada, automaticamente voltamos para Home.
 
-![](screens/cd.png)
+![](img/cd.png)
 
 Vemos que nosso diretório está contido dentro de /Users/. E se quisermos navegar para lá?
 `cd Users` não funciona, pois Users não está dentro do diretório atual. Vamos tentar uma coisa: `ls -a`
 
 
-![](screens/ls-a.png)
+![](img/ls-a.png)
 
 `-a` é uma **opção** do comando `ls`. Significa "all", ou seja, listar todos os arquivos. Além do conteúdo que vemos normalmente, a interface exibe os arquivos ocultos, ou do sistema, que começam com .
 
@@ -179,7 +179,7 @@ Para sairmos, apertamos <kbd>q</kbd> (quit).
 
 Outras situações podem nos deixar "presos" em uma operação do Terminal. Digite `cat` (vamos ver o que esse comando faz em outro momento). O *prompt* sumiu, certo? Para interromper essa ação, podemos usar o <kbd>CTRL</kbd> + <kbd>C</kbd>. Sempre que estivermos travados, o <kbd>CTRL</kbd> + <kbd>C</kbd> interrompe a operação e retorna ao *prompt*.
 
-![M1 - I3](screens/cat_in_box.png)
+![M1 - I3](img/cat_in_box.png)
 
 Esse gato ficou preso, ele podia só apertar <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
@@ -204,7 +204,7 @@ Vamos exemplificar:
 Precisamos digitar:  
 `rm -r cereal` o -r é para "**recursivo**", ou seja, o comando deleta cada coisa dentro da pasta e depois a pasta em si.
 
-![](screens/pooh.jpg)
+![](img/pooh.jpg)
 
 Com esses comandos, já conseguimos navegar, criar, copiar, mover e deletar pastas. Também vimos o que são opções, o que são argumentos e o que é o *prompt* de uma CLI. Aprendemos a usar a autocompleção com <kbd>TAB</kbd> e como acessar os comandos anteriores.
 
@@ -215,7 +215,7 @@ Digamos que eu quero achar **TODOS** os .mp3 no meu computador e botá-los em um
 
 É um comando um pouco mais avançado mas ainda assim são alguns segundos digitando vs. horas procurando pelos MP3s e clicando. Observe bem o comando: ele busca (`find`) na raíz (todo o computador) (`/`) arquivos de nome `"*.mp3"` e executa um `cp` para a pasta desejada. Repare no asterisco. Isso é o que chamamos de *wildcard*, ou coringa. Dizer "*.mp3" é o mesmo que dizer "qualquer combinação de caracteres que acabem com .mp3". Se eu executo um `cp * pastadedestino`, vou copiar todos os itens do diretório atual para a pastadedestino. Se eu executo `cp *.txt pastadedestino`, vou copiar todos os itens que tenham extensão .txt para a pastadedestino, e assim em diante.
 
-![](screens/hackerman.png)
+![](img/hackerman.png)
 
 Por mais que no começo tudo isso pareça um monte de informação, a medida que vamos usando no nosso dia-a-dia, vai se tornando algo cada vez mais fácil e rápido. Para motivos práticos, só é preciso saber um basicão de **bash** para poder fazer várias coisas bem importantes. Agora que vimos um pouco dessa ferramenta, vamos para a próxima ferramenta: o **editor de texto**.
 
@@ -238,7 +238,7 @@ Links úteis
 * [Setting up a Python Development Environment in Atom](https://www.youtube.com/watch?v=DjEuROpsvp4)
 
 
-![](screens/flight_manual.png)
+![](img/flight_manual.png)
  
 **Quando você começar a codar, vai perceber que vai passar muito tempo no editor de texto. Então fique confortável com ele.**
 
@@ -280,7 +280,7 @@ O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve p
 
 Um bom exemplo de IDE é o [RStudio.](https://www.rstudio.com/) [Quem aqui já ouviu falar?]
 
-![Screenshot do RStudio](screens/rstudio.png)
+![Screenshot do RStudio](img/rstudio.png)
 
 Enquanto o programa 'R' é apenas uma *linha de comando* dessa linguagem, o RStudio é um IDE para programação em R. Na imagem acima, podemos ver como o painel na parte de baixo a esquerda é igual ao que vemos quando abrimos o programa 'R' (uma linha de comando da linguagem). Apesar de que no 'R' também conseguimos escrever um script, o RStudio facilita essa tarefa (olhe o script sendo escrito no painel acima e a esquerda), e providencia outras ferramentas para otimizar o processo de programação (como oferecer acesso aos arquivos do projeto, abaixo a direita na imagem).
 
@@ -288,13 +288,13 @@ Como o RStudio serve quase que exclusivamente para programação em R, vamos imp
 
 A instalação do plugin que queremos é simples: no menu de Settings do Atom, vamos em Install, procuramos por 'terminal' e no `platformio-ide-terminal` clicamos em instalar.
 
-![](screens/packages.png)
+![](img/packages.png)
 
 Para abrir uma instância do Terminal, clicamos na cruz no canto inferior da tela.
 
 Repare bem na imagem abaixo. A esquerda, temos um fácil acesso aos nossos arquivos do projeto. No centro temos uma janela de editor de texto com um pouco de código, e na porção de baixo, temos uma janela com o Terminal, nossa linha de comando.
 
-![Screenshot da IDE Frankensten Atom + Terminal](screens/atom_ide.png)
+![Screenshot da IDE Frankensten Atom + Terminal](img/atom_ide.png)
 
 **Além disso, é colorido e bonitinho.** 
 
@@ -304,8 +304,8 @@ O que vamos fazer aqui é enviar os comandos da porção do editor de texto para
 
 **Outra vantagem é, podemos usar esse formato para diversas linguagens, e não só para o R**, e também temos acesso ao Terminal. É importante destacar que apesar do padrão para o Terminal ser o *bash*, podemos rodar outras linguagens nele.
 
-![](screens/python_console.png)
-![](screens/r_console.png)		
+![](img/python_console.png)
+![](img/r_console.png)		
 
 Abrindo instâncias de Python e R no Terminal. Repare na barra no topo da janela.
 
@@ -325,7 +325,7 @@ Porém, o que torna o Python ideal para nós, além de sua versatilidade e popul
 - é uma linguagem de alto nível e orientada a objetos;
 - a diversidade de bibliotecas e pacotes extende sua funcionalidade a virtualmente todos os campos das ciências biológicas.
 
-![M1 - S14](screens/zen.png)	
+![M1 - S14](img/zen.png)	
 
 O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) descreve a filosofia da linguagem: simplicidade e praticidade.
 

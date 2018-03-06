@@ -86,7 +86,7 @@ Apesar de ser o suficiente para reproduzir a análise, esse documento falha em u
 
 A prática de documentação de forma distinta para cada uma dos cinco tópicos de boas práticas propostos por Greg Wilson. Nossa próxima prática importante será a de usar um programa de **controle de versão.**
 
-![](../screens/git2.png)
+![](img/git2.png)
 
 Todos nós já passamos por aquela situação de ter vários arquivos parecidos com nomes do tipo "rascunho.doc", que viram "versaofinal.doc", depois "v\_final2.doc", "v\_finalcorrigida.doc", "vfinal\_agora_vai.doc"
 
@@ -99,7 +99,7 @@ Todos nós já passamos por aquela situação de ter vários arquivos parecidos 
 
 No quarto passo, salvar novamente, que controle de versão irá nos auxiliar. Podemos registrar **o que foi alterado**, **quando** aconteceu a mudança, e comparar o **antes** e **depois.**
 
-![](../screens/git.png)
+![](img/git.png)
 
 Dessa forma, gerenciamos as versões do nosso projeto, como se tirassemos pequenos retratos (*snapshots*) de cada versão do projeto.
 
