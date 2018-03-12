@@ -17,7 +17,7 @@ I.3 As ferramentas
 [**Módulo 2: Bibliotecas e ambientes virtuais**](./Módulo 2.html)
 
 2.1 - Conda: Ambientes virtuais e instalação de dependências  
-2.2 - Bibliotecas essenciais: Jupyter, Pandas e Matplotlib.  
+2.2 - Bibliotecas essenciais: Pandas, Matplotlib e Jupyter  
 2.3 - Analisando o conjunto Iris no Jupyter Notebook  
 
 [**Módulo 3: Colaboração e boas práticas**](./Módulo 3.html)
