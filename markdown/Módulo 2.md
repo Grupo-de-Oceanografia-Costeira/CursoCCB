@@ -33,9 +33,9 @@ I.3 As ferramentas
 
 ### Pacotes e bibliotecas
 
-Assim como o R, a capacidade do Python é enormemente expandida por conta da grande quantidade de pacotes e bibliotecas disponíveis. Alguns são essenciais para quem quer realizar análise de dados.
+Assim como o `R`, a capacidade do `Python` é enormemente expandida por conta da grande quantidade de pacotes e bibliotecas disponíveis. Alguns são essenciais para quem quer realizar análise de dados.
 
-![Existem muitas bibliotecas de Python voltadas à análise de dados biológicos](./img/biopython.png).
+![Existem muitas bibliotecas de Python voltadas à análise de dados biológicos](../img/biopython.png).
 
 [Nesse tópico no site BioStars](https://www.biostars.org/p/50749/#50758), esse usuário apontou algumas ferramentas em Python que são úteis para biólogos.
 
@@ -55,11 +55,11 @@ Para isso instalamos o Anaconda, que é uma plataforma para ciência de dados qu
 
 **Mas o que são e por que precisamos de ambientes virtuais?**
 
-Ambientes virtuais (*virtual environments* ou *envs*), são como caixinhas em nosso computador na qual instalamos programas, pacotes, bibliotecas, ou dependências, e elas funcionam naquele ambiente, sem interferir com outras instalações fora desse ambiente.
+Ambientes virtuais (*virtual environments* ou *envs*), são como caixinhas em nosso computador na qual instalamos programas, pacotes, bibliotecas, ou dependências, e elas funcionam naquele ambiente fechado, sem interferir com outras instalações fora desse ambiente.
 
 **Por exemplo:**
 
-Quando vamos baixar o Anaconda, podemos escolher entre Python versão 2.7 ou 3.4. Digamos que escolhemos a 3.4, por que é mais atualizada e compatível com a maioria dos programas. Porém, estamos fazendo um estudo de microbiologia e para analisar nossos dados, vamos precisar do [QIIME](http://qiime.org/), que requere a versão 2.7 do Python para rodar, e é incompatível com as versões 3.x. Além do Python, o QIIME requere versões específicas de diversas outras bibliotecas, que podem interferir com nosso ambiente **root** (nosso ambiente "global", sem nenhum ambiente virtual ativado).
+Quando vamos baixar o Anaconda, podemos escolher entre Python versão 2.7 ou 3.4. Digamos que escolhemos a 3.4, por que é mais atualizada e compatível com a maioria dos programas. Porém, estamos fazendo um estudo de microbiologia e para analisar nossos dados, vamos precisar do [QIIME](http://qiime.org/), que requere a versão 2.7 do Python para rodar, e é incompatível com as versões 3.x. Além do Python, o QIIME requere versões específicas de diversas outras bibliotecas, que podem interferir com nosso ambiente **root** (nosso ambiente "global", sem nenhum ambiente virtual ativado. Sim, o nosso sistema operacional usa uma versão de Python para executar várias outras atividades, que nada tem a ver com o Conda).
 
 A solução é **criar um ambiente virtual** com Python 2.7 instalado, e nesse ambiente instalamos as **dependências** necessárias para que o QIIME rode. O `conda` permite que façamos isso.
 
@@ -94,11 +94,11 @@ Copiamos o comando e uma mensagem irá confirmar a instalação do QIIME e todas
 
 `conda install -c bioconda qiime`
 
-Acontece que perdemos todas as nossas sequências, então não vamos precisar do QIIME. Vamos aprender sobre outras bibliotecas mais essenciais no momento. Remova o ambiente com o comando:
+Acontece que perdemos todas as nossas sequências, então não vamos precisar do QIIME. Vamos aprender sobre outras bibliotecas mais essenciais no momento. Então, para remover ese ambiente virtual criado use os comandos:
 `source deactivate`
 `conda remove -n qiime --all`
 
-Vamos criar um novo repositório para fazer uma análise de dados mais simples. Além da versão do Python, podemos especificar outros pacotes para o `conda` instalar quando criar o ambiente:
+Vamos criar um novo ambiente virtual para fazer uma análise de dados mais simples. Além da versão do Python, podemos especificar outros pacotes para o `conda` instalar quando criar o ambiente:
 
 `conda create -n tutorial Python=3 Pandas Matplotlib Jupyter`
 
@@ -115,7 +115,7 @@ Ativando o ambiente:
 
 É um equívoco comum, para quem está começando a aprender uma linguagem, pensar que o uso desta por si só vai levar ao resultado final do que se está buscando. Uma linguagem como Python, embora poderosa, necessita um conhecimento extenso para ser utilizada efetivamente sem o auxílio de pacotes externos. 
 
-Para tirar o máximo proveito de um conhecimento básico de Python, vamos alavancar a funcionalidade da linguagem por meio dessas três bibliotecas. Sua combinação vai nos possibilitar um ambiente simples mas efetivo para análise de dados. Se o nosso objetivo fosse outro, como por exemplo, desenvolvimento web, faríamos uso de outros *frameworks*, como [Flask](http://flask.pocoo.org/) ou [Django.](https://www.djangoproject.com/)
+Para tirar o máximo proveito de um conhecimento básico de Python, vamos alavancar a funcionalidade da linguagem por meio dessas três bibliotecas. Sua combinação vai nos possibilitar um ambiente simples mas efetivo para análise de dados. Se o nosso objetivo fosse outro, como por exemplo, desenvolvimento web, faríamos uso de outras bibliotecas, como os *frameworks* [Flask](http://flask.pocoo.org/) ou [Django.](https://www.djangoproject.com/)
 
 [![https://pandas.pydata.org/](img/pandas.png)](https://pandas.pydata.org/)
 
@@ -129,7 +129,7 @@ Para tirar o máximo proveito de um conhecimento básico de Python, vamos alavan
 
 [Jupyter](http://jupyter.org/) é uma biblioteca muito interessante que nos fornece o [Jupyter Notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks), uma ferramenta muito útil para organizar um projeto de análise de dados.
 
-Um arquivo Jupyter Notebook permite a *execução de código* junto com texto MarkDown, como html. Vamos realizar nossa análise com Pandas, plotar com Matplotlib e anotar e organizar tudo com anotações utilizando o Jupyter Notebook.
+Um arquivo Jupyter Notebook permite a *execução de código* junto com texto MarkDown, como html. Vamos realizar nossa análise com `Pandas`, plotar com `Matplotlib` e anotar e organizar tudo com anotações utilizando o `Jupyter Notebook`.
 
 O arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html) foi renderizado a partir de um arquivo Notebook. Vamos abrir o arquivo [Módulo 2 - continuação.ipynb](Módulo 2 - continuação.ipynb). Mas para isso precisamos abrir uma instância de Jupyter.
 
