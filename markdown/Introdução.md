@@ -31,7 +31,7 @@ I.3 As ferramentas
 
 ### I.1 - Apresentação
 
-![](img/loman watson.png)
+![](../img/loman watson.png)
 
 Por que você veio fazer esse curso?
 
@@ -55,7 +55,7 @@ Depois que consegui fazer o que precisava para o meu projeto, percebi o quanto e
 
 Tudo que vou mostrar aqui para vocês é do ponto de vista de alguém que também é iniciante. Não tenho um *background* em TI, computação, nem nada, aliás em ciências no geral só estou começando minha trajetória, sabendo que é uma longa estrada. No entanto, sei que o pouquinho que já sei de informática não só vai me ajudar muuuito no resto da minha carreira, mas que esses conhecimentos são essenciais para qualquer pesquisador/cientista.
 
-![Programação vai ser bem útil para sua carreira, pode apostar.](img/xkcd.jpg)
+![Programação vai ser bem útil para sua carreira, pode apostar.](../img/xkcd.jpg)
 
 Por conta disso, já quero dizer agora no início que esse é um espaço totalmente horizontal. Não venho oferecer esse curso como um "professor" ou mentor, mas sim como alguém que quer compartilhar e discutir esses conhecimentos para que possamos aprender juntos. Então fiquem a vontade para me interromper, me questionar, perguntar, contribuir, sugerir ou criticar. Se você sabe um jeito melhor ou mais fácil, se você não concorda, manifeste-se! Tenho certeza que só tem a contribuir. A participação e curiosidade é essencial para o aproveitamento do curso. 
 
@@ -105,7 +105,7 @@ os dados de sequência da bioinformática seguem o padrão.
 
 Logo, em adição aos modelos matemáticos e estatístico comuns às outras ciências, que são utilizados para gerar informação em diversas áreas da biologia, a bioinformática é uma área que possue suas próprias particularidades em como se lidar com os dados. Isso envolve coisas como o **alinhamento** de sequências (BLAST), que pode levar a **anotação** e **montagem** de 'omas.
 
-![](img/allbiology.png)
+![](../img/allbiology.png)
 
 Nesse brilhante comentário, Florian Markowetz [[3]](./papers/Markowetz 2017 All Biology is Computational Biology.pdf) explica que apesar de nem todo dado biológico ser um dado de bioinformático, hoje em dia **"toda biologia é biologia computacional"**. É fato de que a biologia moderna necessita da tecnologia da informação para que possa ser compreendida, analisada e discutida. Apesar do *skillset* do **biólogo computacional/bioinformata** ser bem especializado [[4]](./papers/Welch 2014 Bioinformatics curriculum.pdf), é fundamental que qualquer biólogo - ou qualquer cientista/pesquisador - aprenda fundamentos básicos de computação.
 
@@ -123,7 +123,7 @@ No Módulo 2, o foco será como instalar, organizar e utilizar bibliotecas da no
 
 No Módulo 3, discutiremos o que são boas práticas de computação científica e como adotá-las.
 
-Em um post [[5]](./papers/A beginner's guide to bioinformatics - part I.htm) no blog [homolog.us](http://homolog.us/blogs/), o autor explica que existem cinco níveis de *expertise* em bioinformática, do mais fácil ao mais difícil:
+Em um post [[5]](../papers/A beginner's guide to bioinformatics - part I.htm) no blog [homolog.us](http://homolog.us/blogs/), o autor explica que existem cinco níveis de *expertise* em bioinformática, do mais fácil ao mais difícil:
 
 **Nível 1:** Usar a web para analisar dados biológicos.
 **Nível 2:** Habilidade de instalar e rodar novos programas.
@@ -146,13 +146,13 @@ excel open tabela.xlsx
 
 **AI MAS POR QUE USAR UMA LINHA DE COMANDO?? É BEM MAIS DIFÍCIL NÃO TEM FIGURINHA PRA CLICAR**
 
-![](img/bobesponja.jpg)
+![](../img/bobesponja.jpg)
 
 Na verdade existem vários motivos para usar uma linha de comando. É mais fácil de salvar um 'roteiro' das ações que foram realizadas, pois elas não são um clique em um botão, e sim uma linha de texto que pode ser salva em algo tão simples quanto um arquivo .txt. Basta dar um ctrl+c ctrl+v na nossa linha de comando que todas nossas ações são executadas, ao invés de ter que ficar clicando incessantemente.
 
 A linha de comando que tomaremos como exemplo é o **bash**, que será operado pelo console do **Terminal**. Ela é bem característica de sistemas UNIX-like, tais como o Linux e o MAC OS X. Quem usa algum desses sistemas provavelmente já teve contato com **bash**. No Windows, o equivalente seria o MS-DOS, apesar de que bash é mais difundida que o DOS. * Veremos um pouco mais na seção 1.1.
 
-![Essa é a carinha do Terminal](img/terminal1.png)
+![Essa é a carinha do Terminal](../img/terminal1.png)
 
 
 #### 2. Editor de texto: o Atom
@@ -160,7 +160,7 @@ A linha de comando que tomaremos como exemplo é o **bash**, que será operado p
 O bom uso de um editor de texto é essencial para programação e para manipulação de dados. Um exemplo bem simples de editor de texto é o TextEdit no Mac ou o NotePad (Bloco de notas) no Windows. Por mais simplório que seja, o editor de texto armazena nossos comandos. Repare a diferença de um editor de texto, como o Bloco de Notas, e um processador de palavras, como o Word. O primeiro só edita e visualiza texto, enquanto o último tem ferramentas mais extensas para 'escrita' propriamente dita.  
 Para nosso tutorial, vamos utilizar [o Atom](https://atom.io/), que já pedi para vocês instalarem. Este é um editor de texto customizável e multi-plataforma, podendo ser usado tanto no Linux, Windows ou MAC OS X. Além disso, é de código aberto!
 
-![Olha que BONITINHO](img/atom.png)
+![Olha que BONITINHO](../img/atom.png)
 
 O Atom também tem uma característica muito boa que é uma grande quantidade de plugins disponíveis. Vamos fazer grande uso de um plugin destes, que é o `platformio-ide-terminal`.
 
@@ -176,13 +176,13 @@ O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve p
 
 Um bom exemplo de IDE é o [RStudio.](https://www.rstudio.com/) [Quem aqui já ouviu falar?]
 
-![Screenshot do RStudio](img/rstudio.png)
+![Screenshot do RStudio](../img/rstudio.png)
 
 Enquanto o programa 'R' é apenas uma *linha de comando* dessa linguagem, o RStudio é um IDE para programação em R. Na imagem acima, podemos ver como o painel na parte de baixo a esquerda é igual ao que vemos quando abrimos o programa 'R' (uma linha de comando da linguagem). Apesar de que no 'R' também conseguimos escrever um script, o RStudio facilita essa tarefa (olhe o script sendo escrito no painel acima e a esquerda), e providencia outras ferramentas para otimizar o processo de programação (como oferecer acesso aos arquivos do projeto, abaixo a direita na imagem).
 
 Como o RStudio serve quase que exclusivamente para programação em R, vamos improvisar nosso IDE customizado usando o Atom e o Terminal. Isso mesmo, já estamos hackeando programas! Olha só. 
 
-![Screenshot da IDE Frankensten Atom + Terminal](img/atom_ide.png)
+![Screenshot da IDE Frankensten Atom + Terminal](../img/atom_ide.png)
 
 Repare bem nessa imagem. A esquerda, temos um fácil acesso aos nossos arquivos do projeto. No centro temos uma janela de editor de texto com um pouco de código, e na porção de baixo, temos uma janela com o Terminal, nossa linha de comando.
 
@@ -214,11 +214,11 @@ Nossos exemplos serão na linguagem Python.
 
 # **Referências**
 
-[[1]](./papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) **Loman & Watson, 2013.** So you want to be a computational biologist?  
-[[2]](./papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program]  
-[[3]](./papers/Markowetz 2017 All Biology is Computational Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.   
-[[4]](./papers/Welch 2014 Bioinformatics curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies   
-[[5]](./papers/A beginner's guide to bioinformatics - part I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I.
+[[1]](../papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) **Loman & Watson, 2013.** So you want to be a computational biologist?  
+[[2]](../papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program]  
+[[3]](../papers/Markowetz 2017 All Biology is Computational Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.   
+[[4]](../papers/Welch 2014 Bioinformatics curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies   
+[[5]](../papers/A beginner's guide to bioinformatics - part I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I.
 
 
 -
