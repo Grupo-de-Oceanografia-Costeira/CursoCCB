@@ -20,7 +20,7 @@ I.3 As ferramentas
 2.2 - Bibliotecas essenciais: Pandas, Matplotlib e Jupyter  
 2.3 - Analisando o conjunto Iris no Jupyter Notebook  
 
-[**Módulo 3: Colaboração e boas práticas**](../Módulo 3.html)
+[**Módulo 3: Colaboração e boas práticas**](../Módulo\ 3.html)
 
 3.1 - Boas práticas em computação científica  
 3.2 - Documentação e controle de versão: Git e GitHub  
@@ -31,7 +31,7 @@ I.3 As ferramentas
 
 ### I.1 - Apresentação
 
-![](/img/loman watson.png)
+![](img/loman watson.png)
 
 Por que você veio fazer esse curso?
 
