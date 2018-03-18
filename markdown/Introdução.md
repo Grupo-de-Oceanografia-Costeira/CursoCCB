@@ -8,13 +8,13 @@ I.1 Apresentação
 I.2 Informática cada vez mais necessária  
 I.3 As ferramentas
 
-[**Módulo 1: Ferramentas básicas**](../Módulo 1.html)
+[**Módulo 1: Ferramentas básicas**](../Módulo\ 1.html)
 
 1.1 - Linha de comando: Terminal  
 1.2 - Editor de texto e IDE: Atom	
 1.3 - Linguagem de Programação: Python
 
-[**Módulo 2: Bibliotecas e ambientes virtuais**](../Módulo 2.html)
+[**Módulo 2: Bibliotecas e ambientes virtuais**](../Módulo\ 2.html)
 
 2.1 - Conda: Ambientes virtuais e instalação de dependências  
 2.2 - Bibliotecas essenciais: Pandas, Matplotlib e Jupyter  
