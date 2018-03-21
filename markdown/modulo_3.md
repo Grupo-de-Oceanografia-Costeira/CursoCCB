@@ -66,7 +66,7 @@ A prática de documentação de forma distinta para cada uma dos cinco tópicos 
 
 Todos nós já passamos por aquela situação de ter vários arquivos parecidos com nomes do tipo "rascunho.doc", que viram "versaofinal.doc", depois "v\_final2.doc", "v\_finalcorrigida.doc", "vfinal\_agora_vai.doc"
 
-**Git** é um programa que monitora as mudanças em nossos projetos, e permite criar *checkpoints* em nossos arquivos e diretórios. Basicamente, nosso trabalho envolve os seguintes passos:
+**Git** é um VCS, ou *version control s programa que monitora as mudanças em nossos projetos, e permite criar *checkpoints* em nossos arquivos e diretórios. Basicamente, nosso trabalho envolve os seguintes passos:
 
 * Criar coisas
 * Salvar coisas
@@ -150,7 +150,7 @@ Wilson et al. também recomendam o seguinte protocolo para lidar com arquivos co
 
 1. Salve os dados "crus" (*raw data*), **exatamente como foram coletados**.
 2. Faça backup destes.
-3. Crie "*analysis-friendly data*, ou seja, dados que sejam compatíveis com o software que será usado para analisá-lo. Isso pode envolver editar cabeçotes, converter formatos de arquivo e afins, e vai facilitar que você:
+3. Crie "*analysis-friendly data*, ou seja, dados que sejam compatíveis com o software que será usado para analisá-lo. Isso pode envolver editar cabeçotes, converter formatos de arquivo e afins, e vai facilitar que você execute o passo 4.
 4. Crie os dados que quer ver no mundo. Figuras, gráficos, tabelas ou como você desejar apresentar seus dados.  
 5. Registre todos os passos usados para processar os dados. Isso pode ser feito em um Jupyter Notebook, devidamente anotado como mencionado na **Regra 7**, acima. No exemplo do diretório ```pibic_fulano```, poderíamos ter mais uma pasta chamada ```analysis``` com arquivos .ipynb descrevendo as análises com os dados da pasta ```data``` e o software da pasta ```scripts```, bem como eventuais comentários.
 
