@@ -35,7 +35,7 @@ I.3 As ferramentas
 
 Assim como o `R`, a capacidade do `Python` é enormemente expandida por conta da grande quantidade de pacotes e bibliotecas disponíveis. Alguns são essenciais para quem quer realizar análise de dados.
 
-![Existem muitas bibliotecas de Python voltadas à análise de dados biológicos](../img/biopython.png).
+![Existem muitas bibliotecas de Python voltadas à análise de dados biológicos](./img/biopython.png).
 
 [Nesse tópico no site BioStars](https://www.biostars.org/p/50749/#50758), esse usuário apontou algumas ferramentas em Python que são úteis para biólogos.
 
@@ -131,7 +131,7 @@ Para tirar o máximo proveito de um conhecimento básico de Python, vamos alavan
 
 Um arquivo Jupyter Notebook permite a *execução de código* junto com texto MarkDown, como html. Vamos realizar nossa análise com `Pandas`, plotar com `Matplotlib` e anotar e organizar tudo com anotações utilizando o `Jupyter Notebook`.
 
-O arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html) foi renderizado a partir de um arquivo Notebook. Vamos abrir o arquivo [Módulo 2 - continuação.ipynb](Módulo 2 - continuação.ipynb). Mas para isso precisamos abrir uma instância de Jupyter.
+O arquivo [python\_primeiros_comandos.html](./python_primeiros_comandos.html) foi renderizado a partir de um arquivo Notebook. Vamos abrir o arquivo [modulo\_2_continuacao.ipynb](../notebooks/modulo\_2_continuacao.ipynb). Mas para isso precisamos abrir uma instância de Jupyter.
 
 No Terminal, digite `Jupyter Notebook` para abrir uma página no seu navegador web.
 
