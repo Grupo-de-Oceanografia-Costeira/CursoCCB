@@ -1,26 +1,26 @@
-## Computação científica para biólogos
+## Computação científica para biólogos e pesquisadores
 
 ### Sumário
 
-[**Introdução: o porquê deste curso**](./introducao.html/)
+[**Introdução: o porquê deste curso**](./introducao.md/)
 
 I.1 Apresentação  
 I.2 Informática cada vez mais necessária  
 I.3 As ferramentas
 
-[**Módulo 1: Ferramentas básicas**](./modulo_1.html)
+[**Módulo 1: Ferramentas básicas**](./modulo_1.md)
 
 1.1 - Linha de comando: Terminal  
-1.2 - Editor de texto e IDE: Atom	
+1.2 - Editor de texto e IDE: Atom  
 1.3 - Linguagem de Programação: Python
 
-[**Módulo 2: Bibliotecas e ambientes virtuais**](./modulo_2.html)
+[**Módulo 2: Bibliotecas e ambientes virtuais**](./modulo_2.md)
 
 2.1 - Conda: Ambientes virtuais e instalação de dependências  
 2.2 - Bibliotecas essenciais: Pandas, Matplotlib e Jupyter  
 2.3 - Analisando o conjunto Iris no Jupyter Notebook  
 
-[**Módulo 3: Colaboração e boas práticas**](./modulo_3.html)
+[**Módulo 3: Colaboração e boas práticas**](./modulo_3.md)
 
 3.1 - Boas práticas em computação científica  
 3.2 - Documentação e controle de versão: Git e GitHub  
@@ -170,11 +170,11 @@ Se refira ao paper e também à seção 3.1 para ver outras dicas nos tópicos d
 #### Não tenha medo de errar
 Essa dica se refere às **Regras 5 e 10**. Em programação, é muito comum encontrar mensagens de erro. Na verdade, elas nos ajudam! Começamos recebendo uma mensagem de erro e nem sabemos por que. Parando para a ler, conseguimos descobrir QUAL é o problema para tentar resolve-lo. As vezes mudamos uma coisinha e obtemos um erro diferente.
 
-![](../img/works.jpg)
+![](./img/works.jpg)
 
 Apesar da **Regra 4**, o melhor amigo do programador será o [Google](https://www.google.com), onde podemos malandramente copiar e colar nossas mensagens de erro e esperar que alguém que já teve o mesmo problema tenha conseguido resolver. Certo? Não exatamente. Como mencionado na **Regra 5**, devemos fazer bem nossas pesquisas, e se necessário, perguntar em sites como o [Stack OverFlow](https://stackoverflow.com/), explicitando nosso problema e dando exemplos conforme o adequado.
 
-![[](https://stackoverflow.com/)](../img/stackover.png)
+![[](https://stackoverflow.com/)](./img/stackover.png)
 
 #### Aprenda inglês
 Essa é uma recomendação tão geral que deve valer para qualquer pessoa que queira trabalhar como pesquisador. Assim como na ciência, na programação e informática o inglês é de longe o idioma predominante, seja para tutoriais, documentação, nome de programas, tipos de dados e variáveis. Também é o mais difundido em fóruns de programação, livros, periódicos e os mais diversos tipos de recursos. Uma das motivações para criar esse tutorial que você está lendo foi justamente a carência de materiais em língua portuguesa. Embora existam bons recursos para aprender programação, principalmente no [YouTube](https://www.youtube.com/) e em blogs, são poucos os que estão voltados à **computação científica** em si.
@@ -201,6 +201,6 @@ Crie uma pasta com um conjunto de dados que você tenha. Tente escrever código 
 
 **Referências:**
    
-[[1]](../papers/Wilson et al 2017 Good enough practices scientific computing.pdf) **Wilson et al, 2017.** Good enough practices in scientific computing.  
-[[2]](../papers/Carey & Papin 2018 Ten Simple Rules.pdf) **Carey & Papin, 2018.** Ten simple rules for biologists learning to program.  
-[[3]](../papers/Schnell 2015 Ten Simple Rules for a Computational Biologist's Laboratory Notebook.pdf) **Schnell, 2015.** Ten simple rules for a computational biologist's laboratory notebook.
+[[1]](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf) **Wilson et al, 2017.** Good enough practices in scientific computing.  
+[[2]](./papers/Carey & Papin 2018 Ten Simple Rules.pdf) **Carey & Papin, 2018.** Ten simple rules for biologists learning to program.  
+[[3]](./papers/Schnell 2015 Ten Simple Rules for a Computational Biologist's Laboratory Notebook.pdf) **Schnell, 2015.** Ten simple rules for a computational biologist's laboratory notebook.

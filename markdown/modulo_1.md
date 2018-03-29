@@ -1,26 +1,26 @@
-## Computação científica para biólogos
+## Computação científica para biólogos e pesquisadores
 
 ### Sumário
 
-[**Introdução: o porquê deste curso**](./introducao.html/)
+[**Introdução: o porquê deste curso**](./introducao.md/)
 
 I.1 Apresentação  
 I.2 Informática cada vez mais necessária  
 I.3 As ferramentas
 
-[**Módulo 1: Ferramentas básicas**](./modulo_1.html)
+[**Módulo 1: Ferramentas básicas**](./modulo_1.md)
 
 1.1 - Linha de comando: Terminal  
-1.2 - Editor de texto e IDE: Atom	
+1.2 - Editor de texto e IDE: Atom  
 1.3 - Linguagem de Programação: Python
 
-[**Módulo 2: Bibliotecas e ambientes virtuais**](./modulo_2.html)
+[**Módulo 2: Bibliotecas e ambientes virtuais**](./modulo_2.md)
 
 2.1 - Conda: Ambientes virtuais e instalação de dependências  
 2.2 - Bibliotecas essenciais: Pandas, Matplotlib e Jupyter  
 2.3 - Analisando o conjunto Iris no Jupyter Notebook  
 
-[**Módulo 3: Colaboração e boas práticas**](./modulo_3.html)
+[**Módulo 3: Colaboração e boas práticas**](./modulo_3.md)
 
 3.1 - Boas práticas em computação científica  
 3.2 - Documentação e controle de versão: Git e GitHub  
