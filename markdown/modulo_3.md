@@ -62,7 +62,7 @@ Apesar de ser o suficiente para reproduzir a análise, esse documento falha em u
 
 A prática de documentação de forma distinta para cada uma dos cinco tópicos de boas práticas propostos por Greg Wilson. Nossa próxima prática importante será a de usar um programa de **controle de versão.**
 
-![](img/git2.png)
+![](../img/git2.png)
 
 Todos nós já passamos por aquela situação de ter vários arquivos parecidos com nomes do tipo "rascunho.doc", que viram "versaofinal.doc", depois "v\_final2.doc", "v\_finalcorrigida.doc", "vfinal\_agora_vai.doc"
 
@@ -75,7 +75,7 @@ Todos nós já passamos por aquela situação de ter vários arquivos parecidos 
 
 No quarto passo, salvar novamente, que controle de versão irá nos auxiliar. Podemos registrar **o que foi alterado**, **quando** aconteceu a mudança, e comparar o **antes** e **depois.**
 
-![](img/git.png)
+![](../img/git.png)
 
 Dessa forma, gerenciamos as versões do nosso projeto, como se tirássemos pequenos retratos (*snapshots*) de cada versão do projeto.
 
@@ -85,13 +85,13 @@ Apesar de vermos como funciona no site, é interessante fazer uma demonstração
 
 <!-- Módulo 3 - git.ipynb -->
 
-![](img/github.png)
+![](../img/github.png)
 
 A vantagem do Git é o fato de ser totalmente integrado com o [**GitHub**](https://github.com/). Esse site é uma plataforma extremamente popular de **compartilhamento de código**, aonde usuários e organizações mantém **repositórios**, pastas contendo projetos que podem ser *clonados*, *forkeados*, e no geral compartilhados entre usuários. Assim como esse tutorial que você está lendo é mantido no GitHub, você pode (e deve) fazer upload dos seus projetos para lá. Diferente de outras plataformas em nuvem, como Dropbox ou Google Drive, o GitHub é voltado especificamente para projetos de código, sejam programas, aplicativos, bibliotecas, *scripts*, e muito mais. Existe uma infinidade de recursos para aprender como o GitHub funciona, como o [guia Hello World!](https://guides.github.com/activities/hello-world/) do próprio site, ou, em português, [esse vídeo](https://www.youtube.com/watch?v=UMhskLXJuq4) e este [post de blog.](http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/) Dê uma olhada para entender a integração entre o VCS que é o Git e a plataforma que é o GitHub.
 
 ### 3.3 Como aprender programação: dicas para biólogos
 
-![](img/ploscomp.png)
+![](../img/ploscomp.png)
 
 Nosso curso já nos muniu de ferramentas essenciais para trilharmos o caminho da informática. Para encerrar, vamos ver algumas dicas importantes que vão além de programas ou plataformas. Recente, os pesquisadores Maureen Carey e Jason Papin publicaram um guia curto intitulado "Dez regras simples para biólogos aprendendo a programar" [[2]](papers/Carey & Papin 2018 Ten Simple Rules.pdf). Fizemos uma tradução e adaptação livre do guia para nos apoiarmos.
 
@@ -170,11 +170,11 @@ Se refira ao paper e também à seção 3.1 para ver outras dicas nos tópicos d
 #### Não tenha medo de errar
 Essa dica se refere às **Regras 5 e 10**. Em programação, é muito comum encontrar mensagens de erro. Na verdade, elas nos ajudam! Começamos recebendo uma mensagem de erro e nem sabemos por que. Parando para a ler, conseguimos descobrir QUAL é o problema para tentar resolve-lo. As vezes mudamos uma coisinha e obtemos um erro diferente.
 
-![](./img/works.jpg)
+![](../img/works.jpg)
 
 Apesar da **Regra 4**, o melhor amigo do programador será o [Google](https://www.google.com), onde podemos malandramente copiar e colar nossas mensagens de erro e esperar que alguém que já teve o mesmo problema tenha conseguido resolver. Certo? Não exatamente. Como mencionado na **Regra 5**, devemos fazer bem nossas pesquisas, e se necessário, perguntar em sites como o [Stack OverFlow](https://stackoverflow.com/), explicitando nosso problema e dando exemplos conforme o adequado.
 
-![[](https://stackoverflow.com/)](./img/stackover.png)
+![[](https://stackoverflow.com/)](../img/stackover.png)
 
 #### Aprenda inglês
 Essa é uma recomendação tão geral que deve valer para qualquer pessoa que queira trabalhar como pesquisador. Assim como na ciência, na programação e informática o inglês é de longe o idioma predominante, seja para tutoriais, documentação, nome de programas, tipos de dados e variáveis. Também é o mais difundido em fóruns de programação, livros, periódicos e os mais diversos tipos de recursos. Uma das motivações para criar esse tutorial que você está lendo foi justamente a carência de materiais em língua portuguesa. Embora existam bons recursos para aprender programação, principalmente no [YouTube](https://www.youtube.com/) e em blogs, são poucos os que estão voltados à **computação científica** em si.

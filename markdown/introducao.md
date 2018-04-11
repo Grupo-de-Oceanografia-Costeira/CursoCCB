@@ -215,10 +215,10 @@ Nossos exemplos serão na linguagem Python.
 # **Referências**
 
 [[1]](../papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) **Loman & Watson, 2013.** So you want to be a computational biologist?  
-[[2]](../papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program]  
+[[2]](../papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program.  
 [[3]](../papers/Markowetz 2017 All Biology is Computational Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.   
 [[4]](../papers/Welch 2014 Bioinformatics curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies   
-[[5]](../papers/A beginner's guide to bioinformatics - part I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I.
+[[5]](../papers/A beginner's guide to bioinformatics - part I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I
 
 
 -
