@@ -87,7 +87,23 @@ Apesar de vermos como funciona no site, é interessante fazer uma demonstração
 
 ![](../img/github.png)
 
-A vantagem do Git é o fato de ser totalmente integrado com o [**GitHub**](https://github.com/). Esse site é uma plataforma extremamente popular de **compartilhamento de código**, aonde usuários e organizações mantém **repositórios**, pastas contendo projetos que podem ser *clonados*, *forkeados*, e no geral compartilhados entre usuários. Assim como esse tutorial que você está lendo é mantido no GitHub, você pode (e deve) fazer upload dos seus projetos para lá. Diferente de outras plataformas em nuvem, como Dropbox ou Google Drive, o GitHub é voltado especificamente para projetos de código, sejam programas, aplicativos, bibliotecas, *scripts*, e muito mais. Existe uma infinidade de recursos para aprender como o GitHub funciona, como o [guia Hello World!](https://guides.github.com/activities/hello-world/) do próprio site, ou, em português, [esse vídeo](https://www.youtube.com/watch?v=UMhskLXJuq4) e este [post de blog.](http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/) Dê uma olhada para entender a integração entre o VCS que é o Git e a plataforma que é o GitHub.
+A vantagem do Git é o fato de ser totalmente integrado com o [**GitHub**](https://github.com/). Esse site é uma plataforma extremamente popular de **compartilhamento de código**, aonde usuários e organizações mantém **repositórios** (*repos*), pastas contendo projetos que podem ser *clonados*, *forkeados*, e no geral compartilhados entre usuários. Assim como esse tutorial que você está lendo é mantido no GitHub, você pode (e deve) fazer upload dos seus projetos para lá. Diferente de outras plataformas em nuvem, como Dropbox ou Google Drive, o GitHub é voltado especificamente para projetos de código, sejam programas, aplicativos, bibliotecas, *scripts*, e muito mais. Existe uma infinidade de recursos para aprender como o GitHub funciona, como o [guia Hello World!](https://guides.github.com/activities/hello-world/) do próprio site, ou, em português, [esse vídeo](https://www.youtube.com/watch?v=UMhskLXJuq4) e este [post de blog.](http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/) Dê uma olhada para entender a integração entre o VCS que é o Git e a plataforma que é o GitHub.
+
+Para entender o que é *clonar* ou *forkear* um repositório, vamos fazer isso com o repositório deste curso.
+
+![](../img/fork.png)
+
+Ao clicar no botão Fork, nos criamos uma **cópia** deste repositório em nosso perfil do GitHub. Logo, um **Fork** é uma cópia idêntica do repositório que foi forkeado, no entanto agora a pessoa que criou esse fork pode modificar esse repositório da maneira que quiser.
+
+Para que nós possamos ter esse repositório localmente, ou seja, em nossa máquina, precisamos clonar ele para nosso ambiente local. Isso é feito ali pelo botão **Clone or download**.
+
+![](../img/clone.png)
+
+Copiando o url do repo, basta digitar no terminal o comando `git clone <URL>`. O repositório será *clonado* para uma pasta *linkada* através do Git com o repositório hospedado no GitHub. Para sincronizar a pasta local com a pasta remota e vice-versa, usamos os comandos `git pull` (remoto > local) e `git push` (local > remoto). Antes de fazer isso, precisamos adicionar os arquivos que que precisamos sincronizar entre elas com os comandos `git add` e `git commit`, como vimos no [exemplo de Git](../notebooks/modulo_3_git.ipynb) na pasta [notebooks](../notebooks).
+
+A ideia de Forks é que os usuários podem ter uma cópia de um repositório de terceiros e customiza-la como quiserem, sem interferir no repo original. No entanto, o usuário pode solicitar um *pull request* ao dono original do repositório. Se o dono concordar com o *pull request*, pode incorporar aquelas mudanças ao repo original. Ou seja, o *usuário solicita ao dono do repositório que ele realize um pull do seu Fork, que foi modificado*.
+
+Digamos que você encontre um bug no script que você está usando. No entanto, ao revisar o código, vê que é algo simples de consertar, como mudar a versão de uma biblioteca que está sendo importada. Você tem duas escolhas, reportar um *issue* na página do repositório, ou fazer um Fork, editar o código e solicitar um *pull request* ao dono do repositório, para que ele atualize o código do repo original com aquela correção que você fez.
 
 ### 3.3 Como aprender programação: dicas para biólogos
 
@@ -150,7 +166,7 @@ Wilson et al. também recomendam o seguinte protocolo para lidar com arquivos co
 
 1. Salve os dados "crus" (*raw data*), **exatamente como foram coletados**.
 2. Faça backup destes.
-3. Crie "*analysis-friendly data*, ou seja, dados que sejam compatíveis com o software que será usado para analisá-lo. Isso pode envolver editar cabeçotes, converter formatos de arquivo e afins, e vai facilitar que você execute o passo 4.
+3. Crie "*analysis-friendly data*", ou seja, dados que sejam compatíveis com o software que será usado para analisá-lo. Isso pode envolver editar cabeçotes, converter formatos de arquivo e afins, e vai facilitar que você execute o passo 4.
 4. Crie os dados que quer ver no mundo. Figuras, gráficos, tabelas ou como você desejar apresentar seus dados.  
 5. Registre todos os passos usados para processar os dados. Isso pode ser feito em um Jupyter Notebook, devidamente anotado como mencionado na **Regra 7**, acima. No exemplo do diretório ```pibic_fulano```, poderíamos ter mais uma pasta chamada ```analysis``` com arquivos .ipynb descrevendo as análises com os dados da pasta ```data``` e o software da pasta ```scripts```, bem como eventuais comentários.
 
