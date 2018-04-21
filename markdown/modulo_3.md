@@ -34,7 +34,7 @@ I.3 As ferramentas
  
 Nos Módulos 1 e 2 já fomos introduzidos à uma variedade de ferramentas que serão essenciais no nosso caminho da informática. Conseguimos fazer análise e visualização do conjunto de dados "Iris" usando comandos Python, no nosso Jupyter Notebook ou na nossa interface Atom + Terminal. Vimos diversos recursos para aprender a linguagem, como baixar e instalar bibliotecas e como organiza-las em ambientes virtuais; para integrar todos esses conhecimentos, temos que nos concentrar em adotar **boas práticas de computação científica**.
 
-Através de suas experiências com os workshops da *Software Carpentry*, Greg Wilson e colegas [[1]](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf) destacaram a carência dessas práticas e elaboraram um sumário de regras gerais que cientistas podem e devem considerar adotar. O título do paper, "Práticas boas o suficiente em computação científica" (adaptado) já faz alusão ao fato de que o exercício de tais práticas não deve ser algo cansativo e perfeccionista, mas sim princípios básicos no qual devemos nos apoiar na hora de trabalhar no computador, **da mesma forma que fazemos na bancada**. 
+Através de suas experiências com os workshops da *Software Carpentry*, Greg Wilson e colegas [[1]](../papers/Wilson et al 2017 Good enough practices scientific computing.pdf) destacaram a carência dessas práticas e elaboraram um sumário de regras gerais que cientistas podem e devem considerar adotar. O título do paper, "Práticas boas o suficiente em computação científica" (adaptado) já faz alusão ao fato de que o exercício de tais práticas não deve ser algo cansativo e perfeccionista, mas sim princípios básicos no qual devemos nos apoiar na hora de trabalhar no computador, **da mesma forma que fazemos na bancada**. 
 
 Isso significa que *workflows* computacionais devem seguir as mesmas práticas que outros projetos de laboratório, incluindo dados organizados, passos documentos e uma estruturação do projeto voltada à *reprodutibilidade*. Se usamos métodos computacionais para manipular nossos dados, eles devem ser descritos na literatura; A regra geral é sempre citar os softwares que foram utilizados, especialmente se há um paper descrevendo a ferramenta. No entanto, assim como um protocolo de laboratório, o processamento de dados pode variar dependendo de como a ferramenta computacional é utilizada. Imagine um ensaio enzimático: a concentração de determinado reagente pode influenciar o resultado final, certo? O mesmo acontece com ferramentas de informática: A configuração de determinados parâmetros em um software pode alterar a saída de dados, e consequentemente a informação a ser interpretada. Portanto, não basta citar apenas o método utilizado, e também **como** foi utilizado.
 
@@ -109,7 +109,7 @@ Digamos que você encontre um bug no script que você está usando. No entanto, 
 
 ![](../img/ploscomp.png)
 
-Nosso curso já nos muniu de ferramentas essenciais para trilharmos o caminho da informática. Para encerrar, vamos ver algumas dicas importantes que vão além de programas ou plataformas. Recente, os pesquisadores Maureen Carey e Jason Papin publicaram um guia curto intitulado "Dez regras simples para biólogos aprendendo a programar" [[2]](papers/Carey & Papin 2018 Ten Simple Rules.pdf). Fizemos uma tradução e adaptação livre do guia para nos apoiarmos.
+Nosso curso já nos muniu de ferramentas essenciais para trilharmos o caminho da informática. Para encerrar, vamos ver algumas dicas importantes que vão além de programas ou plataformas. Recente, os pesquisadores Maureen Carey e Jason Papin publicaram um guia curto intitulado "Dez regras simples para biólogos aprendendo a programar" [[2]](../papers/Carey & Papin 2018 Ten Simple Rules.pdf). Fizemos uma tradução e adaptação livre do guia para nos apoiarmos.
 
 **Regra 1: Comece com o final em mente**
 
@@ -137,7 +137,7 @@ A regra 6 é encontrada em outras "listas de regras para biólogos" ([uma](http:
 
 **Regra 7: Desenvolva bons hábitos desde cedo**
 
-Pesquisa computacional é pesquisa, então utilize *boas práticas*. Isso inclui manter um caderno de laboratório computacional [[3]](papers/Schnell 2015 Ten Simple Rules for a Computational Biologist's Laboratory Notebook.pdf), que deve incluir protocolos. Protocolos computacionais são scripts ou métodos, e devem incluir o código em si e como acessar tudo para implementar o código, *garantindo a reprodutibilidade*. Isso também envolve controle de versão para garantir a manutenção dos protocolos e cadernos.
+Pesquisa computacional é pesquisa, então utilize *boas práticas*. Isso inclui manter um caderno de laboratório computacional [[3]](../papers/Schnell 2015 Ten Simple Rules for a Computational Biologist's Laboratory Notebook.pdf), que deve incluir protocolos. Protocolos computacionais são scripts ou métodos, e devem incluir o código em si e como acessar tudo para implementar o código, *garantindo a reprodutibilidade*. Isso também envolve controle de versão para garantir a manutenção dos protocolos e cadernos.
 
 **Regra 8: prática leva à perfeição**
 
@@ -199,13 +199,13 @@ Essa é uma recomendação tão geral que deve valer para qualquer pessoa que qu
 
 Chegamos ao fim do nosso conteúdo! Vamos fazer um sumário geral e recapitular o que aprendemos.
 
-* Na [**Introdução**](../Introdução.html/) exploramos a importância de aprender informática e o porquê deste curso, e também fomos apresentados ao que será ensinado.
-* No [**Módulo 1**](../Módulo 1.html/), aprendemos os básicos de três ferramentas essenciais:
+* Na [**Introdução**](./introducao.md/) exploramos a importância de aprender informática e o porquê deste curso, e também fomos apresentados ao que será ensinado.
+* No [**Módulo 1**](./modulo_1.md/), aprendemos os básicos de três ferramentas essenciais:
 	1. Terminal: Ter um *prompt* de comando (CLI) nos permite executar funções do sistema (*bash*), bem como um console para diferentes linguagens de programação, como Python e R.
 	2. Atom: utilizart um editor de texto permite o registro, visualização e modificação do nosso código. Acoplar nosso editor de texto ao Terminal fornece uma **IDE** simples, que pode servir para desenvolvimento, análises ou testes.
 	3. Python: compreender e dominar uma linguagem de programação permite entender seu propósito, como programas nela escritos funcionam, e como escrever código utilizando a dita linguagem. Python é uma linguagem poderosa, versátil e popular, o que a torna muito indicada para iniciantes.
-* No [**Módulo 2**](../Módulo 2.html), aprendemos sobre gerenciadores de pacotes como o ```conda```, e também como baixar e instalar bibliotecas do [Anaconda Cloud](https://anaconda.org/) ou do [PyPI](https://pypi.python.org/pypi), utilizando `pip`. Criamos um ambiente com as bibliotecas Pandas, Matplotlib e Jupyter, que são bibliotecas populares de Python que permitem análise e visualização de dados (Pandas e Matplotlib) e um ambiente integrado de execução e documentação de código (Jupyter). Fizemos uso dessas biliotecas para importar e visualizar o Iris dataset.
-* No [**Módulo 3**](../Módulo 3.html), discutimos o que são boas práticas de computação científica [[1]](papers/Carey & Papin 2018 Ten Simple Rules.pdf), tivemos uma demonstração de controle de versão e o que é e para que serve o GitHub. Vimos um guia de dez regras simples para biólogos aprendendo a programar [[2]](../papers/Carey & Papin 2018 Ten Simple Rules.pdf), e outras dicas.
+* No [**Módulo 2**](./modulo_2.md), aprendemos sobre gerenciadores de pacotes como o ```conda```, e também como baixar e instalar bibliotecas do [Anaconda Cloud](https://anaconda.org/) ou do [PyPI](https://pypi.python.org/pypi), utilizando `pip`. Criamos um ambiente com as bibliotecas Pandas, Matplotlib e Jupyter, que são bibliotecas populares de Python que permitem análise e visualização de dados (Pandas e Matplotlib) e um ambiente integrado de execução e documentação de código (Jupyter). Fizemos uso dessas biliotecas para importar e visualizar o Iris dataset.
+* No [**Módulo 3**](./modulo_3.md), discutimos o que são boas práticas de computação científica [[1]](../papers/Wilson et al 2017 Good enough practices scientific computing.pdf), tivemos uma demonstração de controle de versão e o que é e para que serve o GitHub. Vimos um guia de dez regras simples para biólogos aprendendo a programar [[2]](../papers/Carey & Papin 2018 Ten Simple Rules.pdf), e outras dicas.
 
 #### Da onde seguir daqui
 
@@ -217,6 +217,6 @@ Crie uma pasta com um conjunto de dados que você tenha. Tente escrever código 
 
 **Referências:**
    
-[[1]](./papers/Wilson et al 2017 Good enough practices scientific computing.pdf) **Wilson et al, 2017.** Good enough practices in scientific computing.  
-[[2]](./papers/Carey & Papin 2018 Ten Simple Rules.pdf) **Carey & Papin, 2018.** Ten simple rules for biologists learning to program.  
-[[3]](./papers/Schnell 2015 Ten Simple Rules for a Computational Biologist's Laboratory Notebook.pdf) **Schnell, 2015.** Ten simple rules for a computational biologist's laboratory notebook.
+[[1]](../papers/Wilson et al 2017 Good enough practices scientific computing.pdf) **Wilson et al, 2017.** Good enough practices in scientific computing.  
+[[2]](../papers/Carey & Papin 2018 Ten Simple Rules.pdf) **Carey & Papin, 2018.** Ten simple rules for biologists learning to program.  
+[[3]](../papers/Schnell 2015 Ten Simple Rules for a Computational Biologist's Laboratory Notebook.pdf) **Schnell, 2015.** Ten simple rules for a computational biologist's laboratory notebook.

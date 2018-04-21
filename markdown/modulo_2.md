@@ -69,7 +69,7 @@ A solução é **criar um ambiente virtual** com Python 2.7 instalado, e nesse a
 
 Embora a instalação do Anaconda nos propicia o Anaconda Navigator, uma interface gráfica, vamos utilizar o `conda` pelo Terminal.
 
-[Nesse documento](papers/conda-cheatsheet.pdf) temos uma referência rápida dos comandos básicos do `conda`.
+[Nesse documento](../papers/conda-cheatsheet.pdf) temos uma referência rápida dos comandos básicos do `conda`.
 
 Para criar um novo ambiente, usamos o comando `conda create` junto do nome do ambiente e a versão de Python que desejamos.
 
@@ -88,7 +88,7 @@ Diferente do `pip`, o `conda` não baixa programas do [PyPI](https://pypi.python
 
 Esse repositório é muito útil pois fornece os pacotes disponíveis e os comandos para instalação.
 
-[![https://anaconda.org/bioconda/qiime]((../img/qiimeinstall.png)](https://anaconda.org/bioconda/qiime)
+[![https://anaconda.org/bioconda/qiime](../img/qiimeinstall.png)](https://anaconda.org/bioconda/qiime)
 
 Copiamos o comando e uma mensagem irá confirmar a instalação do QIIME e todas as dependências necessárias.
 
@@ -108,7 +108,7 @@ Ativando o ambiente:
 
 `source activate tutorial`
 
-É importante aprender os diferentes comandos do `conda`. Outros gerenciadores de pacote como o `pip` também funcionam com comandos como `pip install <nome do pacote>`. Você pode utilizar o `pip` para instalar pacotes em ambientes criados pelo `conda`. Para ver os pacotes que estão no ambiente atual, use o comando `conda list`. Um sumários dos comandos do `conda` pode ser acessado [nessa *cheat sheet*.](./conda-cheatsheet.pdf)
+É importante aprender os diferentes comandos do `conda`. Outros gerenciadores de pacote como o `pip` também funcionam com comandos como `pip install <nome do pacote>`. Você pode utilizar o `pip` para instalar pacotes em ambientes criados pelo `conda`. Para ver os pacotes que estão no ambiente atual, use o comando `conda list`. Um sumários dos comandos do `conda` pode ser acessado [nessa *cheat sheet*.](../papers/conda-cheatsheet.pdf)
 
 
 ### 2.2 Bibliotecas essenciais: Pandas, Matplotlib e Jupyter.
@@ -117,15 +117,15 @@ Ativando o ambiente:
 
 Para tirar o máximo proveito de um conhecimento básico de Python, vamos alavancar a funcionalidade da linguagem por meio dessas três bibliotecas. Sua combinação vai nos possibilitar um ambiente simples mas efetivo para análise de dados. Se o nosso objetivo fosse outro, como por exemplo, desenvolvimento web, faríamos uso de outras bibliotecas, como os *frameworks* [Flask](http://flask.pocoo.org/) ou [Django.](https://www.djangoproject.com/)
 
-[![https://pandas.pydata.org/]((../img/pandas.png)](https://pandas.pydata.org/)
+[![https://pandas.pydata.org/](../img/pandas.png)](https://pandas.pydata.org/)
 
 [Pandas](https://pandas.pydata.org/) é uma biblioteca de análise contendo ferramentas de análise de dados de fácil uso e alta performance. Vamos utilizar **métodos** dessa biblioteca para importar e manipular nossos dados.
 
-[![https://matplotlib.org/]((../img/matplotlib.png)](https://matplotlib.org/)
+[![https://matplotlib.org/](../img/matplotlib.png)](https://matplotlib.org/)
 
 [Matplotlib](https://matplotlib.org/) é uma biblioteca de plotagem inspirada no MATLAB, com a diferença de ser de graça e *open source*. Oferece uma variedade de ferramentas para plotar os dados que criamos com Pandas.
 
-[![http://jupyter.org/]((../img/jupyter.png)](http://jupyter.org/)
+[![http://jupyter.org/](../img/jupyter.png)](http://jupyter.org/)
 
 [Jupyter](http://jupyter.org/) é uma biblioteca muito interessante que nos fornece o [Jupyter Notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks), uma ferramenta muito útil para organizar um projeto de análise de dados.
 
