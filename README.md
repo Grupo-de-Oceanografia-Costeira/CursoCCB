@@ -2,9 +2,11 @@
 
 Esse é um curso destinado a ensinar princípios de programação científica para biólogos.
 
+Se você vai participar do curso presencialmente, leia o arquivo [info.md](./info.md). Ele contém as informações essenciais sobre inscrição, requisitos, etc.
+
 Para clonar o repositório na sua máquina, tenha [git](https://git-scm.com/downloads) instalado e copie o comando abaixo no Terminal. 
 
-```git clone https://github.com/Grupo-de-Oceanografia-Costeira/tutorial_v2.git```
+```git clone https://github.com/Grupo-de-Oceanografia-Costeira/CursoPraticasProg.git```
 
 [data](./data) contém arquivos suplementares de conjuntos de dados.
 
@@ -12,4 +14,4 @@ Para clonar o repositório na sua máquina, tenha [git](https://git-scm.com/down
 
 [papers](./papers) contém referências e literatura relevante ao projeto.
 
-[screens](./screens) contém imagens.
+[img](./img) contém imagens.
