@@ -79,6 +79,3 @@ Se a sua inscrição foi confirmada e você vai utilizar a sua máquina Linux / 
 * [PlatformIO-IDE-Terminal](https://atom.io/packages/platformio-ide-terminal): Esse plugin vai nos permitir ter um ambiente de programação dentro do Atom.
 * [GitHub](https://github.com/): Crie uma conta no GitHub e clone esse repositório digitando o seguinte comando no Terminal: ```git clone https://github.com/Grupo-de-Oceanografia-Costeira/CursoPraticasProg.git```
 
-Parabéns! Você está preparado para o curso. Pode pegar um café.
-
-![](img/femalecodercat.jpg)
