@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>introducao</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h2 id="toc_0">Computação científica para biólogos e pesquisadores</h2>
+
+<h3 id="toc_1">Sumário</h3>
+
+<p><a href="./introducao.md/"><strong>Introdução: o porquê deste curso</strong></a></p>
+
+<p>I.1 Apresentação<br>
+I.2 Informática cada vez mais necessária<br>
+I.3 As ferramentas</p>
+
+<p><a href="./modulo_1.md"><strong>Módulo 1: Ferramentas básicas</strong></a></p>
+
+<p>1.1 - Linha de comando: Terminal<br>
+1.2 - Editor de texto e IDE: Atom<br>
+1.3 - Linguagem de Programação: Python</p>
+
+<p><a href="./modulo_2.md"><strong>Módulo 2: Bibliotecas e ambientes virtuais</strong></a></p>
+
+<p>2.1 - Conda: Ambientes virtuais e instalação de dependências<br>
+2.2 - Bibliotecas essenciais: Pandas, Matplotlib e Jupyter<br>
+2.3 - Analisando o conjunto Iris no Jupyter Notebook  </p>
+
+<p><a href="./modulo_3.md"><strong>Módulo 3: Colaboração e boas práticas</strong></a></p>
+
+<p>3.1 - Boas práticas em computação científica<br>
+3.2 - Documentação e controle de versão: Git e GitHub<br>
+3.3 - Como aprender programação: dicas para biólogos</p>
+
+<h2 id="toc_2"></h2>
+
+<h2 id="toc_3">Introdução</h2>
+
+<h3 id="toc_4">I.1 - Apresentação</h3>
+
+<p><img src="../img/loman%20watson.png" alt=""></p>
+
+<p>Por que você veio fazer esse curso?</p>
+
+<p>Talvez você não queira ser um <strong>biólogo computacional</strong>, porém é fato de que computadores são ferramentas imprescindíveis para a realização da pesquisa em biologia, e cada vez mais existe a necessidade de cientistas adotarem novas habilidades em informática <a href="../papers/Loman%20&amp;%20Watson%202013%20So%20you%20want%20to%20be%20a%20computational%20biologist.pdf">[1]</a>, seja para programar ou para instalar e fazer uso de pacotes, bibliotecas e linguagens de programação.</p>
+
+<p>No curso de biologia, aprende-se técnicas e ferramentas de pesquisa em diversas áreas. Em biologia celular, como montar uma lâmina e operar o microscópio. Em ecologia de comunidades, amostrar vegetação no campo com transectos. Em biologia molecular, como fazer uma extração de DNA e &#39;correr&#39; um gel de eletroforese. No entanto, ainda é comum que as ferramentas computacionais sejam ignoradas em nosso treinamento; isso é crítico, pois para muitos cientistas, a maior parte das horas de trabalho se passa em frente à uma tela de computador. Ter um bom domínio de certas ferramentas computacionais torna o trabalho de um pesquisador mais fácil e eficiente. Em 2009, o geneticista <a href="https://www.wired.com/author/daniel-macarthur/">Daniel MacArthur</a> escreveu para revista Wired <a href="../papers/MacArthur%202009%20Why%20biology%20students%20should%20learn%20how%20to%20program%20_%20WIRED.html">[2]</a>, falando sobre informática:  <strong>&quot;não consigo pensar em quase nenhuma outra área na qual investir tempo e esforço cedo em sua carreira pode trazer um retorno tão dramático em termos de produtividade científica e oportunidades de carreira.&quot;</strong> (adaptado)</p>
+
+<p>Algo que acontece com as linguagens de programação e ferramentas de informática é que acabam se tornando bichos-de-sete-cabeças que são vistos de forma superficial na graduação e quando surge a necessidade do seu uso, geralmente na pesquisa que é feita na pós-graduação, os acadêmicos acabam sofrendo e perdendo muito tempo pois não foram ensinados alguns princípios básicos que <strong>desmistificam</strong> a prática computacional.</p>
+
+<p>Se você veio ler esse tutorial, são grandes as chances que você esteja usando alguma ferramenta informática que seja um pouco mais &quot;avançada&quot; do que o Excel. &quot;Avançada&quot; entre aspas por que na verdade muitas vezes essas ferramentas são super simples de se utilizar, porém requerem alguns conhecimentos prévios para sua instalação, implementação e execução. Talvez você esteja tendo que utilizar o pacote de métodos de alguma linguagem para aplicar uma análise estatística, ou tenha que formatar o script de algum doutorado que foi realizado no seu laboratório há anos atrás. Por mais que você pesquise e consiga resolver coisas bem específicas ao seu problema, existe a sensação de que você está deixando algo óbvio escapar, e que tornaria sua vida tão mais fácil.</p>
+
+<p>É inevitável, em algum ponto ou outro da graduação nos depararmos com esses desafios da informática. E é normal que eles causem frustração. Não conseguir rodar um pacote, não conseguir fazer funcionar um script necessário para o processamento dos nossos dados, não conseguir instalar aquele programa obscuro baixado do site de algum laboratório que parece que não foi atualizado desde a época do DOS, ter problemas com driver de algum equipamento de laboratório, a lista se alonga.</p>
+
+<h4 id="toc_5">About</h4>
+
+<p>Vini Salazar, graduando em biologia na UFSC. Comecei a estudar informática em 2015, então, assim como vocês, sou iniciante em tudo isso aqui. O que vou apresentar para vocês é o que eu gostaria que tivessem me mostrado quando comecei minha jornada &#39;nerd&#39;.</p>
+
+<p>Essa jornada começou em um projeto de pesquisa no qual eu participava como um voluntário. Esse projeto utilizava métodos bioinformáticos para obtenção e análise de dados. Só que o programa que fazia isso não era tão fácil assim de mexer... Era operado pela <strong>linha de comando</strong>, exigia a instalação de diversas <strong>dependências</strong>, e um conhecimento de informática mais aprofundado do que o que eu tinha na época. A medida que fui superando as mensagens de erro e entendendo como aquilo funcionava, percebi que muitos outros biólogos também já passaram por isso. Se alguém tivesse me dado algumas dicas simples, tudo seria mais fácil!</p>
+
+<p>Depois que consegui fazer o que precisava para o meu projeto, percebi o quanto eu gostava de mexer com essas coisas. Compreender o funcionamento e tirar melhor proveito dos softwares que eu utilizava facilitava muito a prática de pesquisa. Era mais fácil do que parecia!</p>
+
+<p>Tudo que vou mostrar aqui para vocês é do ponto de vista de alguém que também é iniciante. Não tenho um <em>background</em> em TI, computação, nem nada, aliás em ciências no geral só estou começando minha trajetória, sabendo que é uma longa estrada. No entanto, sei que o pouquinho que já sei de informática não só vai me ajudar muuuito no resto da minha carreira, mas que esses conhecimentos são essenciais para qualquer pesquisador/cientista.</p>
+
+<p><img src="../img/xkcd.jpg" alt="Programação vai ser bem útil para sua carreira, pode apostar."></p>
+
+<p>Por conta disso, já quero dizer agora no início que esse é um espaço totalmente horizontal. Não venho oferecer esse curso como um &quot;professor&quot; ou mentor, mas sim como alguém que quer compartilhar e discutir esses conhecimentos para que possamos aprender juntos. Então fiquem a vontade para me interromper, me questionar, perguntar, contribuir, sugerir ou criticar. Se você sabe um jeito melhor ou mais fácil, se você não concorda, manifeste-se! Tenho certeza que só tem a contribuir. A participação e curiosidade é essencial para o aproveitamento do curso.</p>
+
+<h3 id="toc_6">I.2 Informática cada vez mais necessária</h3>
+
+<h2 id="toc_7"></h2>
+
+<h5 id="toc_8">Qualquer pesquisador pode tirar proveito de dominar esses princípios de informática e programação</h5>
+
+<h3 id="toc_9">Por que?</h3>
+
+<h4 id="toc_10">Realizar pesquisa requer análise de dados</h4>
+
+<p>Todos os dias, quantidades massivas de dados são geradas em todos os cantos do mundo. Os pesquisadores nunca tiveram acesso a tanta informação com tanta facilidade.</p>
+
+<p>A maioria de nós vê um pouco de R na faculdade por um motivo, que é o fato de ser uma poderosa ferramenta de estatística. Quem nunca fez aquele gráfico em barra no Excel? Sabe-se que o R é o passo a frente para fazer estatística de maior qualidade. Algumas alternativas são o <a href="http://www.statsoft.com/Products/STATISTICA-Features">Statistica</a>, <a href="https://www.mathworks.com/products/matlab.html">MATLAB</a>, <a href="http://www.primer-e.com/">Primer</a>, e o basicão que todos conhecem é o Excel que também obtém medidas simples de estatística (média, desvio padrão, teste T, etc).</p>
+
+<p>Como quase todo cientista obtém dados <strong>quantitativos</strong> que são analisados e tratados com técnicas <strong>estatísticas</strong>, é bom saber um pouco mais de informática para dominar melhor essas ferramentas. Ao contrário do Excel, o R e o MATLAB são linguagens de programação, e saber alguns macetes vai facilitar nossa vida quando formos usar essas ferramentas.</p>
+
+<p>Cada ciência tem sua particularidade quando se trata de informática, mas <strong>compartilham o eixo comum da análise de dados.</strong></p>
+
+<p>Na geologia e geografia, por exemplo, a computação, junto com a cartografia, é necessária para o geoprocessamento e sensoriamento remoto.</p>
+
+<p>Na oceanografia, um dos seus usos é para obtenção e processamento de dados físicos e séries temporais.</p>
+
+<p>Na química, a informática é usada para simulações de moléculas e forças intermoleculares.</p>
+
+<p>Nas ciências sociais e no jornalismo, pode ser usada para vasculhar a internet por dados públicos, como mídias sociais ou Portal Transparência.</p>
+
+<!--
+[Aqui falar de Rosie, data mining. De novo falar do gráfico em barra, que sociólogo não precisa ficar só em entrevista e fazendo gráfico em barra. Jornalistas são investigadores que podem fazer ciência se tiverem rigor estatístico. Perguntar como relaciona com a biologia? Bancos de dados biológicos. Puxar o gancho para próxima sessão]
+-->
+
+<h3 id="toc_11">[Nota sobre a bioinformática]</h3>
+
+<p>Na biologia temos um cenário diferente, mas relacionado com todos os exemplos acima. O campo da <strong>bionformática</strong> tornou-se uma área distinta por conta da natureza dos dados biológicos. A manipulação desses dados é particular no sentido que possue uma &#39;mistura&#39; do aspecto quantitativo e qualitativo. As ômicas, a filogenia e pode-se dizer que a biologia molecular como um todo fazem emprego de ferramentas BIO-INFORMÁTICAS para análise de dados biológicos, principalmente sequências das mais variadas formas e tamanhos: genes, genomas, transcriptomas, RNAs, proteínas, SNPs, etc. Usando dados de sequência podemos responder questões em diversas áreas, como bioquímica, ecologia, taxonomia e evolução; no entanto, podemos notar a diferença dos dados de sequência para outros dados &#39;em tabela&#39; notados nessas mesmas áreas, como por exemplo:</p>
+
+<ul>
+<li><p>Riqueza e abundância: [tabela espécies x sítio, alfa e beta diversidade] [ecologia]</p></li>
+<li><p>Dados ambientais: [diagrama TS][cobertura bentônica] [oceanografia]</p></li>
+<li><p>Atividade enzimática e nutrientes: [concentração, absorbância] [bioquímica]</p></li>
+</ul>
+
+<p>Enquanto os dados acima são mais quantitativos,<br>
+<strong>NÚMERO &gt; INFORMAÇÃO</strong>,<br>
+os dados de sequência da bioinformática seguem o padrão.<br>
+<strong>SEQUÊNCIA &gt; NÚMERO &gt; INFORMAÇÃO</strong>.</p>
+
+<p>Logo, em adição aos modelos matemáticos e estatístico comuns às outras ciências, que são utilizados para gerar informação em diversas áreas da biologia, a bioinformática é uma área que possue suas próprias particularidades em como se lidar com os dados. Isso envolve coisas como o <strong>alinhamento</strong> de sequências (BLAST), que pode levar a <strong>anotação</strong> e <strong>montagem</strong> de &#39;omas.</p>
+
+<p><img src="../img/allbiology.png" alt=""></p>
+
+<p>Nesse brilhante comentário, Florian Markowetz <a href="../papers/Markowetz%202017%20All%20Biology%20is%20Computational%20Biology.pdf">[3]</a> explica que apesar de nem todo dado biológico ser um dado <em>bioinformático</em>, hoje em dia <strong>&quot;toda biologia</strong> é biologia <strong>computacional&quot;</strong>. É fato de que a biologia moderna necessita da tecnologia da informação para que possa ser compreendida, analisada e discutida. Apesar do <em>skillset</em> do <strong>biólogo computacional/bioinformata</strong> ser bem especializado <a href="../papers/Welch%202014%20Bioinformatics%20curriculum.pdf">[4]</a>, é fundamental que qualquer biólogo - ou qualquer cientista/pesquisador - aprenda fundamentos básicos de computação.</p>
+
+<h3 id="toc_12">Disclaimer</h3>
+
+<p>Este não é um curso de BIOINFORMÁTICA.</p>
+
+<p>Este também não é um curso de LINGUAGEM DE PROGRAMAÇÃO, embora vamos ver exemplos na linguagem Python.</p>
+
+<p>Este curso visa ensinar FERRAMENTAS COMPUTACIONAIS que irão facilitar o uso e o aprendizado da informática para resolver nossos problemas de pesquisador. Por mais que não sejamos desenvolvedores, e sim pesquisadores, precisamos de NOÇÕES DE PROGRAMAÇÃO para realizar tarefas como análise de dados, gerar figuras de área de estudo E, MUITO IMPORTANTE, garantir a reprodutibilidade dos nossos dados.</p>
+
+<p>No <a href="./modulo_1.md">Módulo 1</a>, vamos ser introduzidos as ferramentas computacionais e ao Python.</p>
+
+<p>No <a href="./modulo_2.md">Módulo 2</a>, o foco será como instalar, organizar e utilizar bibliotecas da nossa linguagem de escolha.</p>
+
+<p>No <a href="./modulo_3.md">Módulo 3</a>, discutiremos o que são boas práticas de computação científica e como adotá-las.</p>
+
+<p>Em um post <a href="../papers/A%20beginner&#x27;s%20guide%20to%20bioinformatics%20-%20part%20I.htm">[5]</a> no blog <a href="http://homolog.us/blogs/">homolog.us</a>, o autor explica que existem cinco níveis de <em>expertise</em> em bioinformática, do mais fácil ao mais difícil:</p>
+
+<p><strong>Nível 1:</strong> Usar a web para analisar dados biológicos.
+<strong>Nível 2:</strong> Habilidade de instalar e rodar novos programas.
+<strong>Nível 3:</strong> Escrever os próprios <em>scripts</em> para análise em PERL, Python ou R.
+<strong>Nível 4:</strong> Codar em alto nível em C/C++/Java para implementar algoritmos existentes ou modificar códigos para obter novas funcionalidades.
+<strong>Nível 5:</strong> Pensar matematicamente, desenvolver os próprios algoritmos e implementa-los em C/C++/Java.</p>
+
+<p>O nível 1 seria algo tipicamente abordado em um curso de bioinformática, que já discutimos que não é nosso foco, usando ferramentas como por exemplo o famoso <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">BLAST</a>. Os níveis 4 e 5 são muito avançados e geralmente são reservados para desenvolvedores e profissionais de programação. No entanto, <strong>ser proficiente nos níveis 2 e 3 é o que está se tornando cada vez mais essencial</strong>, e talvez sejam os menos ensinados. Isso leva muitos pesquisadores/biólogos a terem dificuldade com a implementação de ferramentas necessárias para seu trabalho, e se intimidam com a ideia de escrever seu <em>próprio código</em> para resolver problemas particulares.</p>
+
+<h3 id="toc_13">I.3 Ferramentas básicas da computação científica</h3>
+
+<p>Para fazer uso de boas práticas computacionais e começar a programar, precisamos saber um pouco de algumas ferramentas que são empregadas na maioria das análises computacionais. Elas são:</p>
+
+<h4 id="toc_14">1. Linha de comando (CLI): bash e o Terminal</h4>
+
+<p>Você provavelmente já teve contato com uma CLI, ou uma linha de comando. O programa que vem com a linguagem R é um bom exemplo. A <em>linguagem de programação</em> R é uma coisa, o programa que baixamos para utilizar essa linguagem é um <strong>console</strong>, ou uma <strong>CLI</strong> que está configurada para essa linguagem específica. Diferente de uma GUI (<em>graphical user interface</em>), na CLI os comandos são digitados, e não &#39;clicados&#39;. Imagine que você quer abrir um arquivo no Excel, certo? Agora, invés de ir em File &gt; Open... &gt; selecionar o arquivo, você poderia só digitar<br>
+<code>
+excel open tabela.xlsx
+</code></p>
+
+<p><strong>AI MAS POR QUE USAR UMA LINHA DE COMANDO?? É BEM MAIS DIFÍCIL NÃO TEM FIGURINHA PRA CLICAR</strong></p>
+
+<p><img src="../img/bobesponja.jpg" alt=""></p>
+
+<p>Na verdade existem vários motivos para usar uma linha de comando. É mais fácil de salvar um &#39;roteiro&#39; das ações que foram realizadas, pois elas não são um clique em um botão, e sim uma linha de texto que pode ser salva em algo tão simples quanto um arquivo .txt. Basta dar um ctrl+c ctrl+v na nossa linha de comando que todas nossas ações são executadas, ao invés de ter que ficar clicando incessantemente.</p>
+
+<p>A linha de comando que tomaremos como exemplo é o <strong>bash</strong>, que será operado pelo console do <strong>Terminal</strong>. Ela é bem característica de sistemas UNIX-like, tais como o Linux e o MAC OS X. Quem usa algum desses sistemas provavelmente já teve contato com <strong>bash</strong>. No Windows, o equivalente seria o MS-DOS, apesar de que bash é mais difundida que o DOS. * Veremos um pouco mais na seção 1.1.</p>
+
+<p><img src="../img/terminal1.png" alt="Essa é a carinha do Terminal"></p>
+
+<h4 id="toc_15">2. Editor de texto: o Atom</h4>
+
+<p>O bom uso de um editor de texto é essencial para programação e para manipulação de dados. Um exemplo bem simples de editor de texto é o TextEdit no Mac ou o NotePad (Bloco de notas) no Windows. Por mais simplório que seja, o editor de texto armazena nossos comandos. Repare a diferença de um editor de texto, como o Bloco de Notas, e um processador de palavras, como o Word. O primeiro só edita e visualiza texto, enquanto o último tem ferramentas mais extensas para &#39;escrita&#39; propriamente dita.<br>
+Para nosso tutorial, vamos utilizar <a href="https://atom.io/">o Atom</a>, que já pedi para vocês instalarem. Este é um editor de texto customizável e multi-plataforma, podendo ser usado tanto no Linux, Windows ou MAC OS X. Além disso, é de código aberto!</p>
+
+<p><img src="../img/atom.png" alt="Olha que BONITINHO"></p>
+
+<p>O Atom também tem uma característica muito boa que é uma grande quantidade de plugins disponíveis. Vamos fazer grande uso de um plugin destes, que é o <code>platformio-ide-terminal</code>.</p>
+
+<p>Você já pode ver para onde que isso está nos levando, certo?</p>
+
+<h4 id="toc_16">3. IDE: unindo o editor de texto e a linha de comando</h4>
+
+<p>Exatamente, vamos usar esse plugin para <strong>integrar</strong> o Terminal, nossa ferramenta de linha de comando, ao Atom, nosso editor de texto. Isso vai nos fornecer um <strong>IDE</strong>, abreviação para <em>Integrated Development Environment</em>. Nosso IDE será bem rudimentar, mas já serve bem ao nosso propósito.</p>
+
+<p><strong>Mas afinal, o que é e para que serve um IDE?</strong></p>
+
+<p>O IDE, como o nome diz, é um ambiente integrado de desenvolvimento. Ele serve para escrever código (programar), bem como executar esse código, testa-lo, organizar os arquivos do projeto, entre outras funções.</p>
+
+<p>Um bom exemplo de IDE é o <a href="https://www.rstudio.com/">RStudio.</a> [Quem aqui já ouviu falar?]</p>
+
+<p><img src="../img/rstudio.png" alt="Screenshot do RStudio"></p>
+
+<p>Enquanto o programa &#39;R&#39; é apenas uma <em>linha de comando</em> dessa linguagem, o RStudio é um IDE para programação em R. Na imagem acima, podemos ver como o painel na parte de baixo a esquerda é igual ao que vemos quando abrimos o programa &#39;R&#39; (uma linha de comando da linguagem). Apesar de que no &#39;R&#39; também conseguimos escrever um script, o RStudio facilita essa tarefa (olhe o script sendo escrito no painel acima e a esquerda), e providencia outras ferramentas para otimizar o processo de programação (como oferecer acesso aos arquivos do projeto, abaixo a direita na imagem).</p>
+
+<p>Como o RStudio serve quase que exclusivamente para programação em R, vamos improvisar nosso IDE customizado usando o Atom e o Terminal. Isso mesmo, já estamos hackeando programas! Olha só.</p>
+
+<p><img src="../img/atom_ide.png" alt="Screenshot da IDE Frankensten Atom + Terminal"></p>
+
+<p>Repare bem nessa imagem. A esquerda, temos um fácil acesso aos nossos arquivos do projeto. No centro temos uma janela de editor de texto com um pouco de código, e na porção de baixo, temos uma janela com o Terminal, nossa linha de comando.</p>
+
+<p><strong>Além disso, é colorido e bonitinho.</strong></p>
+
+<p>O que vamos fazer aqui é enviar os comandos da porção do editor de texto para a janela do Terminal, otimizando nosso processo de programação, assim como acontece no RStudio. <strong>A vantagem é, podemos usar esse formato para diversas linguagens, e não só para o R</strong>, e também temos acesso ao Terminal.</p>
+
+<h4 id="toc_17">4. Python: simples e poderosa</h4>
+
+<p>Nossos exemplos serão na linguagem Python.</p>
+
+<h5 id="toc_18">Porque Python?</h5>
+
+<ul>
+<li>Fácil e amigável para iniciantes, boa primeira linguagem</li>
+<li>Poderosa e versátil</li>
+<li>Diversas aplicações e bibliotecas científicas</li>
+<li>Adequada para <em>data science</em></li>
+<li>Linguagem de alto nível e orientada a objetos</li>
+<li>Comunidade inclusiva</li>
+</ul>
+
+<h3 id="toc_19">Links úteis para acompanhar o curso</h3>
+
+<!--- trabalhar nisso -->
+
+<ul>
+<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+<li><a href="https://www.biostarhandbook.com/">BioStar Handbook</a><br></li>
+<li><a href="https://software-carpentry.org/lessons/">Software Carpentry lessons</a></li>
+<li><a href="https://pt.wikibooks.org/wiki/Python_para_ocean%C3%B3grafos/Pref%C3%A1cio">Python para Oceanógrafos</a></li>
+</ul>
+
+<h1 id="toc_20"><strong>Referências</strong></h1>
+
+<p><a href="../papers/Loman%20&amp;%20Watson%202013%20So%20you%20want%20to%20be%20a%20computational%20biologist.pdf">[1]</a> <strong>Loman &amp; Watson, 2013.</strong> So you want to be a computational biologist?<br>
+<a href="../papers/MacArthur%202009%20Why%20biology%20students%20should%20learn%20how%20to%20program%20_%20WIRED.html">[2]</a> <strong>MacArthur D, 2009</strong>. Why biology students should learn how to program.<br>
+<a href="../papers/Markowetz%202017%20All%20Biology%20is%20Computational%20Biology.pdf">[3]</a> <strong>Markowetz F, 2017.</strong> All biology is computational biology.<br>
+<a href="../papers/Welch%202014%20Bioinformatics%20curriculum.pdf">[4]</a> <strong>Welch et al, 2014.</strong> Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies<br>
+<a href="../papers/A%20beginner&#x27;s%20guide%20to%20bioinformatics%20-%20part%20I.htm">[5]</a> <strong>M. @ <a href="http://homolog.us/blogs/">homolog.us</a>, 2011.</strong> A beginner&#39;s guide to bioinformatics - part I</p>
+
+<h2 id="toc_21"></h2>
+
+
+
+
+</body>
+
+</html>
