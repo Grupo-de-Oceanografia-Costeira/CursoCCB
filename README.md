@@ -1,6 +1,6 @@
-## Computação científica para biólogos
+## Curso Computação Científica para Biológos
 
-Esse é um curso destinado a ensinar princípios de programação científica para biólogos.
+Esse é um curso destinado a ensinar princípios de programação e computação científica para biólogos pesquisadores.
 
 Se você vai participar do curso presencialmente, leia o arquivo [info.md](./info.md). Ele contém as informações essenciais sobre inscrição, requisitos, etc.
 
