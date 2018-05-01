@@ -6,7 +6,7 @@ Olá! Agradecemos seu interesse no nosso curso. Por favor, leia esse documento c
 
 * Esse é um curso GRATUITO, oferecido como atividade de extensão realizada no CCB - UFSC. No entanto, cobramos um depósito de 40 reais que **será devolvido integralmente**, desde que você tenha presença nos três dias de atividades E responda o formulário de avaliação do curso. Esta parte é muito importante! As respostas do formulário são anônimas e serão utilizadas em um trabalho acadêmico (TCC).
 
-* Para participar do curso, é preferível que você tenha seu próprio computador (notebook), **com um sistema operacional tipo UNIX**, ou seja, Mac OS X ou Linux. Explicaremos o porque disso na introdução do curso. **Se você é usuário de Windows OU não tem um notebook**, não entre em pânico! A sala possui computadores e estaremos disponibilizando pendrives com um Linux "bootável", ou seja, basta plugar o pendrive e você liga o seu computador com Linux.
+* Para participar do curso, é preferível que você tenha seu próprio computador (notebook), **com um sistema operacional tipo UNIX**, ou seja, Mac OS X ou Linux. Explicaremos o porque disso na introdução do curso. **Se você é usuário de Windows OU não tem um notebook**, não entre em pânico! Leve um pendrive com 4gb que instalamos uma versão do Linux bootável com o software do curso para você usar no seu notebook OU em alguma máquina disponível na sala. **Se você NÃO POSSUI um pendrive**, nos informe que disponibilizaremos um para você.
 
 #### Conteúdo
 
@@ -59,7 +59,7 @@ Envie um email para [viniws@gmail.com](mailto:viniws@gmail.com) com o assunto: *
 * Nome completo
 * Curso, período e universidade (se for estudante)
 * Ocupação (se não for estudante)
-* Possui notebook? É Linux/Mac?
+* Possui notebook? É Linux/Mac? Possui pendrive de ao mínimo 4gb?
 * Já programa? Ou já tentou programar antes? Qual linguagem?
 
 Copie a seguinte mensagem no corpo do email:
