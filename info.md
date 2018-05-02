@@ -52,6 +52,7 @@ As inscrições são por ordem de pagamento do depósito caução.
 * Agência: 3185-2
 * Conta Corrente: 20464-1
 * Vinícius Werneck Salazar
+* CPF: 094.869.439-40
 * Valor: R$ 40,00
 
 Envie um email para [viniws@gmail.com](mailto:viniws@gmail.com) com o assunto: **Inscrição Curso de Programação** contendo:
