@@ -50,7 +50,8 @@ As inscrições são por ordem de pagamento do depósito caução.
 
 * Banco do Brasil
 * Agência: 3185-2
-* Conta Corrente: 20464-1
+* Conta Poupança: 20464-1
+* Variação: 51
 * Vinícius Werneck Salazar
 * CPF: 094.869.439-40
 * Valor: R$ 40,00
