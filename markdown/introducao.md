@@ -125,10 +125,10 @@ No [Módulo 3](./modulo_3.md), discutiremos o que são boas práticas de computa
 
 Em um post [[5]](../papers/A beginner's guide to bioinformatics - part I.htm) no blog [homolog.us](http://homolog.us/blogs/), o autor explica que existem cinco níveis de *expertise* em bioinformática, do mais fácil ao mais difícil:
 
-**Nível 1:** Usar a web para analisar dados biológicos.
-**Nível 2:** Habilidade de instalar e rodar novos programas.
-**Nível 3:** Escrever os próprios *scripts* para análise em PERL, Python ou R.
-**Nível 4:** Codar em alto nível em C/C++/Java para implementar algoritmos existentes ou modificar códigos para obter novas funcionalidades.
+**Nível 1:** Usar a web para analisar dados biológicos.  
+**Nível 2:** Habilidade de instalar e rodar novos programas.  
+**Nível 3:** Escrever os próprios *scripts* para análise em PERL, Python ou R.  
+**Nível 4:** Codar em alto nível em C/C++/Java para implementar algoritmos existentes ou modificar códigos para obter novas funcionalidades.  
 **Nível 5:** Pensar matematicamente, desenvolver os próprios algoritmos e implementa-los em C/C++/Java.
 
 O nível 1 seria algo tipicamente abordado em um curso de bioinformática, que já discutimos que não é nosso foco, usando ferramentas como por exemplo o famoso [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi). Os níveis 4 e 5 são muito avançados e geralmente são reservados para desenvolvedores e profissionais de programação. No entanto, **ser proficiente nos níveis 2 e 3 é o que está se tornando cada vez mais essencial**, e talvez sejam os menos ensinados. Isso leva muitos pesquisadores/biólogos a terem dificuldade com a implementação de ferramentas necessárias para seu trabalho, e se intimidam com a ideia de escrever seu *próprio código* para resolver problemas particulares.

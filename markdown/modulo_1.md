@@ -66,7 +66,7 @@ SIM. Se você quer aprender computação científica, você precisa entender os 
 
 ![Aspecto do Terminal para quem não aprendeu como ele funciona](../img/Matrix.gif)
 
-Para quem trabalha com *bioinformática*, algumas análises até podem ser realizadas sem o uso de uma CLI, mas o usuário será imensamente beneficiado ao utilizá-la. Não só isso, mas *compreender* Unix desenvolve um meio de pensar muito útil para resolver problemas bioinformáticos. [BioStar]
+Para quem trabalha com *bioinformática*, algumas análises até podem ser realizadas sem o uso de uma CLI, mas o usuário será imensamente beneficiado ao utilizá-la. Não só isso, mas *compreender* Unix desenvolve um meio de pensar muito útil para resolver problemas bioinformáticos.
 
 A verdade que a CLI é uma ferramenta essencial e apesar de que tem o potencial para ser muito complexa e poderosa, o biólogo "computeiro" só tem que saber o básico mesmo, e isso é **BEM** mais fácil do que parece!
 
@@ -250,13 +250,13 @@ O Atom foi nossa escolha por diversos motivos:
 
 * É grátis, *open source* e completamente configurável/customizável
 * Variedade de pacotes e *plugins* (precisaremos deles)
-* Baseado na web e em páginas da web [1]
+* Baseado na web e em páginas da web
 * Multi-plataforma
 * Foi criado por desenvolvedores para desenvolvedores
 * Tem suporte total do [GitHub](https://github.com/)
 * Você também pode contribuir futuramente com seu *plugin*
 
-No final, você pode usar o editor de texto que quiser, e existem algumas alternativas, nem todas grátis, como o [SublimeText](https://www.sublimetext.com/) ou o [Microsoft Visual Studio Code](https://code.visualstudio.com/). Cada um vai ver o que prefere, eu particularmente acabei escolhendo o Atom, mas na sua jornada de informática você vai descobrir se prefere outro. As *features* essenciais que qualquer editor de texto deve ter são [2]:
+No final, você pode usar o editor de texto que quiser, e existem algumas alternativas, nem todas grátis, como o [SublimeText](https://www.sublimetext.com/) ou o [Microsoft Visual Studio Code](https://code.visualstudio.com/). Cada um vai ver o que prefere, eu particularmente acabei escolhendo o Atom, mas na sua jornada de informática você vai descobrir se prefere outro. As *features* essenciais que qualquer editor de texto deve ter são:
 
 * Fácil de usar
 * Opção *Find and replace*
@@ -329,7 +329,7 @@ Porém, o que torna o Python ideal para nós, além de sua versatilidade e popul
 
 O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) descreve a filosofia da linguagem: simplicidade e praticidade.
 
-Na nossa IDE, você pode abrir uma instância de Python digitando `python` no console. No arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html) temos alguns exemplos bem básicos. Experimente abrir o console e testar comandos similares.
+Na nossa IDE, você pode abrir uma instância de Python digitando `python` no console. No arquivo [Python - primeiros comandos.html](python_primeiros_comandos.html) temos alguns exemplos bem básicos. Experimente abrir o console e testar comandos similares.
 
 ### Aprendendo Python na internet
 
@@ -374,4 +374,6 @@ Vamos retomar isso no Módulo 3, mas a lição aqui é de que se sabemos **o que
 Muito bem, já progredimos um bocado no nosso curso e cobrimos três ferramentas essenciais para o biólogo programador:  
 1. A **linha de comando**. Aprendemos como usar o **Terminal** e o que é a linguagem *bash*.  
 2.  O **editor de texto**. Integramos o **Atom** ao nosso **Terminal** e improvisamos uma **IDE**: nossa bancada de laboratório no computador.  
-3. Uma **linguagem de programação**: Vimos as vantagens de aprender a linguagem **Python** e uma variedade de recursos para aprende-la na internet. Também vimos alguns comandos básicos no arquivo [Python - primeiros comandos.html](Python - Primeiros comandos.html).
+3. Uma **linguagem de programação**: Vimos as vantagens de aprender a linguagem **Python** e uma variedade de recursos para aprende-la na internet. Também vimos alguns comandos básicos no arquivo [Python - primeiros comandos.html](python_primeiros_comandos.html).
+
+-
