@@ -79,5 +79,5 @@ Se a sua inscrição foi confirmada e você vai utilizar a sua máquina Linux / 
 * [Conda](https://conda.io/docs/user-guide/install/download.html): nosso gerenciador de pacotes e já funciona como instalação de Python.
 * [Git](https://git-scm.com/downloads): Este sistema de controle de versão já costuma vir pré-instalado em máquinas UNIX. Você pode verificar a instalação abrindo o Terminal e digitando ```which git```.
 * [PlatformIO-IDE-Terminal](https://atom.io/packages/platformio-ide-terminal): Esse plugin vai nos permitir ter um ambiente de programação dentro do Atom.
-* [GitHub](https://github.com/): Crie uma conta no GitHub e clone esse repositório digitando o seguinte comando no Terminal: ```git clone https://github.com/Grupo-de-Oceanografia-Costeira/CursoPraticasProg.git```
+* [GitHub](https://github.com/): Crie uma conta no GitHub e clone esse repositório digitando o seguinte comando no Terminal: ```git clone https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB.git```
 
