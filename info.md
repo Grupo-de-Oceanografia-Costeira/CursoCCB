@@ -16,9 +16,9 @@ Nosso curso será composto de uma **introdução** e três **Módulos**, um para
 
 [**Introdução: o porquê deste curso**](markdown/introducao.md/)
 
-I.1 Apresentação  
-I.2 Informática cada vez mais necessária  
-I.3 As ferramentas
+I.1 - Apresentação  
+I.2 - Informática cada vez mais necessária  
+I.3 - As ferramentas
 
 [**Módulo 1: Ferramentas básicas**](markdown/modulo_1.md)
 
