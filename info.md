@@ -2,9 +2,9 @@
 
 Olá! Agradecemos seu interesse no nosso curso. Por favor, leia esse documento com atenção para efetuar sua inscrição. Se tiver qualquer dúvida, mande um email para [viniws@gmail.com](mailto:viniws@gmail.com).
 
-# ATENÇÃO - edit 10/05/2018:
+# ATENÇÃO
 
-**VAGAS ESGOTADAS!** Mas não desanime! Se quiser fazer o curso, mande seus dados **SEM** o depósito caução e você será colocado na lista de espera. Uma segunda edição do curso está sendo planejada para setembro e quem estiver na lista de espera terá prioridade.
+**VAGAS ESGOTADAS!** Mas não desanime! Se quiser fazer o curso, mande seus dados **SEM** o depósito caução e você será colocado na lista de espera. Uma segunda edição do curso está sendo planejada para setembro e quem estiver na lista de espera terá prioridade. **A PARTIR DE AGORA (10-05-2018 ; 18:15), SE VOCÊ ENVIAR O DEPÓSITO CAUÇÃO ELE SERÁ RESSARCIDO E SEU NOME SERÁ COLOCADO NA LISTA DE ESPERA.**
 
 Atenciosamente,
 
