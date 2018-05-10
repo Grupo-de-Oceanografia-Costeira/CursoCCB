@@ -2,6 +2,14 @@
 
 Olá! Agradecemos seu interesse no nosso curso. Por favor, leia esse documento com atenção para efetuar sua inscrição. Se tiver qualquer dúvida, mande um email para [viniws@gmail.com](mailto:viniws@gmail.com).
 
+# ATENÇÃO - edit 10/05/2018:
+
+**VAGAS ESGOTADAS!** Mas não desanime! Se quiser fazer o curso, mande seus dados **SEM** o depósito caução e você será colocado na lista de espera. Uma segunda edição do curso está sendo planejada para setembro e quem estiver na lista de espera terá prioridade.
+
+Atenciosamente,
+
+Vinícius
+
 #### Informes
 
 * Esse é um curso GRATUITO, oferecido como atividade de extensão realizada no CCB - UFSC. No entanto, cobramos um depósito de 40 reais que **será devolvido integralmente**, desde que você tenha presença nos três dias de atividades E responda o formulário de avaliação do curso. Esta parte é muito importante! As respostas do formulário são anônimas e serão utilizadas em um trabalho acadêmico (TCC).
