@@ -83,7 +83,7 @@ Você receberá um email de confirmação quando a sua inscrição for realizada
 Se a sua inscrição foi confirmada e você vai utilizar a sua máquina Linux / Mac, instale os seguintes programas que são necessários para o curso:
 
 * [Atom](https://atom.io/): este será nosso editor de texto e que vai servir como IDE também.
-* [Conda](https://conda.io/docs/user-guide/install/download.html): nosso gerenciador de pacotes e já funciona como instalação de Python.
+* [Conda](https://conda.io/docs/user-guide/install/download.html): nosso gerenciador de pacotes e já funciona como instalação de Python. [Aqui](https://docs.anaconda.com/anaconda/install/linux) o link de como instalar para Linux.
 * [Git](https://git-scm.com/downloads): Este sistema de controle de versão já costuma vir pré-instalado em máquinas UNIX. Você pode verificar a instalação abrindo o Terminal e digitando ```which git```.
 * [PlatformIO-IDE-Terminal](https://atom.io/packages/platformio-ide-terminal): Esse plugin vai nos permitir ter um ambiente de programação dentro do Atom.
 * [GitHub](https://github.com/): Crie uma conta no GitHub e clone esse repositório digitando o seguinte comando no Terminal: ```git clone https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB.git```
