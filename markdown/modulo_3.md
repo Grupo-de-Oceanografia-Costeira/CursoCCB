@@ -4,9 +4,9 @@
 
 [**Introdução: o porquê deste curso**](./introducao.md/)
 
-I.1 Apresentação  
-I.2 Informática cada vez mais necessária  
-I.3 As ferramentas
+I.1 - Apresentação  
+I.2 - Informática cada vez mais necessária  
+I.3 - As ferramentas
 
 [**Módulo 1: Ferramentas básicas**](./modulo_1.md)
 
