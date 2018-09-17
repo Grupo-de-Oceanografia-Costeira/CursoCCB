@@ -211,6 +211,3 @@ Nossos exemplos serão na linguagem Python.
 [[3]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Markowetz%202017%20All%20Biology%20is%20Computational%20Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.   
 [[4]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Welch%202014%20Bioinformatics%20curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies   
 [[5]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/A%20beginner's%20guide%20to%20bioinformatics%20-%20part%20I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I
-
-
--
