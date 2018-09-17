@@ -29,12 +29,6 @@ I.3 - As ferramentas
 -
 ## Módulo 1:
 
-<!---
-
-Recapitular intro
-Layout no formato Ferramenta: program
-
--->
 
 ### 1.1 Linha de comando (CLI): bash e o Terminal
 
@@ -218,14 +212,6 @@ Digamos que eu quero achar **TODOS** os .mp3 no meu computador e botá-los em um
 ![](../img/hackerman.png)
 
 Por mais que no começo tudo isso pareça um monte de informação, a medida que vamos usando no nosso dia-a-dia, vai se tornando algo cada vez mais fácil e rápido. Para motivos práticos, só é preciso saber um basicão de **bash** para poder fazer várias coisas bem importantes. Agora que vimos um pouco dessa ferramenta, vamos para a próxima ferramenta: o **editor de texto**.
-
-<!---
-To do 1.1:
-
-Terminal para r e Python
-Linkar referências do texto aos links do início da seção
-
--->
 
 -
 
