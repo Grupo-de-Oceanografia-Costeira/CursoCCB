@@ -2,20 +2,6 @@
 
 Olá! Agradecemos seu interesse no nosso curso. Por favor, leia esse documento com atenção para efetuar sua inscrição. Se tiver qualquer dúvida, mande um email para [viniws@gmail.com](mailto:viniws@gmail.com).
 
-# ATENÇÃO
-
-**VAGAS ESGOTADAS!** Mas não desanime! Se quiser fazer o curso, mande seus dados **SEM** o depósito caução e você será colocado na lista de espera. Uma segunda edição do curso está sendo planejada para setembro e quem estiver na lista de espera terá prioridade. **A PARTIR DE AGORA (10-05-2018 ; 18:15), SE VOCÊ ENVIAR O DEPÓSITO CAUÇÃO ELE SERÁ RESSARCIDO E SEU NOME SERÁ COLOCADO NA LISTA DE ESPERA.**
-
-Atenciosamente,
-
-Vinícius
-
-#### Informes
-
-* Esse é um curso GRATUITO, oferecido como atividade de extensão realizada no CCB - UFSC. No entanto, cobramos um depósito de 40 reais que **será devolvido integralmente**, desde que você tenha presença nos três dias de atividades E responda o formulário de avaliação do curso. Esta parte é muito importante! As respostas do formulário são anônimas e serão utilizadas em um trabalho acadêmico (TCC).
-
-* Para participar do curso, é preferível que você tenha seu próprio computador (notebook), **com um sistema operacional tipo UNIX**, ou seja, Mac OS X ou Linux. Explicaremos o porque disso na introdução do curso. **Se você é usuário de Windows OU não tem um notebook**, não entre em pânico! Leve um pendrive com 4gb que instalamos uma versão do Linux bootável com o software do curso para você usar no seu notebook OU em alguma máquina disponível na sala. **Se você NÃO POSSUI um pendrive**, nos informe que disponibilizaremos um para você.
-
 #### Conteúdo
 
 A proposta do curso é apresentar ferramentas e conceitos que vão auxiliar o biólogo/pesquisador à **praticar computação científica**. Diferente de, por exemplo, um curso de R ou QGIS, nossas atividades não estarão centradas em um software ou linguagem, mas em um conjunto delas. Vamos usar softwares específicos e a linguagem Python como exemplo, porém estes podem ser substituídos por qualquer outro app/linguagem que faça a mesma função.
