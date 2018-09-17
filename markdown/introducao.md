@@ -26,7 +26,7 @@ I.3 - As ferramentas
 3.2 - Documentação e controle de versão: Git e GitHub  
 3.3 - Como aprender programação: dicas para biólogos
 
--
+--
 ## Introdução
 
 ### I.1 - Apresentação
