@@ -59,7 +59,6 @@ Por conta disso, já quero dizer agora no início que esse é um espaço totalme
 
 ### I.2 Informática cada vez mais necessária
 
--
 ##### Qualquer pesquisador pode tirar proveito de dominar esses princípios de informática e programação
 
 ### Por que?
@@ -212,11 +211,11 @@ Nossos exemplos serão na linguagem Python.
 
 # **Referências**
 
-[[1]](../papers/Loman & Watson 2013 So you want to be a computational biologist.pdf) **Loman & Watson, 2013.** So you want to be a computational biologist?  
-[[2]](../papers/MacArthur 2009 Why biology students should learn how to program _ WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program.  
-[[3]](../papers/Markowetz 2017 All Biology is Computational Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.   
-[[4]](../papers/Welch 2014 Bioinformatics curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies   
-[[5]](../papers/A beginner's guide to bioinformatics - part I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I
+[[1]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Loman%20%26%20Watson%202013%20So%20you%20want%20to%20be%20a%20computational%20biologist.pdf) **Loman & Watson, 2013.** So you want to be a computational biologist?  
+[[2]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/MacArthur%202009%20Why%20biology%20students%20should%20learn%20how%20to%20program%20_%20WIRED.html) **MacArthur D, 2009**. Why biology students should learn how to program.  
+[[3]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Markowetz%202017%20All%20Biology%20is%20Computational%20Biology.pdf) **Markowetz F, 2017.** All biology is computational biology.   
+[[4]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Welch%202014%20Bioinformatics%20curriculum.pdf) **Welch et al, 2014.** Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies   
+[[5]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/A%20beginner's%20guide%20to%20bioinformatics%20-%20part%20I.htm) **M. @ [homolog.us](http://homolog.us/blogs/), 2011.** A beginner's guide to bioinformatics - part I
 
 
 -
