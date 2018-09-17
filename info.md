@@ -32,45 +32,14 @@ I.3 - As ferramentas
 3.2 - Documentação e controle de versão: Git e GitHub  
 3.3 - Como aprender programação: dicas para biólogos
 
-#### Data, local e horário
-
-22 (terça), 23 (quarta) e 24 (quinta-feira) de maio. Das 18h as 21h.
-
-Sala de informática do CCB antigo (em frente à Botânica, no final do corredor da Direção/PET).
-
-#### Inscrições
-
-As inscrições são por ordem de pagamento do depósito caução. 
-
-* Banco do Brasil
-* Agência: 3185-2
-* Conta Corrente: 20464-1
-* Vinícius Werneck Salazar
-* CPF: 094.869.439-40
-* Valor: R$ 40,00
-
-Envie um email para [viniws@gmail.com](mailto:viniws@gmail.com) com o assunto: **Inscrição Curso de Programação** contendo:
-
-* Nome completo
-* Curso, período e universidade (se for estudante)
-* Ocupação (se não for estudante)
-* Possui notebook? É Linux/Mac? Possui pendrive de ao mínimo 4gb?
-* Já programa? Ou já tentou programar antes? Qual linguagem?
-
-Copie a seguinte mensagem no corpo do email:
-"Tenho ciência de que meu depósito caução só será devolvido se eu atender aos três dias de curso e concordar em responder o formulário de avaliação ao final da atividade."
-
-Por fim, envie o comprovante do depósito em anexo.
-
-Você receberá um email de confirmação quando a sua inscrição for realizada.
 
 #### Software (somente participantes com máquina UNIX)
 
 Se a sua inscrição foi confirmada e você vai utilizar a sua máquina Linux / Mac, instale os seguintes programas que são necessários para o curso:
 
-* [Atom](https://atom.io/): este será nosso editor de texto e que vai servir como IDE também.
-* [Conda](https://conda.io/docs/user-guide/install/download.html): nosso gerenciador de pacotes e já funciona como instalação de Python. [Aqui](https://docs.anaconda.com/anaconda/install/linux) o link de como instalar para Linux.
 * [Git](https://git-scm.com/downloads): Este sistema de controle de versão já costuma vir pré-instalado em máquinas UNIX. Você pode verificar a instalação abrindo o Terminal e digitando ```which git```.
-* [PlatformIO-IDE-Terminal](https://atom.io/packages/platformio-ide-terminal): Esse plugin vai nos permitir ter um ambiente de programação dentro do Atom.
+* [Conda](https://conda.io/docs/user-guide/install/download.html): nosso gerenciador de pacotes e já funciona como instalação de Python. [Aqui](https://docs.anaconda.com/anaconda/install/linux) o link de como instalar para Linux.
+* [Atom](https://atom.io/): este será nosso editor de texto e que vai servir como IDE também.
+  * [PlatformIO-IDE-Terminal](https://atom.io/packages/platformio-ide-terminal): Esse plugin vai nos permitir ter um ambiente de programação dentro do Atom.
 * [GitHub](https://github.com/): Crie uma conta no GitHub e clone esse repositório digitando o seguinte comando no Terminal: ```git clone https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB.git```
 
