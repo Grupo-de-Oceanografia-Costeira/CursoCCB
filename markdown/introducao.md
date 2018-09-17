@@ -31,8 +31,6 @@ I.3 - As ferramentas
 
 ### I.1 - Apresentação
 
-![](../img/loman\ watson.png)
-
 Por que você veio fazer esse curso?
 
 Talvez você não queira ser um **biólogo computacional**, porém é fato de que computadores são ferramentas imprescindíveis para a realização da pesquisa em biologia, e cada vez mais existe a necessidade de cientistas adotarem novas habilidades em informática [[1]](../papers/Loman & Watson 2013 So you want to be a computational biologist.pdf), seja para programar ou para instalar e fazer uso de pacotes, bibliotecas e linguagens de programação.
