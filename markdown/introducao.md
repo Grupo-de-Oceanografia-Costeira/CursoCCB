@@ -31,7 +31,7 @@ I.3 - As ferramentas
 
 ### I.1 - Apresentação
 
-![](../img/loman watson.png)
+[](../img/loman watson.png)
 
 Por que você veio fazer esse curso?
 
