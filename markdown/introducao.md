@@ -81,9 +81,6 @@ Na química, a informática é usada para simulações de moléculas e forças i
 
 Nas ciências sociais e no jornalismo, pode ser usada para vasculhar a internet por dados públicos, como mídias sociais ou Portal Transparência.
 
-<!--
-[Aqui falar de Rosie, data mining. De novo falar do gráfico em barra, que sociólogo não precisa ficar só em entrevista e fazendo gráfico em barra. Jornalistas são investigadores que podem fazer ciência se tiverem rigor estatístico. Perguntar como relaciona com a biologia? Bancos de dados biológicos. Puxar o gancho para próxima sessão]
--->
 
 ###[Nota sobre a bioinformática]
 
@@ -104,7 +101,7 @@ Logo, em adição aos modelos matemáticos e estatístico comuns às outras ciê
 
 ![](../img/allbiology.png)
 
-Nesse brilhante comentário, Florian Markowetz [[3]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Markowetz%202017%20All%20Biology%20is%20Computational%20Biology.pdf) explica que apesar de nem todo dado biológico ser um dado *bioinformático*, hoje em dia **"toda biologia** é biologia **computacional"**. É fato de que a biologia moderna necessita da tecnologia da informação para que possa ser compreendida, analisada e discutida. Apesar do *skillset* do **biólogo computacional/bioinformata** ser bem especializado [[4]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Welch%202014%20Bioinformatics%20curriculum.pdf, é fundamental que qualquer biólogo - ou qualquer cientista/pesquisador - aprenda fundamentos básicos de computação.
+Nesse brilhante comentário, Florian Markowetz [[3]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Markowetz%202017%20All%20Biology%20is%20Computational%20Biology.pdf) explica que apesar de nem todo dado biológico ser um dado *bioinformático*, hoje em dia **"toda biologia** é biologia **computacional"**. É fato de que a biologia moderna necessita da tecnologia da informação para que possa ser compreendida, analisada e discutida. Apesar do *skillset* do **biólogo computacional/bioinformata** ser bem especializado [[4]](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/blob/master/papers/Welch%202014%20Bioinformatics%20curriculum.pdf), é fundamental que qualquer biólogo - ou qualquer cientista/pesquisador - aprenda fundamentos básicos de computação.
 
 ### Disclaimer
 
@@ -200,8 +197,6 @@ Nossos exemplos serão na linguagem Python.
 - Comunidade inclusiva
 
 ### Links úteis para acompanhar o curso
-
-<!--- trabalhar nisso -->
 
 * [GitHub](https://github.com/)
 * [Stack Overflow](https://stackoverflow.com/)
