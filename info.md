@@ -1,6 +1,6 @@
 ### Curso de computação científica para biólogos e pesquisadores - informações para participantes.
 
-Olá! Agradecemos seu interesse no nosso curso. Por favor, leia esse documento com atenção para efetuar sua inscrição. Se tiver qualquer dúvida, mande um email para [viniws@gmail.com](mailto:viniws@gmail.com).
+Olá! Agradecemos seu interesse no nosso curso. Por favor, leia esse documento com atenção para efetuar sua inscrição. Se tiver qualquer dúvida, por favor [abra uma issue no repositório](https://github.com/Grupo-de-Oceanografia-Costeira/CursoCCB/issues/new).
 
 #### Conteúdo
 
